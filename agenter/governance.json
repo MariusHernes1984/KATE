@@ -1,0 +1,46 @@
+{
+  "name": "KATE Kundeagent Governance",
+  "description": "Felles regler og konfigurasjon for alle KATE kundeagenter i Azure AI Foundry",
+  "platform": "Azure AI Foundry",
+  "orkestrator": "Copilot Studio",
+  "datakilde": {
+    "type": "SharePoint Online",
+    "beskrivelse": "Hver kundeagent har sin egen SharePoint-mappe med kundedokumenter",
+    "typiske_mapper": [
+      "Samhandlingsmøter",
+      "Dokumentasjon",
+      "Kundeplan",
+      "Møtereferater",
+      "Driftsfakturaer",
+      "AMS 360 (Atea Managed Services)",
+      "Drift",
+      "Avtaler",
+      "Tilbud",
+      "Sikkerhetsrapporter",
+      "Prosjekter"
+    ],
+    "indeksering": "Azure AI Search med SharePoint Online-connector"
+  },
+  "felles_agent_regler": [
+    "Svar ALLTID på samme språk som oppgaven fra orkestratoren",
+    "Gi detaljerte svar — orkestratoren videresender uten å kutte ned",
+    "Baser svar KUN på dokumenter fra SharePoint-mappen — ikke gjett",
+    "Hvis ingen dokumenter matcher spørsmålet, si det tydelig",
+    "Inkluder kildehenvisning (dokumentnavn) når du refererer til informasjon",
+    "Foreslå relevante oppfølgingsspørsmål der det er naturlig",
+    "Aldri vis interne tekniske detaljer (JSON, tool calls) i svaret",
+    "Behandle all kundeinformasjon som konfidensielt"
+  ],
+  "sikkerhet": [
+    "Kundedokumenter er tilgangsstyrt per SharePoint-mappe",
+    "Hver agent har KUN tilgang til sin kundes dokumenter",
+    "API-nøkler og tilkoblingsstrenger lagres i Azure Key Vault",
+    "Alle oppslag logges via Azure Monitor"
+  ],
+  "model": {
+    "deployment": "gpt-4o",
+    "temperature": 0,
+    "top_p": 1,
+    "merknad": "Oppdater deployment-navn etter tilgjengelig modell i Foundry-prosjektet"
+  }
+}
