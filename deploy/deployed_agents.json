@@ -1,1 +1,8 @@
-{}
+{
+  "bertel-o-steen": {
+    "name": "bertel-o-steen",
+    "id": "bertel-o-steen:1",
+    "version": "1",
+    "kunde": "Bertel O Steen"
+  }
+}

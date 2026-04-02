@@ -26,6 +26,9 @@ from azure.ai.projects.models import (
     AzureAISearchToolResource,
     AISearchIndexResource,
     AzureAISearchQueryType,
+    SharepointPreviewTool,
+    SharepointGroundingToolParameters,
+    ToolProjectConnection,
 )
 
 load_dotenv()
@@ -41,7 +44,7 @@ DEPLOY_DIR = Path(__file__).parent
 def load_kundeagenter() -> dict[str, dict]:
     """Last alle kundeagent-konfigurasjoner fra agenter/-mappen."""
     agenter = {}
-    skip_files = {"governance.json", "kundeagent-mal.json"}
+    skip_files = {"governance.json", "kundeagent-mal.json", "bos-dokumentkatalog.json"}
 
     for filepath in AGENTER_DIR.glob("*.json"):
         if filepath.name in skip_files:
@@ -75,11 +78,30 @@ def build_search_tool(client: AIProjectClient, index_name: str) -> AzureAISearch
     )
 
 
+def build_sharepoint_tool(client: AIProjectClient, connection_name: str) -> SharepointPreviewTool:
+    """Opprett en SharepointPreviewTool for direkte SharePoint-tilgang."""
+    connection = client.connections.get(connection_name)
+
+    return SharepointPreviewTool(
+        sharepoint_grounding_preview=SharepointGroundingToolParameters(
+            project_connections=[
+                ToolProjectConnection(project_connection_id=connection.id)
+            ]
+        )
+    )
+
+
 def deploy_agent(client: AIProjectClient, agent_name: str, config: dict) -> dict:
     """Opprett en kundeagent i Azure AI Foundry."""
     tools = []
 
-    # Legg til Azure AI Search for kundens dokumenter
+    # Legg til SharePoint Grounding Preview for direkte dokumenttilgang
+    sp_config = config.get("tools", {}).get("sharepoint_grounding", {})
+    sp_connection = sp_config.get("connection_name")
+    if sp_connection:
+        tools.append(build_sharepoint_tool(client, sp_connection))
+
+    # Legg til Azure AI Search for kundens dokumenter (alternativ)
     search_config = config.get("tools", {}).get("azure_ai_search", {})
     index_name = search_config.get("index_name")
     if index_name:
