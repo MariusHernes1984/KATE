@@ -1,0 +1,242 @@
+[
+  {
+    "id": 1,
+    "kategori": "avtale_fakta",
+    "spørsmål": "Når ble hovedavtalen med BOS signert og hva er varigheten?",
+    "fasit": "Signert 02.09.2025, oppstart 01.09.2025. Varighet 3 år + 1 + 1 opsjoner (til 2028, potensielt 2030).",
+    "nøkkelord": ["02.09.2025", "01.09.2025", "3 år", "opsjon"],
+    "formål": "AM trenger å vite nøyaktig når avtalen utløper for å planlegge reforhandling"
+  },
+  {
+    "id": 2,
+    "kategori": "avtale_fakta",
+    "spørsmål": "Hva er SLA-kravene for prioritet 1 (kritisk) hendelser hos BOS?",
+    "fasit": "P1 kritisk: 15 minutter responstid, 2 timer løsningstid.",
+    "nøkkelord": ["15 min", "2 t"],
+    "formål": "AM må kunne svare BOS raskt på SLA-spørsmål i møter"
+  },
+  {
+    "id": 3,
+    "kategori": "avtale_fakta",
+    "spørsmål": "Hva er timeprisen for en seniorkonsulent under hovedavtalen?",
+    "fasit": "NOK 1600 per time for seniorkonsulent. Standard er NOK 1400, drift NOK 1275.",
+    "nøkkelord": ["1600", "senior"],
+    "formål": "AM trenger priser for å lage tilbud og estimater"
+  },
+  {
+    "id": 4,
+    "kategori": "avtale_fakta",
+    "spørsmål": "Hva dekker klientavtalen BOS-A 00830 og når ble den signert?",
+    "fasit": "Signert 06.07.2023, oppstart 01.08.2023. Dekker Full Client Operation 24/7, Modern Management (Intune/Autopilot), Image/Driver/App Management, Vulnerability Management, LDI Plus, Onsite+ServiceDesk. Varighet 3 år + 1 + 1.",
+    "nøkkelord": ["BOS-A 00830", "06.07.2023", "Client Operation", "Intune"],
+    "formål": "AM må kjenne klientavtalen for å diskutere scope og endringer"
+  },
+  {
+    "id": 5,
+    "kategori": "avtale_fakta",
+    "spørsmål": "Hva er det årlige effektiviseringskravet i hovedavtalen?",
+    "fasit": "3% årlig prisreduksjon fra år 2.",
+    "nøkkelord": ["3%", "prisreduksjon", "år 2"],
+    "formål": "AM må forstå prismekanismene for budsjettdiskusjoner"
+  },
+  {
+    "id": 6,
+    "kategori": "økonomi",
+    "spørsmål": "Hva er total månedlig faktura for BOS og hva er de største postene?",
+    "fasit": "Total ca NOK 2,1 mill eks. mva per måned (~25,3 mill/år). Største poster: Klientdrift NOK 1 098 371, AIX/Oracle/datasenter/DR NOK 520 374, Backup/sikkerhet/sky NOK 298 305, Applikasjonsdrift NOK 193 950.",
+    "nøkkelord": ["2,1 mill", "1 098 371", "520 374"],
+    "formål": "AM trenger fakturaoversikt for kundemøter og budsjettgjennomgang"
+  },
+  {
+    "id": 7,
+    "kategori": "økonomi",
+    "spørsmål": "Hva er Atea sitt revenue-mål for BOS i 2026?",
+    "fasit": "66 MNOK totalt: konsulent 9 MNOK, kontrakt 29.5 MNOK, øvrig 27.5 MNOK.",
+    "nøkkelord": ["66", "29.5", "konsulent"],
+    "formål": "AM trenger mål for pipeline-planlegging og forecasting"
+  },
+  {
+    "id": 8,
+    "kategori": "økonomi",
+    "spørsmål": "Hvordan har BOS sin økonomi utviklet seg? Hva var omsetningen og driftsresultatet i 2024?",
+    "fasit": "Omsetning 17 373 MNOK i 2024 (ned fra 20 955 i 2023). Driftsresultat -112 MNOK. Negativt driftsresultat 2. år på rad. Egenkapitalandel 40.6%.",
+    "nøkkelord": ["17 373", "-112", "20 955", "negativt"],
+    "formål": "AM må forstå kundens økonomiske situasjon for å tilpasse tilnærming"
+  },
+  {
+    "id": 9,
+    "kategori": "økonomi",
+    "spørsmål": "Hva er konsernbonusen for BOS i 2025?",
+    "fasit": "NOK 977 000.",
+    "nøkkelord": ["977 000"],
+    "formål": "AM trenger bonusinfo for forhandlinger og relasjonsbygging"
+  },
+  {
+    "id": 10,
+    "kategori": "kontakter",
+    "spørsmål": "Hvem er IT-direktøren hos BOS og hvordan kontakter jeg ham?",
+    "fasit": "Øyvind Hirsch er Ass. IT-direktør. Telefon: 48193953, e-post: oyvind.hirsch@bos.no. CIO er Stian Helle (SHIFT/Digital).",
+    "nøkkelord": ["Øyvind Hirsch", "48193953", "oyvind.hirsch@bos.no"],
+    "formål": "AM trenger kontaktinfo for eskalering og daglig kontakt"
+  },
+  {
+    "id": 11,
+    "kategori": "kontakter",
+    "spørsmål": "Hvem er KAM for BOS og hvem er vikar nå?",
+    "fasit": "KAM er Martin Shanti-Kleppe (911 37 685), men han er sykemeldt til medio april 2026. Mette Juelsen er vikar.",
+    "nøkkelord": ["Martin Shanti-Kleppe", "sykemeldt", "Mette Juelsen"],
+    "formål": "Atea-kolleger trenger å vite hvem som håndterer kontoen nå"
+  },
+  {
+    "id": 12,
+    "kategori": "kontakter",
+    "spørsmål": "Hvem er ny Contract Manager for BOS fra januar 2026?",
+    "fasit": "Lisbeth Haaskjold er ny Contract Manager fra januar 2026. Øyvind Hansen (994 16 811) var tidligere CM.",
+    "nøkkelord": ["Lisbeth Haaskjold", "jan 2026"],
+    "formål": "AM trenger å vite riktig CM for avtaleendringer"
+  },
+  {
+    "id": 13,
+    "kategori": "volum",
+    "spørsmål": "Hvor mange brukere, PCer og servere har BOS i drift hos Atea?",
+    "fasit": "3 739 fullbrukere, 3 286 PC/Mac, 2 056 Citrix-brukere, 3 623 mobil/Intune, 268 servere, 6 353 directory-objekter.",
+    "nøkkelord": ["3 739", "3 286", "268"],
+    "formål": "AM trenger volum for kapasitetsplanlegging og tilbudssizing"
+  },
+  {
+    "id": 14,
+    "kategori": "volum",
+    "spørsmål": "Hvor mye DR-lagring har BOS?",
+    "fasit": "51 600 GB DR-lagring.",
+    "nøkkelord": ["51 600"],
+    "formål": "AM trenger lagringsvolum for backup/DR-diskusjoner"
+  },
+  {
+    "id": 15,
+    "kategori": "strategi",
+    "spørsmål": "Hva er de fire pilarene i kundeplanen for BOS 2026?",
+    "fasit": "1) Stabil drift og modernisering, 2) Sky/lisens/kostnadsstyring, 3) Sikkerhet og governance, 4) Samarbeidsstruktur.",
+    "nøkkelord": ["stabil drift", "sky", "sikkerhet", "samarbeid"],
+    "formål": "AM trenger strategisk rammeverk for kundemøter og prioritering"
+  },
+  {
+    "id": 16,
+    "kategori": "strategi",
+    "spørsmål": "Hva er BOS sitt AI-effektiviseringsmål?",
+    "fasit": "25% mer effektiv gjennom AI, automatisering og datainnsikt. Presentert i kundevisjon 6. juni 2025.",
+    "nøkkelord": ["25%", "AI", "automatisering"],
+    "formål": "AM kan bruke dette for å posisjonere AI-tjenester"
+  },
+  {
+    "id": 17,
+    "kategori": "strategi",
+    "spørsmål": "Hva er møtestrukturen mellom Atea og BOS?",
+    "fasit": "Operasjonelt (månedlig), Taktisk (månedlig), Strategisk (halvårlig). Kundeteam-møter internt annenhver uke.",
+    "nøkkelord": ["operasjonelt", "taktisk", "strategisk", "halvårlig"],
+    "formål": "AM trenger å vite når neste møte er og hvilken agenda som passer"
+  },
+  {
+    "id": 18,
+    "kategori": "pågående",
+    "spørsmål": "Hva er status på PCBI Nordic Oy migreringen?",
+    "fasit": "Tenant-migrering fra pcbi.fi til bospower.com for 30 brukere, 5 SharePoint-sites, 10 Teams-grupper. Planlagt mars 2026.",
+    "nøkkelord": ["30 brukere", "pcbi.fi", "bospower.com"],
+    "formål": "AM trenger prosjektstatus for oppfølging og ressursplanlegging"
+  },
+  {
+    "id": 19,
+    "kategori": "pågående",
+    "spørsmål": "Hva er status på Windows 11-migreringen hos BOS?",
+    "fasit": "Nesten ferdig, ca 31 PCer gjenstår. Over 200 ikke-kompatible enheter identifisert for opprydding.",
+    "nøkkelord": ["31", "nesten ferdig", "200"],
+    "formål": "AM trenger å rapportere prosjektstatus og planlegge restarbeid"
+  },
+  {
+    "id": 20,
+    "kategori": "pågående",
+    "spørsmål": "Hva er planen for E5-lisensmigrering hos BOS?",
+    "fasit": "Full E5 innen sommer 2026. E3/E5 lisens-workshop planlagt med Microsoft.",
+    "nøkkelord": ["E5", "sommer 2026"],
+    "formål": "AM trenger lisensinfo for å koordinere med Microsoft og BOS"
+  },
+  {
+    "id": 21,
+    "kategori": "utfordringer",
+    "spørsmål": "Hva er de viktigste utfordringene i BOS-relasjonen akkurat nå?",
+    "fasit": "1) BOS opplever manglende lederfokus/proaktivitet fra Atea/AMS, 2) DEX-verktøy prosess svært vanskelig, 3) KAM Martin sykemeldt, 4) Kontinuerlig Forbedring-rolle parkert til etter sommer, 5) ServiceDesk under press (20-30% økning pga Win11 og Telenor-nettverksproblemer).",
+    "nøkkelord": ["lederfokus", "DEX", "ServiceDesk", "20-30%"],
+    "formål": "AM trenger risikobilde for å prioritere tiltak og eskalere riktig"
+  },
+  {
+    "id": 22,
+    "kategori": "utfordringer",
+    "spørsmål": "Hvorfor er ServiceDesk under press hos BOS?",
+    "fasit": "20-30% økning i henvendelser på grunn av Windows 11-migrering og Telenor-nettverksproblemer.",
+    "nøkkelord": ["20-30%", "Windows 11", "Telenor"],
+    "formål": "AM trenger å forstå rotårsaken for å kunne adressere med BOS"
+  },
+  {
+    "id": 23,
+    "kategori": "leverandører",
+    "spørsmål": "Hvilke tredjepartsleverandører er involvert i BOS-leveransen?",
+    "fasit": "Bl.a.: Netprint/Printix (print), Telenor (infra+SOC), Elinar (digitalt arkiv), Coretrek (SnapDrive), nShift (pakkhåndtering), Amesto (VISMA/SuperOffice), Cillco (B2B), Accenture (IFS), Oracle (Hyperion/IFS). Totalt 36 underleverandører i oversikten.",
+    "nøkkelord": ["Telenor", "Accenture", "IFS", "36"],
+    "formål": "AM trenger leverandørbilde for koordinering og risikostyring"
+  },
+  {
+    "id": 24,
+    "kategori": "tjenester",
+    "spørsmål": "Hvilke sikkerhetstjenester leverer Atea til BOS?",
+    "fasit": "MES XDR (fullført onboarding), IRT (Incident Response Team), sårbarhetsskanning, penetrasjonstesting, phishing-tester, ATP (3 952 lisenser), sertifikathåndtering.",
+    "nøkkelord": ["MES XDR", "IRT", "sårbarhetsskanning", "penetrasjonstesting"],
+    "formål": "AM trenger oversikt for sikkerhetsdiskusjoner og mersalg"
+  },
+  {
+    "id": 25,
+    "kategori": "tjenester",
+    "spørsmål": "Hva er ServiceDesk-dekningen for BOS og hvor mange dedikerte ressurser?",
+    "fasit": "Basis: hverdager 07-17. Utvidet: 07-23 + lørdag 08-16. 8 dedikerte ServiceDesk-ressurser.",
+    "nøkkelord": ["07-17", "07-23", "8 dedikerte"],
+    "formål": "AM trenger for å diskutere kapasitet og åpningstider"
+  },
+  {
+    "id": 26,
+    "kategori": "oppkjøp",
+    "spørsmål": "Fortell meg om EGE-Gruppen og governance-modellen.",
+    "fasit": "EGE-Gruppen er oppkjøpt av BOS, 250 ansatte nå (mål 500). Governance i 3 nivåer: Operasjonelt (månedlig), Taktisk (månedlig), Strategisk (periodisk). KAM Martin Shanti-Kleppe, CM Lisbeth Haaskjold.",
+    "nøkkelord": ["EGE", "250", "3 nivå", "governance"],
+    "formål": "AM trenger for å planlegge onboarding og vekstmuligheter"
+  },
+  {
+    "id": 27,
+    "kategori": "tilbud",
+    "spørsmål": "Hva var prisen på server-tilbudet til BOS?",
+    "fasit": "2x Lenovo ThinkSystem SR650 V4. Innkjøpspris NOK 822 494, BOS-pris NOK 871 844 (med 6% påslag). September 2025.",
+    "nøkkelord": ["871 844", "SR650", "6%"],
+    "formål": "AM trenger referansepris for fremtidige HW-tilbud"
+  },
+  {
+    "id": 28,
+    "kategori": "negativ_test",
+    "spørsmål": "Hva er den aktive avtalen mellom Atea og Telenor?",
+    "fasit": "Agenten skal IKKE svare med detaljer om Telenor-avtaler, da dette ikke er BOS-relatert. Agenten bør avvise eller forklare at den kun har tilgang til BOS-dokumenter.",
+    "nøkkelord": ["kun BOS", "ikke tilgang", "kun kundedokumenter"],
+    "formål": "Sikre at agenten ikke hallusinerer om andre kunder"
+  },
+  {
+    "id": 29,
+    "kategori": "negativ_test",
+    "spørsmål": "Hva er Atea sin aksjekurs i dag?",
+    "fasit": "Agenten skal IKKE svare med aksjekurs. Den bør forklare at dette er utenfor scope/datakilde.",
+    "nøkkelord": ["utenfor", "ikke tilgang", "sanntidsdata"],
+    "formål": "Sikre at agenten ikke gir informasjon utenfor sine datakilder"
+  },
+  {
+    "id": 30,
+    "kategori": "språk",
+    "spørsmål": "What is the current main agreement with BOS and when does it expire?",
+    "fasit": "The main agreement (SSA-D 2024) was signed 02.09.2025, started 01.09.2025, duration 3 years + 1 + 1 options. Response must be in English.",
+    "nøkkelord": ["signed", "2025", "3 years", "options"],
+    "formål": "Sikre at agenten svarer på engelsk når spørsmålet er på engelsk"
+  }
+]
