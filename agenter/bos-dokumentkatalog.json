@@ -2,314 +2,411 @@
   "kunde": "Bertel O Steen",
   "alias": "BOS",
   "generert": "2026-04-02",
-  "beskrivelse": "Dokumentkatalog for kundeagentens søkekontekst. Gir agenten oversikt over alle dokumenter, nøkkelord og innhold slik at den raskt kan finne riktig dokument for brukerens spørsmål.",
+  "beskrivelse": "Komplett dokumentkatalog for BOS kundeagent. Dekker hele SharePoint-hovedmappen med 4061 filer i 11 mapper.",
+  "sharepoint_hovedmappe": "https://atea.sharepoint.com/sites/NO-NO-ST-PS-Retail/Shared%20Documents/Bertel%20O%20Steen%20AS",
+  "lokal_sync": "C:/Users/marherne/Atea/NO-ØST-PS - Retail - Documents/Bertel O Steen AS",
+  "totalt_antall_filer": 4061,
   "mapper": [
     {
-      "mappe": "Klientavtale 2023-2024",
-      "sharepoint_url": "https://atea.sharepoint.com/sites/NO-NO-ST-PS-Retail/Shared%20Documents/Bertel%20O%20Steen%20AS/02.%20Avtaler/Klientavtale%202023-2024",
-      "dokumenter": [
+      "mappe": "02. Avtaler",
+      "antall_filer": 281,
+      "beskrivelse": "Alle kontrakter, avtaler, endringsbilag og fakturaer for BOS-Atea relasjonen fra 2017 til i dag.",
+      "søkeord": ["avtale", "kontrakt", "SSA-D", "bilag", "endringsbilag", "pris", "SLA", "faktura", "hovedavtale", "klientavtale"],
+      "undermapper": [
         {
-          "fil": "Underskrevet avtale/Klientavtale 2023 avtale.pdf",
-          "type": "Driftsavtale",
-          "sider": 43,
-          "sammendrag": "Signert driftsavtale (SSA-D) mellom Atea AS og Bertel O. Steen AS for drift av IT-løsninger, primært klientdrift.",
+          "mappe": "Hovedavtale 2025-2029",
+          "antall_filer": 20,
+          "status": "AKTIV HOVEDAVTALE",
+          "beskrivelse": "Gjeldende driftsavtale SSA-D 2024 for server- og applikasjonsdrift.",
+          "nøkkeldata": {
+            "avtalenumre": ["SA0023352 (Applikasjonsdrift)", "SA0015085 (Tjenester)", "SA0035261 (IRT)", "SA0023351 (Basic Operation)"],
+            "signert": "2025-09-02",
+            "oppstart": "2025-09-01",
+            "varighet": "3 år + 1 + 1 opsjoner",
+            "signert_av_bos": ["Øyvind Hirsch (Ass. IT-direktør)", "Stian Helle (CIO)", "Harald Frigstad (CEO)"],
+            "signert_av_atea": "Ole Petter Saxrud (Regionsdirektør)",
+            "sla": {
+              "P1_kritisk": "15 min respons, 2 t løsning",
+              "P2_høy": "1 t respons, 4 t løsning",
+              "P3_middels": "4 t respons, 2 dager løsning",
+              "P4_lav": "1 virkedag respons, 3 dager løsning",
+              "servicedesk_basis": "Hverdager 07-17",
+              "servicedesk_utvidet": "07-23 + lørdag 08-16",
+              "vedlikeholdsvindu": "23-06 hver 3. onsdag"
+            },
+            "kommersielt": {
+              "effektiviseringskrav": "3% årlig prisreduksjon fra år 2",
+              "hw_sw_påslag": "6%",
+              "timepris_standard": "NOK 1400",
+              "timepris_senior": "NOK 1600",
+              "timepris_drift": "NOK 1275"
+            },
+            "tjenester": ["Managed Server", "Managed Database (Oracle, MS SQL)", "Managed Public Cloud (Azure)", "Managed Application", "MES XDR", "IRT", "ServiceDesk (8 dedikerte)", "Lokal IT-støtte Lørenskog", "Oracle GoldenGate", "IBM Power/AIX", "Backup (TSM + Veeam)", "Disaster Recovery", "Azure governance/nettverk/plattform/VM", "Sertifikathåndtering", "Sårbarhetsskanning", "Penetrasjonstesting", "Phishing-tester"]
+          },
+          "nøkkelfiler": [
+            "Signert avtale/SSA-D 2024 Hovedavtalen og bilag 1-12 signed.pdf (148 sider)",
+            "Signert avtale/SSA-D 2024 Bilag 07 Vedlegg 1 - Prisskjema.xlsx",
+            "Signert avtale/SSA-D 2024 Bilag 11 Vedlegg 1 - Databehandleravtale signed.pdf",
+            "Endringsbilag/Signert Endringsmelding nr 52.pdf",
+            "Revisjon av Atea/2026-02-09 Revisjonsrapport.pdf"
+          ]
+        },
+        {
+          "mappe": "Hovedavtale 2021-2024",
+          "antall_filer": 18,
+          "status": "ERSTATTET",
+          "beskrivelse": "Tidligere hovedavtale SSA-D 2018 for server- og applikasjonsdrift.",
+          "nøkkeldata": {
+            "avtalenummer": "BOS A - 2021/242",
+            "signert": "2021-06-25",
+            "oppstart": "2021-09-01",
+            "varighet": "2+1+1",
+            "endringsbilag": "Nr 42-51 (11 stk) dekker Managed Database, prisendringer, Cloud Economics, Offsite Backup, ServiceDesk m.m."
+          }
+        },
+        {
+          "mappe": "Klientavtale 2023-2024",
+          "antall_filer": 23,
+          "status": "AKTIV (innlemmet i Hovedavtale 2025 via Bilag 12)",
+          "beskrivelse": "Klient/endepunkt-drift: PC, Mac, nettbrett, mobil.",
           "nøkkeldata": {
             "avtalenummer": "BOS-A 00830",
-            "avtaletype": "Driftsavtale - klient (SSA-D)",
-            "signert_dato": "2023-07-06",
-            "oppstartsdato": "2023-08-01",
-            "varighet": "3 år med opsjon (1+1)",
-            "utløpsdato_uten_opsjon": "2026-08-01",
-            "kunde_org_nr": "916218753",
-            "leverandør_org_nr": "976239997",
-            "kontaktperson_kunde": "Øyvind Hirsch, Ass. IT Direktør, 48193953, oyvind.hirsch@bos.no",
-            "kontaktperson_atea": "Vidar Buind, Account Manager, 93055593, vidar.buind@atea.no",
-            "signert_av_kunde": "Sverre R. Kjær, CFO",
-            "signert_av_atea": "Tom Gjertsen, Regionsdirektør"
-          },
-          "søkeord": ["driftsavtale", "klientavtale", "kontrakt", "SSA-D", "BOS-A 00830", "varighet", "opsjon", "signert", "kontaktperson", "oppstartsdag"],
-          "kapitler": [
-            "1. Alminnelige bestemmelser (omfang, bilag, tolkning, faser)",
-            "2. Gjennomføring av driften (etablering, ordinær drift, endringer, vedlikehold)",
-            "3. Rettigheter (programvare, data, sikkerhet, personvern)",
-            "4. Avslutning (oppsigelse, avslutningsfase, bistand)",
-            "5. Leverandørens plikter (personell, nøkkelpersonell, underleverandører)",
-            "6. Kundens plikter (kompetanse, tilrettelegging, tredjepart)",
-            "7. Felles plikter (møter, taushetsplikt, skriftlighet)",
-            "8. Vederlag og betalingsbetingelser (fakturering, prisendring)",
-            "9. Mislighold og erstatning",
-            "10. Garantier",
-            "11-16. Force majeure, tvister, lovvalg"
-          ],
-          "bilag_inkludert": [
-            "Bilag 1: Kundens kravspesifikasjon",
-            "Bilag 2: Leverandørens løsningsspesifikasjon",
-            "Bilag 3: Beskrivelse av det som skal driftes",
-            "Bilag 4: Prosjekt- og fremdriftsplan",
-            "Bilag 5: Tjenestenivå med kompensasjoner",
-            "Bilag 6: Administrative bestemmelser",
-            "Bilag 7: Samlet pris og prisbestemmelser",
-            "Bilag 8: Endringer i avtaleteksten",
-            "Bilag 9: Endringer etter avtaleinngåelse",
-            "Bilag 10: Standardvilkår for tredjepartsleveranser"
-          ],
-          "hendelsesklassifisering": {
-            "A_kritisk": "Hele eller vesentlige deler av driftstjenesten er utilgjengelig",
-            "B_alvorlig": "Enkelte kritiske funksjoner virker ikke, eller vesentlig dårligere responstider",
-            "C_mindre_alvorlig": "Ikke-kritiske funksjoner virker ikke, nedsatt responstid"
-          }
-        },
-        {
-          "fil": "Underskrevet avtale/Klientavtale 2023 bilag .pdf",
-          "type": "Bilag til driftsavtale",
-          "sider": 58,
-          "sammendrag": "Signerte bilag til driftsavtale BOS-A00830. Inneholder kundens kravspesifikasjon, Ateas løsningsspesifikasjon, tjenestebeskrivelser og prisbilag.",
-          "nøkkeldata": {
-            "avtalenummer": "BOS-A00830",
-            "signert_av_atea": "Christian Stangeland, Director of Business Control"
-          },
-          "søkeord": ["bilag", "kravspesifikasjon", "løsningsspesifikasjon", "tjenestenivå", "SLA", "pris", "kompensasjon", "klientdrift"],
-          "innhold_detaljer": {
-            "bilag_1_kravspesifikasjon": "BOS ønsker forlengelse av rammeavtale BOS A-2019/099 for klient og håndtering av klient (PC, Mac, nettbrett, mobiltelefon). Fokus på Modern IT og Modern Management via Intune/Autopilot.",
-            "bilag_2_løsningsspesifikasjon": "Ateas svar på spørreskjema med 30+ krav. Dekker support, deployment, image management, driver management, applikasjonspakking, sikkerhetsoppdateringer.",
-            "bilag_3_tjenester": "Detaljert liste over tjenester Atea utfører for BOS.",
-            "økt_produktivitet": "Samhandlingsstrategi, Teams-workshop for forhandlere, enklere hverdag, opplæring, digitale kurs"
-          },
-          "nøkkelleveranser": [
-            "Full Client Operation 24/7",
-            "Modern Management (Intune/Autopilot)",
-            "Image Management",
-            "Driver Management",
-            "Application Management",
-            "Vulnerability Management",
-            "LDI Plus drift",
-            "Servicedesk og onsite support (Norge)",
-            "Driftstjenester fra Riga (Latvia) og Växjö (Sverige)",
-            "UEM/Intune drift fra Sverige"
-          ],
-          "kommersielle_betingelser": {
+            "signert": "2023-07-06",
+            "oppstart": "2023-08-01",
+            "varighet": "3 år + 1 + 1",
             "betalingsbetingelser": "30 dager",
-            "fakturagebyr": "Ingen",
-            "frakt": "Fritt levert i Norge",
-            "timepris_konsulent": "NOK 1 450",
-            "prisregulering": "Fast påslagsprosent, reguleres ved produsentprisendringer",
-            "leveringstid_produkt": "1-3 dager uten tjeneste, 3-5 dager med tjeneste (f.eks. tanking)",
-            "image_stabilitet": "Minimum 12 måneder",
-            "anbefalt_maskinvare": "Lenovo business-modeller"
+            "timepris_konsulent": "NOK 1450",
+            "leveringstid": "1-3 dager (produkt), 3-5 dager (med tjeneste)",
+            "tjenester": ["Full Client Operation 24/7", "Modern Management (Intune/Autopilot)", "Image/Driver/Application Management", "Vulnerability Management", "LDI Plus", "ServiceDesk", "Onsite support (Norge)", "Drift fra Riga/Växjö/Sverige"]
           }
         },
         {
-          "fil": "Innledende diskusjon vedrørende klient-avtalen.pptx",
-          "type": "Presentasjon",
-          "sammendrag": "Presentasjon brukt i innledende forhandlinger om klientavtalen.",
-          "søkeord": ["presentasjon", "forhandling", "klientavtale", "diskusjon"]
+          "mappe": "Hovedavtale 2025-2029/Endringsbilag",
+          "beskrivelse": "Endringsbilag til gjeldende avtale, inkl. nr 52 og Managed Client-etablering."
         },
         {
-          "fil": "info/Klient leveransemodell 2023.pptx",
-          "type": "Presentasjon",
-          "sammendrag": "Leveransemodell for klientdrift 2023.",
-          "søkeord": ["leveransemodell", "klientdrift", "2023", "modell"]
+          "mappe": "Diverse avtaler og endringsbilag",
+          "antall_filer": 100,
+          "beskrivelse": "Historisk arkiv med original 2017-avtale og komplett endringsbilag-historikk (nr 1-48+). Inkluderer underavtaler for Incadea, FCO, Netprint."
         },
         {
-          "fil": "vedlegg/Atea Relokasjon.pdf",
-          "type": "Vedlegg",
-          "sammendrag": "Tjenestebeskrivelse for Atea Relokasjon (flytting av utstyr).",
-          "søkeord": ["relokasjon", "flytting", "utstyr"]
+          "mappe": "Digiplex standard avtale",
+          "antall_filer": 4,
+          "beskrivelse": "Colocation/housing-avtaler ved STACKinfra/Digiplex datasenter."
         },
         {
-          "fil": "vedlegg/ATEA UEM Intune_implementation.pdf",
-          "type": "Vedlegg",
-          "sammendrag": "Implementeringsbeskrivelse for UEM (Unified Endpoint Management) via Microsoft Intune.",
-          "søkeord": ["UEM", "Intune", "endpoint management", "implementering", "moderne styring"]
+          "mappe": "Service avtaler IBM utstyr",
+          "antall_filer": 10,
+          "beskrivelse": "IBM AIX og SAN/Storage serviceavtaler og fornyelsestilbud 2022-2023."
         },
         {
-          "fil": "vedlegg/Det Frie Valg Produktbeskrivelse.pdf",
-          "type": "Vedlegg",
-          "sammendrag": "Produktbeskrivelse for Det Frie Valg-konseptet (valgfrihet for sluttbrukere).",
-          "søkeord": ["det frie valg", "produktvalg", "sluttbruker", "valgfrihet"]
+          "mappe": "Service avtaler Lenovo servere",
+          "antall_filer": 2,
+          "beskrivelse": "Lenovo server service/vedlikeholdstilbud 2023."
         },
         {
-          "fil": "vedlegg/LDI Plus Security Document - Amendment v2 - March 2022.pdf",
-          "type": "Vedlegg",
-          "sammendrag": "Sikkerhetsdokument for LDI Plus-tjenesten.",
-          "søkeord": ["LDI Plus", "sikkerhet", "security", "amendment"]
+          "mappe": "Faktura 2023",
+          "antall_filer": 5,
+          "beskrivelse": "Månedlige driftsfakturaer november 2023.",
+          "nøkkeldata": {
+            "klientdrift": "NOK 1 098 371",
+            "applikasjonsdrift": "NOK 193 950",
+            "backup_sikkerhet_sky": "NOK 298 305",
+            "aix_oracle_datasenter_dr": "NOK 520 374",
+            "total_månedlig_eks_mva": "NOK 2 110 999"
+          }
         },
         {
-          "fil": "vedlegg/Vedlegg 01 Lexmark Sky print.pdf",
-          "type": "Vedlegg",
-          "sammendrag": "Tjenestebeskrivelse for Lexmark Sky Print (skybasert print-løsning).",
-          "søkeord": ["print", "Lexmark", "sky print", "utskrift"]
+          "mappe": "Konsulent",
+          "antall_filer": 6,
+          "beskrivelse": "Rammeavtale for konsulentbruk, spesielt sikkerhetskonsulenter."
         },
         {
-          "fil": "vedlegg/Vedlegg 02 Tjenestekatalog - Atea Managed Services.pdf",
-          "type": "Vedlegg",
-          "sammendrag": "Komplett tjenestekatalog for Atea Managed Services levert til BOS.",
-          "søkeord": ["tjenestekatalog", "AMS", "managed services", "tjenester"]
+          "mappe": "Andre avtaler",
+          "antall_filer": 2,
+          "beskrivelse": "Atea Cloud Portal tjenestebeskrivelse og DPA (databehandleravtale)."
         },
         {
-          "fil": "vedlegg/Vedlegg 03 Tjänstebeskrivning UEM som tjänst v8.4.pdf",
-          "type": "Vedlegg",
-          "sammendrag": "Tjenestebeskrivelse for UEM som tjeneste (v8.4), svensk dokument.",
-          "søkeord": ["UEM", "tjänstebeskrivning", "endpoint management"]
+          "mappe": "Athene",
+          "antall_filer": 1,
+          "beskrivelse": "Kontrakt med Athene (BOS-relatert selskap)."
         },
         {
-          "fil": "Arbeidsmappe reforhandlinger/Klientavtale bilag v-7.docx",
-          "type": "Arbeidsdokument",
-          "sammendrag": "Siste versjon av bilag under reforhandling (v7).",
-          "søkeord": ["reforhandling", "bilag", "utkast", "arbeidsdokument"]
+          "mappe": "Ege Gruppen",
+          "antall_filer": 1,
+          "beskrivelse": "Tjenesteavtale med Ege-Gruppen (BOS datterselskap/oppkjøp)."
         },
         {
-          "fil": "Arbeidsmappe reforhandlinger/Prisunderlag v2.xlsx",
-          "type": "Regneark",
-          "sammendrag": "Prisunderlag brukt i reforhandlinger (v2).",
-          "søkeord": ["pris", "prisunderlag", "reforhandling", "kalkyle"]
+          "mappe": "Prosjektleder Servogear",
+          "antall_filer": 2,
+          "beskrivelse": "Prosjektlederavtale for ny infrastruktur hos Servogear (BOS datterselskap)."
         }
       ]
     },
     {
-      "mappe": "Faktura 2023",
-      "sharepoint_url": "https://atea.sharepoint.com/sites/NO-NO-ST-PS-Retail/Shared%20Documents/Bertel%20O%20Steen%20AS/02.%20Avtaler/Faktura%202023",
-      "dokumenter": [
+      "mappe": "Kundeteam",
+      "antall_filer": 21,
+      "beskrivelse": "Kundeplaner, ambisjoner, strategiske visjoner og teamsamarbeid for BOS-kontoen.",
+      "søkeord": ["kundeplan", "ambisjon", "strategi", "visjon", "veikart", "roadmap", "møteplan", "revenue", "mål", "kundeteam"],
+      "undermapper": [
         {
-          "fil": "Driftsfaktura drift klient.pdf",
-          "type": "Faktura",
-          "sider": 2,
-          "sammendrag": "Månedlig driftsfaktura for klientdrift (november 2023). Største fakturapost.",
+          "mappe": "Kundeplan 2026",
+          "antall_filer": 4,
+          "nøkkelfiler": ["Ambisjon_BOS_2026.pptx", "Strømstad Ambisjon BOS 2026.pptx", "Veikart 2025_26.pptx", "Møteplan BOS-Atea 2026.xlsx"],
           "nøkkeldata": {
-            "periode": "2023-11-01 til 2023-11-30",
-            "totalbeløp_eks_mva": "NOK 1 098 371",
-            "totalbeløp_inkl_mva": "NOK 1 372 963,75"
-          },
-          "søkeord": ["faktura", "klient", "klientdrift", "månedsbeløp", "driftskostnad"],
-          "linjer": [
-            {"tjeneste": "Utvidet SPOC Lørdager 08-16", "beløp": 42000},
-            {"tjeneste": "Managed Client Leveranseressurs", "beløp": 55000},
-            {"tjeneste": "Citrix bruker", "antall": 2056, "stk_pris": 48, "beløp": 98688},
-            {"tjeneste": "BOS fullbruker", "antall": 3739, "stk_pris": 154, "beløp": 575806},
-            {"tjeneste": "Managed Client PC & MAC", "antall": 3286, "stk_pris": 57, "beløp": 187302},
-            {"tjeneste": "Servicelink", "antall": 3382, "stk_pris": 4, "beløp": 13528},
-            {"tjeneste": "BOS Tjenestebruker", "antall": 2614, "stk_pris": 20.50, "beløp": 53587},
-            {"tjeneste": "Managed Mobile, Tablet, Mac, Intune PCs", "antall": 3623, "stk_pris": 20, "beløp": 72460}
+            "fire_pilarer": ["Stabil drift og modernisering", "Sky/lisens/kostnadsstyring", "Sikkerhet og governance", "Samarbeidsstruktur"],
+            "revenue_mål_2026_MNOK": 66,
+            "konsulent_MNOK": 9,
+            "kontrakt_MNOK": 29.5,
+            "møtestruktur": "Operasjonelt (månedlig), Taktisk (månedlig), Strategisk (halvårlig)"
+          }
+        },
+        {
+          "mappe": "Kundplan 2025",
+          "antall_filer": 3,
+          "nøkkelfiler": ["Ambisjon BOS 2025.pptx", "Strategisk Veikart.pptx", "Bertel O. Steen Års- og bærekraftrapport 2024.pdf"],
+          "nøkkeldata": {
+            "bos_revenue_2024_MNOK": 17373,
+            "bos_driftsresultat_2024_MNOK": -112,
+            "bos_egenkapitalandel": "40.6%"
+          }
+        },
+        {
+          "mappe": "2024 eller tidligere",
+          "antall_filer": 2,
+          "beskrivelse": "Bærekraftsrapport 2022 og ledelsesendringer sept 2023."
+        }
+      ],
+      "rotfiler": [
+        {
+          "fil": "Møtenotater Kundevisjon presentasjon BOS 6 juni 2025.docx",
+          "sammendrag": "AI-effektiviseringsmål: 25% mer effektiv gjennom AI, automatisering og datainnsikt."
+        },
+        {
+          "fil": "Kundeteam-Ambisjon BOS 2025.pptx",
+          "sammendrag": "5-fasemodell: Analyse → Strategi → Implementering → Oppfølging → Kontinuerlig forbedring."
+        },
+        "Individuelle kundevisjoner fra: Aleksander (CSM), Egil (AI/automasjon), Miriam (Cloud), Stian (Klient/LCM), Thomas (AMS)"
+      ]
+    },
+    {
+      "mappe": "Rapportert og møtereferater",
+      "antall_filer": 618,
+      "beskrivelse": "Driftsrapporter, møtereferater og presentasjoner organisert etter møtetype.",
+      "søkeord": ["møtereferat", "driftsrapport", "taktisk", "operasjonelt", "strategisk", "bærekraft", "kundemøte", "kundeteam", "rapport"],
+      "undermapper": [
+        {
+          "mappe": "Drift",
+          "antall_filer": 565,
+          "datoperiode": "2016-2026",
+          "beskrivelse": "Månedlige driftsrapporter, AIX/Oracle, ATP, backup, cloud economics, bærekraft, sårbarhet, telefon/chat-statistikk, fakturagrunnlag, MI-rapporter.",
+          "filer_2026": 37,
+          "filer_2025": 70,
+          "aktuelle_temaer": ["Windows 11-migrering (ca 31 PCer gjenstår)", "MES XDR onboarding fullført", "Managed Server landing zone etablert", "200+ ikke-kompatible enheter identifisert for opprydding"]
+        },
+        {
+          "mappe": "Kundemøter",
+          "antall_filer": 5,
+          "datoperiode": "2025-2026",
+          "beskrivelse": "Bærekraftsmøter og ledermøter med BOS.",
+          "aktuelle_temaer": ["DEX tjeneste/prising", "E5-lisensoptimalisering", "SOC via Telenor", "Print-optimalisering", "Klient-livssyklus", "100% Klubben"]
+        },
+        {
+          "mappe": "Kundeteam møter",
+          "antall_filer": 21,
+          "datoperiode": "feb 2025 - feb 2026",
+          "frekvens": "Annenhver uke",
+          "beskrivelse": "Interne kundeteam-møter for BOS-kontoen.",
+          "aktuelle_temaer": ["ISO 27001 re-sertifisering", "E3/E5 lisens-workshop med MS", "Copilot/AI brukeradopsjon", "AI Act (gjeldende aug i Norge)", "Gullik Gjertsen ny MS Security-ressurs"]
+        },
+        {
+          "mappe": "Taktisk",
+          "antall_filer": 20,
+          "datoperiode": "nov 2024 - mars 2026",
+          "beskrivelse": "Taktiske møter mellom Atea og BOS.",
+          "aktuelle_temaer": [
+            "Martin Shanti-Kleppe sykemeldt til medio april; Mette Juelsen vikar",
+            "BOS opplever manglende lederfokus fra Atea/AMS",
+            "DEX-verktøy prosess svært vanskelig",
+            "Ny hovedavtale signert sept 2025; klientavtale gjennomgang etter påske",
+            "Lisbeth Haaskjold ny Contract Manager",
+            "Kontinuerlig Forbedring-rolle parkert til etter sommer"
           ]
         },
         {
-          "fil": "Driftsfaktura drift av app hovedavtale.pdf",
-          "type": "Faktura",
-          "sider": 3,
-          "sammendrag": "Månedlig driftsfaktura for applikasjonsdrift under hovedavtale (november 2023).",
-          "nøkkeldata": {
-            "periode": "2023-11-01 til 2023-11-30",
-            "totalbeløp_eks_mva": "NOK 193 950",
-            "totalbeløp_inkl_mva": "NOK 242 437,50",
-            "fakturanummer": "905174544",
-            "fakturadato": "2023-11-19",
-            "forfallsdato": "2023-12-19",
-            "referanse": "Per Hovgaard Hansen"
-          },
-          "søkeord": ["faktura", "applikasjon", "applikasjonsdrift", "IFS", "hovedavtale"],
-          "linjer": [
-            {"tjeneste": "Datavarehus", "beløp": 3000},
-            {"tjeneste": "Personec", "beløp": 3500},
-            {"tjeneste": "On-Prem: Microsoft Exchange", "beløp": 3750},
-            {"tjeneste": "BOSLogg applikasjonsportefølje", "beløp": 21000},
-            {"tjeneste": "Hyperion", "beløp": 5000},
-            {"tjeneste": "Snap Drive applikasjonsportefølje", "beløp": 15000},
-            {"tjeneste": "IFS", "beløp": 60000},
-            {"tjeneste": "B2B", "beløp": 12000},
-            {"tjeneste": "MB Aftersales portal", "beløp": 25000},
-            {"tjeneste": "Filoverføring-Kia", "beløp": 7000},
-            {"tjeneste": "Filoverføring-Peugeot/Citroen", "beløp": 6000},
-            {"tjeneste": "Enterprise Content Management", "beløp": 4000},
-            {"tjeneste": "Morgensjekk av applikasjoner", "antall": 5, "stk_pris": 450, "beløp": 2250},
-            {"tjeneste": "Eiendom applikasjonsportefølje", "beløp": 3450},
-            {"tjeneste": "Power Solutions applikasjonsportefølje", "beløp": 8050},
-            {"tjeneste": "Viking applikasjonsdrift", "beløp": 6900},
-            {"tjeneste": "DSG industri applikasjonsportefølje", "beløp": 8050}
-          ]
-        },
-        {
-          "fil": "driftsfaktura drift av Applikasjoner.pdf",
-          "type": "Faktura",
-          "sider": 3,
-          "sammendrag": "Driftsfaktura for applikasjoner (duplikat/variant av hovedavtale-faktura, november 2023).",
-          "nøkkeldata": {
-            "periode": "2023-11-01 til 2023-11-30",
-            "totalbeløp_eks_mva": "NOK 193 950"
-          },
-          "søkeord": ["faktura", "applikasjon", "drift"]
-        },
-        {
-          "fil": "Driftsfaktura drift av backup mm.pdf",
-          "type": "Faktura",
-          "sider": 2,
-          "sammendrag": "Månedlig driftsfaktura for backup, sikkerhet og skyoperasjoner (november 2023).",
-          "nøkkeldata": {
-            "periode": "2023-11-01 til 2023-11-30",
-            "totalbeløp_eks_mva": "NOK 298 304,50",
-            "totalbeløp_inkl_mva": "NOK 372 880,63"
-          },
-          "søkeord": ["faktura", "backup", "sikkerhet", "Azure", "monitoring", "Office 365", "Adaxes", "ATP"],
-          "linjer": [
-            {"tjeneste": "SMS", "beløp": 3000},
-            {"tjeneste": "Azure resource Monitoring and Operation", "beløp": 69041},
-            {"tjeneste": "Office 365 Sikkerhetsprosess", "beløp": 3600},
-            {"tjeneste": "Managed Office 365 Backup", "antall": 3708, "stk_pris": 12, "beløp": 44496},
-            {"tjeneste": "Managed Office 365 Bruker", "antall": 3708, "stk_pris": 25, "beløp": 92700},
-            {"tjeneste": "Managed Directory (Adaxes)", "antall": 6353, "stk_pris": 3.50, "beløp": 22235.50},
-            {"tjeneste": "Managed ATP", "antall": 3952, "stk_pris": 16, "beløp": 63232}
-          ]
-        },
-        {
-          "fil": "aix oracle mm.pdf",
-          "type": "Faktura",
-          "sider": 2,
-          "sammendrag": "Månedlig driftsfaktura for AIX/Oracle, datasenter og disaster recovery (november 2023).",
-          "nøkkeldata": {
-            "periode": "2023-11-01 til 2023-11-30",
-            "totalbeløp_eks_mva": "NOK 520 374,30",
-            "totalbeløp_inkl_mva": "NOK 650 467,88"
-          },
-          "søkeord": ["faktura", "AIX", "Oracle", "datasenter", "disaster recovery", "DR", "server", "Netscaler", "FTP", "sertifikat"],
-          "linjer": [
-            {"tjeneste": "Disaster recovery On-Demand Aktive", "antall": 6, "stk_pris": 882.80, "beløp": 5296.80},
-            {"tjeneste": "Netscaler Operations", "beløp": 7000},
-            {"tjeneste": "Versjonshåndtering programvare", "beløp": 5000},
-            {"tjeneste": "AIX/Oracle Operations", "beløp": 27500},
-            {"tjeneste": "FTP", "beløp": 4000},
-            {"tjeneste": "Disaster recovery Site Aktiv host", "antall": 2, "stk_pris": 6376, "beløp": 12752},
-            {"tjeneste": "Sertifikatadmin. portal og skanning", "beløp": 11800},
-            {"tjeneste": "Sertifikatadministrasjon per sertifikat", "antall": 9, "stk_pris": 7, "beløp": 63},
-            {"tjeneste": "Disaster recovery Datalagring pr. GB", "antall": 51600, "stk_pris": 0.50, "beløp": 25800},
-            {"tjeneste": "Datasenter drift", "antall": 3739, "stk_pris": 51.50, "beløp": 192558.50},
-            {"tjeneste": "Server Drift", "antall": 268, "stk_pris": 853, "beløp": 228604}
-          ]
+          "mappe": "Strategisk",
+          "antall_filer": 1,
+          "beskrivelse": "Strategisk møte-presentasjon jan 2025."
         }
       ]
+    },
+    {
+      "mappe": "NO-AMS CO BOS",
+      "antall_filer": 1005,
+      "beskrivelse": "Atea Managed Services (AMS) operasjonell dokumentasjon. SLA-definisjoner, prosedyredokumenter, historiske rapporter.",
+      "søkeord": ["AMS", "managed services", "prosedyre", "SLA", "drift", "CO", "oppsummering"],
+      "nøkkelfiler": [
+        "AMS SLA definition vs Harmonized services.xlsx (257 rader SLA-matrise)",
+        "CO BOS Oppsummering 2025 - Plan 2026.pptx",
+        "CO BOS Oppsummering 2024 - Plan 2025.pptx"
+      ],
+      "undermapper": [
+        {
+          "mappe": "Prosedyredokumenter",
+          "antall_filer": 219,
+          "beskrivelse": "Prosedyrer per tjenesteområde: Applikasjonsdrift, Basic Operation, IRT, Klient, Riga, Tjenester."
+        },
+        {
+          "mappe": "Div gammelt",
+          "antall_filer": 782,
+          "beskrivelse": "Historiske operasjonelle dokumenter, rapporter og møtenotater."
+        }
+      ]
+    },
+    {
+      "mappe": "Forbedringer",
+      "antall_filer": 7,
+      "beskrivelse": "Forbedringslogger, KPIer, bærekraftsinitiativer og samarbeidsmodeller.",
+      "søkeord": ["forbedring", "KPI", "bærekraft", "sustainability", "leverandør", "bonus", "Unified", "samarbeidsmodell"],
+      "nøkkelfiler": [
+        {
+          "fil": "Forbedringer.xlsx",
+          "innhold": "89 forbedringspunkter (2022-2026), 36 leverandøroversikter, konsernbonus 2025: NOK 977 000"
+        },
+        {
+          "fil": "KPI'er BOS.xlsx",
+          "innhold": "18 KPIer (bærekraft, effektivitet, kvalitet, kompetanse, selvbetjening) + 115 forbedringstiltak"
+        },
+        {
+          "fil": "Samarbeidsmodell Unified avtale.docx",
+          "innhold": "RACI-modell for Microsoft Unified Enterprise-avtale mellom Atea, Microsoft og BOS"
+        }
+      ],
+      "leverandøroversikt": ["Netprint/Printix", "Telenor (infra + SOC+)", "Elinar (digitalt arkiv)", "Coretrek (SnapDrive)", "nShift (pakkhåndtering)", "Amesto (VISMA/SuperOffice)", "Cillco (B2B)", "Accenture (IFS)", "Oracle (Hyperion/IFS)"]
+    },
+    {
+      "mappe": "Dokumentasjon",
+      "antall_filer": 10,
+      "beskrivelse": "Pågående migrasjonsprosjekt: PCBI Nordic Oy (finsk datterselskap) tenant-til-BOS-tenant migrering mars 2026.",
+      "søkeord": ["migrering", "PCBI", "tenant", "bospower", "SharePoint", "Teams", "mailbox"],
+      "nøkkeldata": {
+        "prosjekt": "PCBI Nordic Oy → BOS tenant-migrering",
+        "antall_brukere": 30,
+        "sharepoint_sites": 5,
+        "teams_grupper": 10,
+        "fra_domene": "pcbi.fi",
+        "til_domene": "bospower.com"
+      }
+    },
+    {
+      "mappe": "AI-Copilot",
+      "antall_filer": 3,
+      "beskrivelse": "Copilot for Microsoft 365 pilot-materiell og AI-initiativ for BOS.",
+      "søkeord": ["Copilot", "AI", "M365", "pilot", "adopsjon", "lisens"],
+      "nøkkelfiler": [
+        "Copilot & AI - 08.02.24.pptx (42 slides, POC-forslag)",
+        "250606 Erfaringsdeling BOS CopilotPilot.pptx (pilot-erfaringer juni 2025)"
+      ]
+    },
+    {
+      "mappe": "Tilbud",
+      "antall_filer": 2,
+      "beskrivelse": "Servertilbud Lenovo via Arrow for BOS.",
+      "søkeord": ["tilbud", "server", "Lenovo", "ThinkSystem"],
+      "nøkkeldata": {
+        "produkt": "2x Lenovo ThinkSystem SR650 V4",
+        "innkjøpspris": "NOK 822 494",
+        "bos_pris_6pct_påslag": "NOK 871 844",
+        "dato": "2025-09"
+      }
+    },
+    {
+      "mappe": "Oppkjøpte Selskap",
+      "antall_filer": 4,
+      "beskrivelse": "Governance og brukermanual for BOS sine oppkjøpte selskaper (EGE-Gruppen).",
+      "søkeord": ["oppkjøp", "EGE", "Ege-Gruppen", "governance", "datterselskap", "subsidiaries"],
+      "nøkkeldata": {
+        "selskap": "EGE-Gruppen",
+        "ansatte_nå": 250,
+        "ansatte_mål": 500,
+        "governance": "3 nivåer: Operasjonelt (månedlig), Taktisk (månedlig), Strategisk (periodisk)",
+        "kontakter": "KAM: Martin Shanti-Kleppe (911 37 685), CM: Lisbeth Haskjold"
+      }
+    },
+    {
+      "mappe": "Historikk",
+      "antall_filer": 1828,
+      "beskrivelse": "Historisk arkiv med kundeplaner, tilbud, logistikk, prosjekter, sikkerhetsdokumenter, halvårsmøter og referansebeskrivelser.",
+      "søkeord": ["historikk", "arkiv", "kundeplan", "halvårsmøte", "sikkerhet", "PIM", "DMARC", "referanse", "logistikk", "datarom"],
+      "viktige_undermapper": [
+        {"mappe": "06. Kundeplan", "filer": 5, "innhold": "Kundeplaner 2022-2023, QBR, salgsutvikling"},
+        {"mappe": "10. Sikkerhetsdokumenter", "filer": 9, "innhold": "DMARC/DKIM/SPF, modenhetsanalyse, PIM rolleoppseett, NSM"},
+        {"mappe": "11. Halvårsmøter", "filer": 9, "innhold": "Halvårsmøter 2022-2023 med agendaer og presentasjoner"},
+        {"mappe": "12. Referansebeskrivelser", "filer": 5, "innhold": "Referansetekster for BOS-leveransen (norsk/engelsk)"},
+        {"mappe": "14. Nytt datarom", "filer": 220, "innhold": "Prosjektdokumentasjon for nytt datasenter"},
+        {"mappe": "08. Logistikk BOS", "filer": 635, "innhold": "BOS logistikk-dokumenter"}
+      ]
+    },
+    {
+      "mappe": "09. Lars Ø sin mappe",
+      "antall_filer": 277,
+      "beskrivelse": "Personlig arbeidsmappe (Lars Ø) med operasjonelt materiale: adresselapper, bestillinger, BW-rapporter, eShop, Lenovo, ordrer, m.m.",
+      "søkeord": ["Lars", "ordre", "bestilling", "Lenovo", "adresselapp", "logistikk"]
     }
   ],
-  "sammendrag_økonomi": {
-    "beskrivelse": "Total månedlig driftskostnad for BOS basert på november 2023-fakturaer",
-    "fakturaer": [
-      {"kategori": "Klientdrift", "eks_mva": 1098371},
-      {"kategori": "Applikasjonsdrift (hovedavtale)", "eks_mva": 193950},
-      {"kategori": "Backup, sikkerhet og sky", "eks_mva": 298304.50},
-      {"kategori": "AIX/Oracle, datasenter og DR", "eks_mva": 520374.30}
+  "kontaktpersoner": {
+    "bos": [
+      {"navn": "Harald Frigstad", "rolle": "CEO"},
+      {"navn": "Stian Helle", "rolle": "CIO / SHIFT Digital"},
+      {"navn": "Øyvind Hirsch", "rolle": "Ass. IT-direktør", "telefon": "48193953", "epost": "oyvind.hirsch@bos.no"},
+      {"navn": "Emil Borge", "rolle": "IT (operasjonelt/taktisk kontakt)"}
     ],
-    "total_månedlig_eks_mva": 2110999.80,
-    "estimert_årlig_eks_mva": 25331997.60,
-    "valuta": "NOK",
-    "merknad": "Basert på november 2023. Faktiske beløp varierer per måned etter volum."
+    "atea": [
+      {"navn": "Martin Shanti-Kleppe", "rolle": "KAM (Key Account Manager)", "telefon": "911 37 685", "status": "Sykemeldt til medio april 2026, Mette Juelsen vikar"},
+      {"navn": "Øyvind Hansen", "rolle": "Contract Manager", "telefon": "994 16 811"},
+      {"navn": "Thomas Hannemyr", "rolle": "Operations Manager (AMS)"},
+      {"navn": "Lisbeth Haaskjold", "rolle": "Contract Manager (ny fra jan 2026)"},
+      {"navn": "Aleksander Olsen", "rolle": "CSM (Customer Success Manager)"},
+      {"navn": "Ole Petter Saxrud", "rolle": "Regionsdirektør"},
+      {"navn": "Stian Pålhaugen/Aass", "rolle": "Klientdrift"},
+      {"navn": "Egil", "rolle": "AI/automasjon"},
+      {"navn": "Miriam", "rolle": "Cloud Services"},
+      {"navn": "Gullik Gjertsen", "rolle": "Microsoft Security (ny)"},
+      {"navn": "Mette Juelsen", "rolle": "Vikar KAM"}
+    ]
   },
-  "nøkkeltall_volum": {
-    "beskrivelse": "Volumtall fra november 2023-fakturaer",
-    "fullbrukere": 3739,
-    "citrix_brukere": 2056,
-    "managed_pc_mac": 3286,
-    "mobile_tablet_intune": 3623,
-    "office365_brukere": 3708,
-    "managed_atp_brukere": 3952,
-    "managed_directory_objekter": 6353,
-    "servere": 268,
-    "dr_datalagring_gb": 51600
+  "strategisk_kontekst": {
+    "bos_økonomi_2024": {
+      "omsetning_MNOK": 17373,
+      "driftsresultat_MNOK": -112,
+      "resultat_før_skatt_MNOK": -172,
+      "egenkapitalandel": "40.6%",
+      "trend": "Omsetning ned fra 20 955 MNOK (2023). Negativt driftsresultat 2. år på rad."
+    },
+    "atea_revenue_mål_bos_2026": {
+      "total_MNOK": 66,
+      "konsulent_MNOK": 9,
+      "kontrakt_MNOK": 29.5,
+      "øvrig_MNOK": 27.5
+    },
+    "pågående_initiativer": [
+      "E5-lisensmigrering (full E5 innen sommer 2026)",
+      "ISO 27001 re-sertifisering",
+      "AI/Copilot brukeradopsjon",
+      "AI Act compliance (gjeldende aug i Norge, full 2027)",
+      "PCBI Nordic Oy tenant-migrering",
+      "EGE-Gruppen governance og onboarding",
+      "Bærekraft: print-optimalisering, klient-LCM, 100% Klubben, energisparing",
+      "DEX-verktøy evaluering",
+      "Windows 11-migrering (nesten ferdig)",
+      "MES XDR fullført, Managed Server landing zone etablert"
+    ],
+    "utfordringer": [
+      "BOS opplever manglende lederfokus/proaktivitet fra Atea/AMS",
+      "DEX-verktøy prosess har vært svært vanskelig",
+      "KAM Martin sykemeldt — midlertidig ledelse",
+      "Kontinuerlig Forbedring-rolle parkert",
+      "ServiceDesk under press (20-30% økning pga Win11 og Telenor-nettverksproblemer)"
+    ]
   }
 }
