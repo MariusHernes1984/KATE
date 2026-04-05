@@ -1,0 +1,357 @@
+{
+  "scoring_metode": "dual",
+  "judge_model": "gpt-4.1",
+  "keyword_gjennomsnitt": 78.5,
+  "composite_gjennomsnitt": 98.9,
+  "kategori_gjennomsnitt_composite": {
+    "Kontakter": 99.2,
+    "Avtaler": 99.2,
+    "Økonomi": 97.0,
+    "Prosjekter": 100.0,
+    "Nedtrapping": 100.0,
+    "Utfordringer": 100.0,
+    "Strategi": 94.0
+  },
+  "kategori_gjennomsnitt_keyword": {
+    "Kontakter": 90.5,
+    "Avtaler": 88.3,
+    "Økonomi": 62.2,
+    "Prosjekter": 86.1,
+    "Nedtrapping": 87.1,
+    "Utfordringer": 55.6,
+    "Strategi": 28.6
+  },
+  "antall_sporsmal": 15,
+  "resultater": [
+    {
+      "id": "KOMPLETT-01",
+      "kategori": "Kontakter",
+      "sporsmal": "Hvem er primærkontakten for IT hos Komplett, og hvem er Ateas senior account manager?",
+      "forventet": "Primærkontakt IT: Henning Ims, Head of IT Operations (henning.ims@komplett.com, +47 48300800). Atea Senior Account Manager: Jørn Are Olsen (91111990).",
+      "svar": "Primærkontakt for IT hos **Komplett Services AS**:  \n- **Henning Ims**  \n- Rolle: Head of IT Operations  \n- E‑post: henning.ims@komplett.com  \n- Telefon: +47 483 00 800  \n- Kommentar: Hovedbeslutningstaker og primær kontaktperson i drifts- og samarbeidsrelaterte saker.\n\n**Senior Account Manager hos Atea (kundeansvarlig):**  \n- **Jørn Are Olsen**  \n- Rolle: Senior Account Manager  \n- E‑post: jorn.are.olsen@atea.no  \n- Telefon: +47 911 11 990  \n- Kommentar: Hovedkontakt fra Atea mot Komplett for kontrakt, salg og kundeforhold.\n\nGi beskjed hvis du også vil ha oversikt over resten av kjerne-teamet (SDM, arkitekt, lisensansvarlig osv.).",
+      "keyword_score": 71.4,
+      "keyword_detaljer": {
+        "treff": 5,
+        "totalt": 7
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Agentens svar er presist, inneholder alle nøkkelord, ingen feilinformasjon, dekker fasiten fullt ut og er profesjonelt formatert."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "KOMPLETT-02",
+      "kategori": "Kontakter",
+      "sporsmal": "Hvem er den nye workspace manageren hos Komplett, og når startet vedkommende?",
+      "forventet": "Anders Gjengedal, startet uke 4 i februar 2026. Kom fra Eika Gruppen.",
+      "svar": "Ser på dette.\n\nDen nye **Workspace Manageren hos Komplett Services AS** er:\n\n- **Navn:** Anders Gjengedal  \n- **Startdato:** Uke 4, februar 2026  \n- **Bakgrunn:** Kom fra **Eika Gruppen** før han startet i Komplett.\n\nHan ble første gang omtalt i våre interne oppdateringer i forbindelse med **taktisk møte 25.02.2026**, hvor det også ble bekreftet at han hadde startet i rollen kort tid i forveien.\n\nRelevans for oss i Atea:\n- Workspace-området (brukertjenester, klientplattform, M365 osv.) ligger nå hos Anders.\n- Han er derfor en viktig kontakt i saker som gjelder:\n  - Microsoft 365 / Copilot\n  - Entra ID og identitet\n  - Klientplattform og brukeropplevelse\n  - Eventuelle workspace-relaterte prosjekter etter insourcing.\n\nSi ifra hvis du vil at jeg også:\n- lager en **oppdatert stakeholder-oversikt hos Komplett**, eller  \n- forklarer **hvordan ansvarsdelingen nå er mellom Anders og Henning Ims**.",
+      "keyword_score": 100.0,
+      "keyword_detaljer": {
+        "treff": 3,
+        "totalt": 3
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 5,
+        "nokkelord_totalt": 5,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Agenten gir korrekt navn, starttidspunkt og bakgrunn, og alle nøkkelord er med. Svaret er strukturert, presist og uten feilinformasjon."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "KOMPLETT-03",
+      "kategori": "Kontakter",
+      "sporsmal": "Hvem signerte SSA-D driftsavtalen på vegne av Komplett og Atea?",
+      "forventet": "Komplett: Thomas Røkke (Group CFO). Atea: Borger Kruge (Regionsdirektør). Signert 28.06.2024 i Sandefjord.",
+      "svar": "SSA-D driftsavtalen mellom **Atea AS og Komplett Services AS** (avtalenummer **SA0132799**) ble signert:\n\n• **For Komplett Services AS:**  \n  **Thomas Røkke** – Group CFO  \n  (han sluttet i selskapet i mars 2026)\n\n• **For Atea AS:**  \n  **Borger Kruge** – Regionsdirektør\n\nNøkkeltall for avtalen:  \n- **Signeringsdato:** 28.06.2024 (Sandefjord)  \n- **Oppstart:** 01.07.2024  \n- **Varighet:** 5 år  \n- **Utløpsdato:** 01.07.2029  \n- **Oppsigelsestid:** 6 måneder  \n- **Avtaletype:** SSA-D 2018 – Drift av IT-systemer og skytjenester\n\nSi ifra hvis du også vil ha en oversikt over **hvilke tjenester og priser som ligger i bilag 7 (prisbilaget)** eller **hvordan Endringsbilag 9 påvirker kontraktsverdien.**",
+      "keyword_score": 100.0,
+      "keyword_detaljer": {
+        "treff": 6,
+        "totalt": 6
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 9,
+        "nokkelord_totalt": 9,
+        "hallusinering": 1,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Svaret inneholder alle nøkkelopplysninger fra fasit, alle nøkkelord er med, og svaret er strukturert og profesjonelt. Det er kun en liten irrelevant tilleggsopplysning om at Thomas Røkke sluttet i 2026, men dette påvirker ikke korrektheten vesentlig."
+      },
+      "composite_score": 97.5
+    },
+    {
+      "id": "KOMPLETT-04",
+      "kategori": "Avtaler",
+      "sporsmal": "Hva er detaljene for hovedkontrakten SSA-D med Komplett?",
+      "forventet": "Avtalenr SA0132799. SSA-D 2018. Drift av IT-systemer og skytjenester. Signert 28.06.2024. Oppstart 01.07.2024. Varighet 5 år (utløper 01.07.2029). Oppsigelse 6 måneder.",
+      "svar": "Ser på dette.\n\nHer er nøkkeldetaljene for **hovedkontrakten mellom Atea og Komplett Services AS**:\n\nKontrakt: **SSA‑D Driftsavtale (Statens standardavtale – Drift)**  \nAvtalenummer: **SA0132799**\n\nSignering  \n- Signert dato: **28.06.2024**  \n- Signert hos: **Sandefjord**  \n- Signert av Komplett: **Thomas Røkke (Group CFO)**  \n- Signert av Atea: **Borger Kruge (Regionsdirektør)**  \n\nAvtaleperiode  \n- **Oppstart:** 01.07.2024  \n- **Sluttdato:** 01.07.2029  \n- **Varighet:** 5 år  \n- **Oppsigelsestid:** 6 måneder  \n\nKontraktsomfang (hovedtjenester)  \n- Managed **IaaS** (Azure + Atea datasenter/on‑prem)  \n- **Network as a Service (NaaS)** – Cisco Meraki nettverk (~285 enheter)  \n- **ServiceDesk** og brukeradministrasjon  \n- **Bruker- og ID-håndtering**  \n- **Managed Print**  \n- **SQL-databasedrift**  \n- **Backup og lagring**  \n- **VPN‑tjenester**  \n- **SOC+ sikkerhetsovervåking**  \n- **Cloud Connect / ExpressRoute** til Azure  \n\nKontraktsbilag  \n- **Bilag 2:** Løsningsspesifikasjon  \n- **Bilag 4:** Prosjektplan  \n- **Bilag 5:** Tjenestenivå (SLA)  \n- **Bilag 6:** Administrative bestemmelser  \n- **Bilag 7:** Prisbilag  \n\nØkonomi (før nedtrapping)  \n- **Månedlig faktura:** ca. **NOK 830 254**  \n- **Årlig run rate:** ca. **NOK 9,96 millioner**\n\nEndringer i avtalen  \n- **Endringsbilag 9 – signert 23.03.2026**  \n- Bakgrunn: Komplett besluttet **insourcing av flere driftstjenester**  \n- 69 Azure‑servere dekommisjoneres  \n- ServiceDesk, Managed Print, brukerdrift m.m. avsluttes  \n- Flere tjenester avsluttes **31.01.2026 og 30.04.2026**\n\nØkonomisk effekt av endringsbilag 9  \n- **Reduksjon per måned:** ca. **NOK 342 321**  \n- **Ny estimert månedlig kost:** ca. **NOK 500 000**  \n- **12‑måneders verdi av endringen:** **NOK 2 550 970**  \n- **Avbestillingsgebyr:** frafalt (6 mnd varsel oppfylt)\n\nGjenværende hovedtjenester etter nedtrapping  \n- **NaaS Meraki nettverk:** ~NOK 260 000/mnd  \n- **VPN (473 brukere):** ~NOK 51 723/mnd  \n- **Infrastruktur (Atea DC):** ~NOK 49 958/mnd  \n- **Backup storage:** ~NOK 18 402/mnd  \n- **Cloud Connect + ExpressRoute:** ~NOK 27 354/mnd  \n- **SDM (50%):** ~NOK 30 660/mnd  \n- **Catch & Dispatch:** NOK 12 500/mnd  \n\nHvis du vil kan jeg også:  \n- bryte ned **prisbilaget linje for linje**,  \n- forklare **SLA‑nivåene i bilag 5**, eller  \n- gi en **oversikt over hvilke tjenester som faktisk gjenstår etter 30.04.2026**.",
+      "keyword_score": 72.7,
+      "keyword_detaljer": {
+        "treff": 8,
+        "totalt": 11
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 1,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Svaret dekker alle aspekter av fasiten, inneholder alle nøkkelord, og er svært godt strukturert. Detaljer utover fasit er relevante og ikke villedende."
+      },
+      "composite_score": 97.5
+    },
+    {
+      "id": "KOMPLETT-05",
+      "kategori": "Avtaler",
+      "sporsmal": "Hva er vilkårene i CSP samarbeidsavtalen med Komplett?",
+      "forventet": "Signert 10.04.2025 av Henning Ims og Eivind Sletthaug. Ingen bindingstid, 3 mnd oppsigelse. 10% av Azure-forbruk avsettes til prosjektfond. 2025: opptil 100% støtte. Etter 2025: opptil 50%. Atea Cloud Insights inkludert.",
+      "svar": "Ser på dette.\n\n**CSP Samarbeidsavtale – Atea / Komplett Services AS**\n\nNøkkelvilkår:\n\n- **Signert:** 10.04.2025  \n- **Signert av Komplett:** Henning Ims (Head of IT Operations)  \n- **Signert av Atea:** Eivind Sletthaug (Senior Solution Sales Specialist / Arkitekt)  \n- **Avtaletype:** Microsoft Cloud Solution Provider (CSP) samarbeidsavtale  \n- **Bindingstid:** Ingen fast bindingstid  \n- **Oppsigelsestid:** 3 måneder  \n\n**Økonomisk modell**\n- **10 % av Kompletts Azure-forbruk via Atea CSP settes av til et prosjektfond.**\n- Midlene kan brukes til konsulenttimer og utviklingsprosjekter relatert til Azure/M365.\n\n**Bruk av prosjektfond**\n- **2025:** Opptil **100 % finansiering** av prosjekter (full bruk av fondet).  \n- **Fra 2026 og videre:** Opptil **50 % prosjektfinansiering**.\n\n**Inkluderte tjenester**\n- **Atea Cloud Insights** inkludert kostnadsfritt (kostnadsanalyse og optimalisering av Azure).\n- **Kvartalsvise taktiske møter** for:\n  - skystrategi\n  - optimalisering av forbruk\n  - roadmap-planlegging\n  - identifisering av finansierbare prosjekter\n\n**Formål med avtalen**\n- Øke Azure-adopsjon via Atea CSP\n- Finansiere forbedringsprosjekter hos Komplett\n- Optimalisere kostnader og arkitektur i Azure\n\nHvis du vil kan jeg også:\n- beregne **hvor stort prosjektfond Komplett har opptjent hittil**, eller  \n- forklare **hvordan dette påvirkes av insourcingen og nedtrappingen i 2026**.",
+      "keyword_score": 100.0,
+      "keyword_detaljer": {
+        "treff": 8,
+        "totalt": 8
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 8,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Svaret dekker alle fasitpunkter presist og profesjonelt, med korrekt signeringsinformasjon, vilkår, økonomisk modell og inkluderte tjenester. To nøkkelord mangler ('avsettes' og 'forbruk' i presis ordlyd), men innholdet er korrekt."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "KOMPLETT-06",
+      "kategori": "Avtaler",
+      "sporsmal": "Beskriv NaaS-avtalen med Komplett – faser, tidslinje og omfang.",
+      "forventet": "Avtalenr SA0029879. Fase 1 signert 22.04.2021. Fase 2 (2023): Sandefjord. Fase 3 (2023): Kontornett Sandefjord. 2025-utvidelse: MS250-svitsjer. ~285 Meraki-enheter. Månedlig kostnad ~NOK 260,000+.",
+      "svar": "NaaS‑avtalen (Network as a Service) mellom Atea og Komplett dekker drift, overvåking og livssyklusforvaltning av nettverksinfrastrukturen basert på Cisco Meraki. Løsningen er implementert i flere faser fra 2021 og frem til i dag, og er fortsatt en av de største gjenværende tjenestene etter nedtrappingen i 2026.\n\nNedenfor er en samlet oversikt over faser, tidslinje og omfang.\n\n1) Grunnleggende avtale  \n- Avtalenummer: SA0029879  \n- Tjeneste: Network as a Service (NaaS) – Cisco Meraki  \n- Oppstart: 22.04.2021 (Endringsbilag 7)  \n- Leveranse: Nettverksinfrastruktur som tjeneste inkludert WiFi, switching, sikkerhetsgateway og sentral administrasjon  \n- Plattform: Cisco Meraki (MR access points, MS switches, MX security appliances)  \n- Omfang i dag: ca. 285 Meraki-enheter  \n- Månedlig kostnad: ca. NOK 260,000+\n\nTjenesten inkluderer typisk:\n- Drift og overvåking av nettverksinfrastruktur  \n- Konfigurasjonsstyring via Meraki Dashboard  \n- Programvareoppdateringer og lifecycle management  \n- Feilsøking og support  \n- Kapasitetsoppfølging og forbedringer  \n\n2) Fase 1 – Etablering (2021)  \nDato: 22. april 2021\n\nDette var initial implementering av NaaS hos Komplett.\n\nOmfang:\n- Innføring av Meraki-basert nettverksplattform  \n- Inventar- og designetablering (Meraki v1/v2)  \n- Dokumentasjon og overleveringssjekkliste  \n- Grunnstruktur for administrasjon og overvåking\n\nResultat:\n- Komplett fikk et standardisert, skyadministrert nettverk via Meraki.\n\n3) Fase 2 – Lager og logistikknettverk Sandefjord (2023)  \nLokasjon: Østre Kullerød 4 og 5 (lagerbygg)\n\nOmfang:\n- Nytt trådløst nettverk for lager og produksjonsområder  \n- ApoS Site Survey for dekning og kapasitet  \n- Cisco Meraki switching og WiFi  \n- Integrasjon mot eksisterende NaaS-plattform\n\nRessurser fra Atea:\n- Elin Soderbergh – prosjektleder  \n- Petter Sangvik Øygarden – nettverk  \n- Diego Centeno  \n- Joacim Torkelsen  \n- Marius Waskaas  \n\nAnsvarsdeling:\n- Atea: design, konfigurasjon og implementering  \n- Komplett: kabling og fysisk montering\n\nFormål:\n- Stabil WiFi-dekning for lageroperasjoner og logistikk.\n\n4) Fase 3 – Kontornett Sandefjord (2023)  \nLokasjon:  \n- Østre Kullerød 4  \n- Østre Kullerød 5  \n- Mellombygg\n\nOmfang:\n- ApoS Site Survey (november 2023)  \n- Coverage Design Report (CDR) levert  \n- Oppgradering av kontornettverk  \n- Implementering av nye access points\n\nResultat:\n- 37 nye accesspunkter installert for bedre dekning og kapasitet i kontorområdene.\n\nRessurser:\n- Elin Soderbergh – prosjektleder  \n- Petter Sangvik Øygarden  \n- Marius Waskaas\n\n5) Utvidelse og kapasitetsoppgradering (2025)  \nI 2025 ble infrastrukturen videre utvidet.\n\nTiltak:\n- Nye MS250-switcher i datarom  \n- Oppgradering av SFP‑moduler  \n- Utvidet inventar\n\nSFP‑inventar (ca.):\n- LR: 153  \n- SR: 136  \n- CR4: 20  \n- SX: 2  \nTotalt ~291 moduler.\n\n6) Nåværende omfang (2026)  \nEtter nedtrapping av andre driftstjenester er NaaS fortsatt en sentral leveranse.\n\nOmfatter blant annet:\n- ~285 Meraki-enheter (MR, MS, MX)  \n- WiFi for kontor, lager og produksjon  \n- Switching i datarom og nettverksdistribusjon  \n- Sikker gateway (MX)  \n- Sentral drift via Meraki cloud  \n- Overvåking og support fra Atea\n\nMånedlig kostnad:\n- ca. NOK 260,000+\n\n7) Pågående utfordringer og forbedringer  \nDet er identifisert enkelte tekniske utfordringer i 2026:\n\nKapasitet:\n- MS125-switcher nær eller på kapasitetsgrense  \n- Ustabilitet i produksjonsmiljø\n\nTiltak under vurdering:\n- Ny nettverksarkitektur  \n- Testing av nyere Meraki/Cisco-switcher (f.eks. 9200-serie)  \n- Bytte av kritiske komponenter i produksjonsmiljø  \n- Vurdering av nye access points (WiFi 6 / WiFi 7)\n\nHvis du ønsker kan jeg også lage en kort lederoppsummering (1 side) av NaaS-avtalen med:\n- økonomi  \n- teknisk arkitektur  \n- risiko  \n- anbefalt neste steg for Komplett.",
+      "keyword_score": 92.3,
+      "keyword_detaljer": {
+        "treff": 12,
+        "totalt": 13
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Svaret dekker alle fasitpunkter presist, inkluderer alle nøkkelord, og er strukturert og profesjonelt uten feil eller irrelevant informasjon."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "KOMPLETT-07",
+      "kategori": "Økonomi",
+      "sporsmal": "Hva er den månedlige fakturaen til Komplett før og etter nedtrappingen?",
+      "forventet": "Før nedtrapping (okt 2025): NOK 830,254/mnd (~9,96 MNOK/år). Månedlig reduksjon: ~NOK 342,321. Etter nedtrapping: ~NOK 500,000/mnd. Kreditering identifisert mars 2026: NOK 131,255.",
+      "svar": "Ser på dette.\n\n**Før nedtrapping (før Endringsbilag 9):**\n- Månedlig faktura: ca. **NOK 830,254**\n- Årlig run rate: ca. **NOK 9,963,000**\n\n**Etter nedtrapping (fra mai 2026 når alle tjenester er avsluttet):**\n- Estimert månedlig faktura: ca. **NOK 500,000**\n- Månedlig reduksjon: ca. **NOK 342,321**\n\n**Bakgrunn (Endringsbilag 9 – signert 23.03.2026):**\n- Flere tjenester fases ut pga. insourcing hos Komplett.\n- Sluttdatoer:\n  - **31.01.2026:** Lokal ressurs Sandefjord, on‑prem serverdrift, Managed Print\n  - **30.04.2026:** Azure VM operations (69 servere), ServiceDesk, User-tjenester\n- ServiceDesk erstattes med **Catch & Dispatch: NOK 12,500/mnd**\n\n**Største gjenværende kostnad etter nedtrapping:**\n- **NaaS Meraki-nettverk:** ~NOK 260,000/mnd  \n- **VPN (473 brukere):** NOK 51,723/mnd  \n- **Infrastruktur (all-flash lagring):** NOK 49,958/mnd  \n- **SDM 50 %:** NOK 30,660/mnd  \n\nKort oppsummert:  \n- **Før:** ~830k/mnd  \n- **Etter:** ~500k/mnd  \n- **Reduksjon:** ~342k/mnd (≈ 4.1 MNOK årlig)\n\nSi ifra hvis du vil at jeg også bryter ned **hva som faktisk forsvinner fra fakturaen linje for linje** – det er nyttig i dialog med Henning.",
+      "keyword_score": 44.4,
+      "keyword_detaljer": {
+        "treff": 4,
+        "totalt": 9
+      },
+      "judge_scores": {
+        "korrekthet": 9,
+        "nokkelord_treff": 4,
+        "nokkelord_totalt": 5,
+        "hallusinering": 0,
+        "fullstendighet": 9,
+        "formatering": 10,
+        "begrunnelse": "Svaret er presist og dekker de viktigste tallene og endringene, men mangler eksplisitt omtale av krediteringen identifisert i mars 2026. Formateringen er ryddig og profesjonell."
+      },
+      "composite_score": 94.0
+    },
+    {
+      "id": "KOMPLETT-08",
+      "kategori": "Økonomi",
+      "sporsmal": "Hvilke tjenester beholdes etter nedtrappingen, og hva koster de?",
+      "forventet": "NaaS Meraki (~260K), Infrastruktur 2 servere/allflash (50K), VPN 473 brukere (52K), SDM 50% (31K), Backup 36TB (18K), Cloud Connect + ExpressRoute (27K), VM Atea DC 22 stk (14K), Catch & Dispatch (12.5K), Border Control (12K) m.fl.",
+      "svar": "Etter **Endringsbilag 9 (signert 23.03.2026)** ble flere driftstjenester faset ut. Følgende tjenester **beholdes i leveransen fra Atea til Komplett Services AS**:\n\n• Infrastruktur (2 servere + 2 × 30TB all‑flash lagring)  \n  Pris: **NOK 49 958 / måned**\n\n• Border Control 1 Gbps  \n  Pris: **NOK 11 753 / måned**\n\n• NaaS – Meraki nettverk (~285 enheter)  \n  Pris: **ca. NOK 260 000 / måned**\n\n• Cloud Connect mot Azure  \n  Pris: **NOK 15 561 / måned**\n\n• ExpressRoute Norway East  \n  Pris: **NOK 11 793 / måned**\n\n• Virtuelle maskiner i Atea datasenter (~22 VMs)  \n  Pris: **NOK 13 805 / måned**\n\n• Service Delivery Manager (50 %)  \n  Pris: **NOK 30 660 / måned**\n\n• VPN-tjeneste (473 brukere)  \n  Pris: **NOK 51 723 / måned**\n\n• Backup storage (36 082 GB)  \n  Pris: **NOK 18 402 / måned**\n\n• SQL Basic (8 instanser)  \n  Pris: **NOK 4 824 / måned**\n\n• Catch & Dispatch (erstatter full ServiceDesk)  \n  Pris: **NOK 12 500 / måned**\n\n• Diverse tjenester (sertifikater, RHEL, IP-adresser m.m.)  \n  Pris: **ca. NOK 20 000 / måned**\n\nØkonomisk oppsummert:\n\n- **Månedlig faktura før nedtrapping:** ca. **NOK 830 254**\n- **Reduksjon fra Endringsbilag 9:** ca. **NOK 342 321 / måned**\n- **Estimert ny månedlig kostnad:** ca. **NOK 500 000 / måned**\n- **Årlig run rate etter nedtrapping:** ca. **NOK ~6,0 MNOK**\n\nHvis du ønsker, kan jeg også:\n- bryte ned **hva som utgjør størst kostnadsdriver etter nedtrappingen**, eller  \n- vise **hvilke tjenester som faktisk står for 80–90 % av gjenværende omsetning (det er i praksis kun 2–3 poster)**.",
+      "keyword_score": 80.0,
+      "keyword_detaljer": {
+        "treff": 8,
+        "totalt": 10
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Agenten lister alle tjenester og priser korrekt, dekker alle fasitpunkter og bruker alle nøkkelord. Svaret er strukturert, presist og uten feilinformasjon."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "KOMPLETT-09",
+      "kategori": "Prosjekter",
+      "sporsmal": "Hva er status på Entra ID-migreringen hos Komplett?",
+      "forventet": "Delvis fullført. SHOWSTOPPER identifisert 31.10.2025: nåværende VPN-løsning støtter ikke Entra ID. Krever VPN-oppgradering eller alternativ før fullføring.",
+      "svar": "Ser på dette.\n\n**Status per nå: Entra ID‑migreringen hos Komplett er delvis gjennomført, men stoppet av en teknisk blokkering.**\n\n**Nåværende status**\n- Migreringen mot **Entra ID Only** er **påbegynt og delvis implementert**.\n- Flere identitets‑ og workspace‑komponenter er allerede flyttet eller klargjort.\n- **Full overgang er ikke mulig enda** på grunn av en identifisert showstopper.\n\n**Showstopper**\n- **Dato identifisert:** 31.10.2025  \n- **Problem:** Nåværende **VPN‑løsning støtter ikke autentisering via Entra ID**.\n- Dette gjør at brukere utenfor nettverket ikke kan autentiseres korrekt hvis man går helt over til Entra ID‑basert identitet.\n\n**Konsekvens**\n- Komplett kan ikke fullføre **Entra ID Only‑modellen** før VPN‑tilgangen støtter Entra‑autentisering.\n\n**Mulige løsninger**\n1. **Oppgradere eller bytte VPN‑løsning** til en som støtter Entra ID / modern auth.\n2. **Endre autentiseringsarkitektur** (f.eks. SASE/ZTNA‑basert tilgang).\n3. Midlertidig **hybrid identitetsmodell** frem til ny fjernaksess er på plass.\n\n**Relaterte initiativer**\n- HR‑integrasjon og onboarding‑flyt i Entra er også under vurdering etter utfordringer med brukeropprettelse.\n- Statusmøte er foreslått for å koordinere **Entra + HR‑integrasjon + VPN‑løsning**.\n\nHvis du vil kan jeg også gi deg:\n- hvilke **VPN‑alternativer Atea har foreslått**,  \n- eller et **forslag til løsningsarkitektur som løser Entra‑blokkeringen**.",
+      "keyword_score": 75.0,
+      "keyword_detaljer": {
+        "treff": 3,
+        "totalt": 4
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Svaret dekker alle aspekter fra fasit, bruker alle nøkkelord, og er strukturert og profesjonelt uten feilinformasjon."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "KOMPLETT-10",
+      "kategori": "Prosjekter",
+      "sporsmal": "Beskriv NIS2 compliance-prosjektet for Komplett.",
+      "forventet": "Prosjektplan datert 11.09.2025. Scrum-basert, 9 sprinter planlagt. Strategisk rådgiver: Nils-Georg Paus. Bakgrunn: Modenhetsanalyse (2024), NIS2 Modenhetsrapport (2025), Gap-analyse vår 2025.",
+      "svar": "Ser på dette.\n\n**NIS2 compliance-prosjektet for Komplett Services AS** er et strukturert sikkerhets- og styringsprogram etablert for å sikre etterlevelse av **EUs NIS2-direktiv** og tilhørende nasjonale krav. Prosjektet bygger på tidligere analyser og skal etablere både organisatoriske og tekniske sikkerhetskontroller.\n\n**Bakgrunn**\n- Modenhetsanalyse gjennomført i **2024**\n- **Gap-analyse våren 2025**\n- Basert på disse ble det utarbeidet en **prosjektplan datert 11.09.2025**\n\n**Formål**\nHovedmålet er å sikre at Komplett oppfyller kravene i **NIS2 artikkel 20–23**, som blant annet omfatter:\n- Styring og ledelsesforankring av informasjonssikkerhet  \n- Risikostyring og systemklassifisering  \n- Leverandør- og forsyningskjedesikkerhet  \n- Hendelseshåndtering og rapportering  \n- Beredskap (BCP/DR)  \n- Opplæring og sikkerhetskultur  \n- Teknologiske sikkerhetstiltak (MFA, logging, kryptografi, sårbarhetshåndtering)\n\n**Gjennomføringsmodell**\n- Metodikk: **Scrum-basert prosjektmodell**\n- Sprintlengde: **2–3 uker**\n- Totalt planlagt: **9 sprinter**\n- Hovedressurs fra Atea: **Nils‑Georg Paus (strategisk rådgiver)**\n\n**Sprintstruktur**\n\nSprint 1 – Etablere styringsmodell  \n- Governance for sikkerhet og NIS2-arbeid  \n- Roller, ansvar og rapporteringsstruktur  \n\nSprint 2 – Systemkartlegging  \n- Kartlegging av kritiske systemer  \n- Identifisering av avhengigheter  \n\nSprint 3 – Klassifisering og leverandøravhengigheter  \n- Kritikalitetsklassifisering  \n- Leverandør- og tredjepartsanalyse  \n\nSprint 4 – Risikovurdering  \n- Risikoanalyse på systemer og prosesser  \n\nSprint 5 – Policyutvikling  \n- Oppdatering/etablering av sikkerhetspolicyer  \n\nSprint 6 – Leverandørstyring  \n- Krav til leverandører  \n- Oppfølging av supply chain security  \n\nSprint 7 – Opplæring og sikkerhetskultur  \n- Awareness-program  \n- Opplæring av ansatte  \n\nSprint 8 – Risiko-reduserende tiltak (fase 1)  \n- Implementering av prioriterte sikkerhetstiltak  \n\nSprint 9 – Risiko-reduserende tiltak (fase 2) og operasjonalisering  \n- Sluttføring av tekniske tiltak  \n- Rapportering og operasjonalisering i drift\n\n**Leveranser**\nProsjektet skal resultere i:\n- Oppdatert **ISMS (Information Security Management System)**\n- Dokumenterte **risikovurderinger**\n- Nye eller oppdaterte **policyer og styringsdokumenter**\n- **Leverandørstyringsmodell**\n- Implementerte tekniske sikkerhetstiltak\n- Struktur for **NIS2-hendelsesrapportering**\n\n**Ressursmodell**\n- 3 fagressurser fra Atea:\n  - Scrum Master  \n  - Sikkerhetseksperter  \n  - Teknisk rådgiver  \n- Leveranseform: hovedsakelig **remote bistand**\n\n**Strategisk betydning for Komplett**\nProsjektet skal sikre at Komplett:\n- møter regulatoriske krav i NIS2\n- reduserer cyberrisiko\n- etablerer mer moden sikkerhetsstyring\n- får bedre kontroll på leverandørkjeden og kritisk infrastruktur\n\nHvis ønskelig kan jeg også beskrive:\n- **hva NIS2 konkret betyr for Kompletts IT‑miljø**, eller  \n- **hvilke tiltak som typisk vil påvirke deres Azure-, nettverks- og identitetsplattform mest.**",
+      "keyword_score": 100.0,
+      "keyword_detaljer": {
+        "treff": 10,
+        "totalt": 10
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Svaret dekker alle aspekter fra fasit, bruker alle nøkkelord, er korrekt, uten hallusinering, og er meget godt strukturert og profesjonelt presentert."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "KOMPLETT-11",
+      "kategori": "Prosjekter",
+      "sporsmal": "Hva er situasjonen med nettverksinfrastrukturen hos Komplett?",
+      "forventet": "MS125-svitsjer nær kapasitetsgrense, forårsaker ustabilitet i produksjon. Foreslått oppgradering til MS250 eller Meraki 9200-serie. Ny nettverksdesign med ekstern arkitekt planlagt. Spesielle behov: MAC-adressehåndtering, WiFi 6/7 i produksjon/retur.",
+      "svar": "Ser på dette.\n\nKort status: Nettverksinfrastrukturen hos Komplett er fortsatt driftet av Atea gjennom **NaaS-avtalen (Network as a Service)**, men infrastrukturen begynner å nå **kapasitetsgrenser enkelte steder**, spesielt i produksjonsmiljøet i Sandefjord. Det pågår derfor diskusjoner om redesign og oppgraderinger.\n\nHer er hovedbildet:\n\n**1. Aktiv avtale – NaaS**\n- Avtalenummer: **SA0029879**\n- Første fase signert: **22.04.2021**\n- Senere utvidelser: **2023 (fase 2 og 3)** + **2025 oppgradering**\n- Infrastruktur: ca. **285 Cisco Meraki-enheter** (MR access points, MS switcher, MX brannmurer)\n- Månedlig kostnad: ca. **NOK 260 000+**\n- Dekker kontor, lager og produksjonsnett i **Sandefjord (Østre Kullerød 4 og 5)**\n\n**2. Kapasitetsproblemer (2026)**\nDette er den viktigste operative utfordringen nå.\n\n- **MS125-switcher** har nådd eller nærmer seg **kapasitetsgrense**\n- Har ført til **ustabilitet og potensielle driftsstans i produksjonsnett**\n- Cisco support jobbet i ~2 uker uten permanent løsning\n- Midlertidig tiltak:  \n  - En større switch ble **flyttet fra datarom til produksjon**\n\nViktig:  \n- **MS125 er fortsatt i support (~4 år igjen)**  \n- Men modellen **er ute av salg**, noe som gjør fremtidige utvidelser vanskelig.\n\n**3. Planlagte tiltak / neste steg**\nFølgende er diskutert i taktiske møter (mars 2026):\n\n- Etablere **ny nettverksdesign-workshop** med ekstern arkitekt\n- Vurdere oppgradering til:\n  - **Meraki MS250**\n  - eller **Cisco Catalyst / Meraki 9200-serie**\n- Test av **nye accesspunkter (WiFi 6 / WiFi 7)**\n- Kartlegge hvilke switcher Atea har tilgjengelig på lager for midlertidige tiltak\n\n**4. Tidligere WiFi-problemer**\nPå ansatt-WiFi (VLAN24, Kaupang):\n\n- Brukere mistet nett under Teams-møter\n- Tiltak som ble gjort:\n  - Disable **Client Balancing**\n  - Disable **Band Steering**\n  - Vurdere å deaktivere **2.4 GHz**\n  - Testing av **WiFi6-innstillinger**\n\n**5. Infrastruktur etter insourcing**\nSelv etter nedtrappingen av driftsavtalen (Endringsbilag 9):\n\nAtea leverer fortsatt:\n- **NaaS nettverk (~285 enheter)**\n- **Border Control**\n- **Cloud Connect / ExpressRoute**\n- Nettverksdrift og overvåking\n\nDette betyr at **nettverket fortsatt er en av de største gjenværende leveransene fra Atea** til Komplett.\n\n**Kort vurdering**\n- Nettverket fungerer, men **skaleringsgrensen på MS125 er nå nådd i deler av miljøet**.\n- Komplett trenger sannsynligvis **arkitekturendring eller maskinvareoppgradering innen relativt kort tid** for å unngå produksjonsrisiko.\n\nHvis du vil, kan jeg også gi deg:\n- en **visuell oversikt over hele nettverksarkitekturen hos Komplett**, eller  \n- **hva en realistisk oppgraderingsplan (pris + tidslinje)** ville sett ut som.",
+      "keyword_score": 83.3,
+      "keyword_detaljer": {
+        "treff": 5,
+        "totalt": 6
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 9,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Svaret dekker alle aspekter fra fasiten, er presist, uten feilinformasjon, og svært godt strukturert. Nesten alle nøkkelord er med, og spesielle behov som MAC-adressehåndtering nevnes indirekte gjennom detaljer om WiFi og produksjon."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "KOMPLETT-12",
+      "kategori": "Nedtrapping",
+      "sporsmal": "Gi en oversikt over Endringsbilag 9 og nedtrappingsplanen for Komplett.",
+      "forventet": "Datert 23.03.2026. Komplett insourcer (e-post Henning Ims 03.11.2025). Lokal ressurs Sandefjord terminert 31.01.2026. Azure VMs (69 stk), ServiceDesk, User Basic, Print avsluttes 30.04.2026. 12-mnd verdi: NOK 2,550,970. Avbestillingsgebyr frafalt.",
+      "svar": "Ser på dette.\n\nHer er en samlet oversikt over **Endringsbilag 9 – nedtrapping av tjenester for Komplett Services AS** under hovedavtalen **SSA‑D driftsavtale SA0132799**.\n\nHovedinformasjon  \n- Avtale: SSA‑D 2018 – Drift av IT‑systemer og skytjenester  \n- Avtalenummer: SA0132799  \n- Opprinnelig oppstart: 01.07.2024  \n- Opprinnelig varighet: 5 år  \n- Utløper: 01.07.2029  \n- Endringsbilag: Nr. 9  \n- Signert / datert: 23.03.2026  \n- Bakgrunn: Komplett besluttet å **insource flere drifts- og brukertjenester** (kommunisert av Henning Ims 03.11.2025).\n\nØkonomisk effekt  \n- Månedlig faktura før nedtrapping: ca. **NOK 830,254**  \n- Månedlig reduksjon: ca. **NOK 342,321**  \n- Estimert ny månedlig run rate: ca. **NOK 500,000**  \n- 12‑måneders verdi av nedtrapping: **NOK 2,550,970**  \n- Avbestillingsgebyr: **0 NOK** (6 mnd varsel oppfylt)\n\nTjenester som avsluttes\n\nSluttdato 31.01.2026  \n- Lokal ressurs Sandefjord – 1 stk – **NOK 122,640/mnd**  \n- Basic Operation on‑prem servere – 19 stk – **NOK 11,923/mnd**  \n- Managed Print Queue – 290 stk – **NOK 33,788/mnd**\n\nSluttdato 30.04.2026  \n- Azure VM Windows Operations – 55 stk – **NOK 34,513/mnd**  \n- Azure VM Linux Operations – 14 stk – **NOK 8,785/mnd**  \n- Standard ServiceDesk – 640 brukere – **NOK 90,266/mnd**  \n- User Basic – 578 brukere – **NOK 41,940/mnd**  \n- User Basic grunnpris – **NOK 9,309/mnd**  \n- User Third Party – 16 brukere – **NOK 2,780/mnd**\n\nTekniske konsekvenser  \n- **69 Azure‑servere** (55 Windows + 14 Linux) dekommisjoneres  \n- Bruker‑ og servicedeskdrift flyttes internt hos Komplett  \n- Printplattform fases ut fra Atea‑drift\n\nNy tjeneste etter nedtrapping  \nFor å håndtere hendelser uten full servicedesk:\n\n- **Catch & Dispatch**  \n- Pris: **NOK 12,500 per måned**  \n- Funksjon: Førstelinje mottak og videresending av saker til riktig team hos Komplett eller tredjepart.\n\nTjenester som blir igjen hos Atea (etter 30.04.2026)\n\nInfrastruktur  \n- Infrastrukturplattform (2 servere + 2x30TB all‑flash) – **NOK 49,958/mnd**  \n- VM i Atea datasenter (~22 VM) – **NOK 13,805/mnd**\n\nNettverk  \n- NaaS Meraki (~285 enheter) – **ca. NOK 260,000/mnd**  \n- Border Control 1 Gbps – **NOK 11,753/mnd**  \n- ExpressRoute Norway East – **NOK 11,793/mnd**  \n- Cloud Connect Azure – **NOK 15,561/mnd**\n\nBruker / sikkerhet / drift  \n- VPN (473 brukere) – **NOK 51,723/mnd**  \n- Backup (36 TB) – **NOK 18,402/mnd**  \n- SQL Basic (8 instanser) – **NOK 4,824/mnd**  \n- Service Delivery Manager 50% – **NOK 30,660/mnd**  \n- Catch & Dispatch – **NOK 12,500/mnd**\n\nStrategisk konsekvens for kundeforholdet  \n- Komplett går fra **full managed drift** til **infrastruktur + nettverk + utvalgte driftstjenester**.  \n- Den største gjenværende kontraktsverdien ligger nå i **NaaS (Meraki‑plattformen)**.\n\nNeste kritiske milepæler  \n- 30.04.2026: Full effekt av nedtrapping  \n- Oppfølging:  \n  - server‑dekommisjonering (69 Azure VM)  \n  - overgang til Catch & Dispatch  \n  - fakturajustering etter tjenesteutfasing\n\nHvis du vil kan jeg også lage:  \n- en **før/etter kontraktsverdi‑analyse**, eller  \n- en **risikovurdering for Atea etter insourcing‑beslutningen** (hvor vi fortsatt tjener penger og hvor risikoen ligger).",
+      "keyword_score": 86.7,
+      "keyword_detaljer": {
+        "treff": 13,
+        "totalt": 15
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Svaret dekker alle punkter i fasiten presist, inkluderer alle nøkkelord, og er strukturert profesjonelt uten feilinformasjon."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "KOMPLETT-13",
+      "kategori": "Nedtrapping",
+      "sporsmal": "Hvor mange servere skal dekommisjoneres, og hva er tidsplanen?",
+      "forventet": "69 Azure-servere (55 Windows + 14 Linux). On-prem Sandefjord: 19+2 servere (avsluttet 31.01.2026). Azure VM-operasjoner avsluttes 30.04.2026. ~22 VMs i Atea Datasenter beholdes.",
+      "svar": "Ser på dette.\n\n**Totalt antall servere som skal dekommisjoneres:**  \n- **69 Azure‑servere**\n  - **55 Windows VM**\n  - **14 Linux VM**\n\n**Tidsplan (fra Endringsbilag 9 – signert 23.03.2026):**\n\n- **31.01.2026**\n  - 19 **on‑prem servere (Basic Operation)** avsluttet\n  - Lokal ressurs i Sandefjord avsluttet\n\n- **30.04.2026**\n  - **55 Azure Windows VM** avsluttes\n  - **14 Azure Linux VM** avsluttes  \n  → Totalt **69 Azure-servere dekommisjoneres innen denne datoen**\n\n**Bakgrunn:**  \nDette er en del av Komplett sin beslutning om **insourcing av driftstjenester** (kommunisert av Henning Ims 03.11.2025), og er formalisert i **Endringsbilag 9 til SSA‑D avtale SA0132799**.\n\n**Status etter utfasing (Atea drift):**\n- ca. **22 VM igjen i Atea datasenter**\n- øvrige infrastrukturtjenester beholdes (NaaS, backup, VPN, Cloud Connect osv.)\n\nHvis du vil kan jeg også sende:\n- komplett **serverliste for de 69 Azure‑VMene**, eller  \n- **avhengighetsrisikoene** vi har identifisert før shutdown.",
+      "keyword_score": 87.5,
+      "keyword_detaljer": {
+        "treff": 7,
+        "totalt": 8
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Svaret er presist, dekker alle aspekter fra fasit, inneholder alle nøkkelord og er profesjonelt og tydelig strukturert. Ingen feilinformasjon eller unødvendig informasjon er lagt til."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "KOMPLETT-14",
+      "kategori": "Utfordringer",
+      "sporsmal": "Hva er de største utfordringene i Komplett-kontoen akkurat nå?",
+      "forventet": "1) Omsetningsnedgang pga insourcing (830K→500K/mnd), 2) Fakturafeil NOK 131K kreditering, 3) VPN/Entra ID showstopper, 4) Printproblemer (IP-tap), 5) Nettverkskapasitet MS125-svitsjer, 6) Onboarding-feil, 7) 69 servere utfasing med ukjente avhengigheter.",
+      "svar": "Ser på dette.\n\nPer nå er det særlig **5–7 strategiske og operative utfordringer** i Komplett-kontoen som påvirker både leveransen og kundeforholdet:\n\n1. **Insourcing av tjenester (største kommersielle risiko)**  \n   Komplett har besluttet å ta flere driftstjenester in-house. Dette er formalisert i **Endringsbilag 9 (23.03.2026)** til SSA‑D‑avtalen.\n\n   Nøkkeltall:\n   - Avtale: **SSA‑D Drift – SA0132799**\n   - Start: **01.07.2024**\n   - Slutt: **01.07.2029**\n   - Varighet: **5 år**\n   - Oppsigelse: **6 måneder**\n\n   Konsekvens:\n   - Månedlig faktura reduseres fra ca. **NOK 830 254 → ~NOK 500 000**\n   - Nedgang: **~NOK 342 321 per måned**\n   - Årlig verdi ut av avtalen: **NOK 2 550 970**\n\n   Tjenester som fases ut:\n   - ServiceDesk (640 brukere)\n   - User management (578 brukere)\n   - 69 Azure‑servere (55 Windows + 14 Linux)\n   - Managed Print (290 køer)\n   - Lokal ressurs i Sandefjord\n\n   Atea sitter igjen primært med:\n   - **NaaS nettverk (~285 Meraki‑enheter)**\n   - Infrastruktur / DC\n   - VPN\n   - Backup\n   - Cloud Connect / ExpressRoute\n   - SOC+\n\n2. **Nettverkskapasitet – risiko for produksjonsproblemer**  \n   Flere **MS125‑switcher er på kapasitetsgrensen** i produksjonsmiljøet i Sandefjord.\n\n   Konsekvenser:\n   - ustabilitet i produksjonsnett\n   - potensielle driftsstans\n   - Cisco support har jobbet med saken uten full løsning\n\n   Tiltak som diskuteres:\n   - nytt **nettverksdesign**\n   - test av **Cisco Meraki 9200-serie**\n   - utskifting av kritiske switcher\n\n3. **VPN blokkerer Entra ID Only-migrering**  \n   Komplett ønsker å gå **Entra ID‑only**, men dagens VPN-løsning støtter ikke dette.\n\n   Resultat:\n   - Migreringen er **stoppet (showstopper)**.\n   - Krever enten:\n     - ny VPN-løsning, eller\n     - arkitekturendring.\n\n4. **Fakturafeil og tillitsrisiko**  \n   Det er identifisert feil i fakturering:\n\n   - **Kreditering: NOK 131 255**\n   - Feil kategorisering av roller og timepriser\n   - Komplett har bedt om **kontroll av 14 måneder historikk**\n\n   Risiko:\n   - påvirker tillit\n   - fakturaer holdes tilbake til avklaring.\n\n5. **Serverutfasing – operasjonell risiko**  \n   **69 Azure‑servere skal dekommisjoneres** innen **30.04.2026**.\n\n   Utfordring:\n   - avhengigheter er ikke fullt kartlagt\n   - risiko for å slå av systemer som fortsatt brukes.\n\n6. **Flere operasjonelle IT‑problemer hos kunden**\n\n   Eksempler:\n   - **Skrivere mister IP‑adresse sporadisk**\n   - **Onboarding av nye brukere feiler**\n   - **Bestillingssystem for hardware krever nesten manuell drift**\n\n   Dette påvirker brukeropplevelse og gir IT‑teamet hos Komplett ekstra belastning.\n\n7. **Strategisk usikkerhet etter ny CEO**  \n   Ny konsernsjef startet **mars 2026** (bakgrunn fra olje/gass).  \n   Slike skifter fører ofte til:\n\n   - ny sourcing‑strategi\n   - kostnadskutt\n   - økt kontroll på IT‑kostnader\n\n   Insourcing-beslutningen kan være første tegn på dette.\n\n---\n\nKort oppsummert er de **tre viktigste sakene akkurat nå**:\n\n1. **Insourcing → stort omsetningsfall for Atea**\n2. **Nettverkskapasitetsproblemer i produksjon**\n3. **VPN blocker Entra ID‑strategien**\n\n---\n\nHvis du vil, kan jeg også vise deg:\n\n- **hvor vi faktisk fortsatt kan vokse i denne kontoen (3–5 realistiske salgsmuligheter)**  \n- eller **hva som er den reelle risikoen for at NaaS‑avtalen også forsvinner.** Det er egentlig den største strategiske risikoen.",
+      "keyword_score": 55.6,
+      "keyword_detaljer": {
+        "treff": 5,
+        "totalt": 9
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Agenten dekker alle hovedpunktene i fasiten presist, bruker alle nøkkelord, og gir ingen feilinformasjon. Svaret er svært godt strukturert og profesjonelt presentert."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "KOMPLETT-15",
+      "kategori": "Strategi",
+      "sporsmal": "Hvilke vekstmuligheter finnes i Komplett-kontoen til tross for nedtrappingen?",
+      "forventet": "NaaS-utvidelse (MS250/9200-svitsjer, arkitekt), NIS2-compliance, Entra ID (VPN-oppgradering), E5-lisensiering, CSP prosjektfond (10% Azure), Cloud Operations/Automation, SharePoint-migrering, DFV bestillingsløsning, KATE AI-agent (demonstrert mars 2026).",
+      "svar": "Ser på dette.\n\nSelv med nedtrappingen i **Endringsbilag 9 (23.03.2026)** – hvor månedlig run rate går fra ca. **NOK 830 254 til ~NOK 500 000** – finnes det fortsatt flere tydelige vekstspor i Komplett-kontoen. De viktigste ligger innen **nettverk, sikkerhet, AI/M365 og rådgivning**.\n\nHer er de mest realistiske mulighetene:\n\n1. Nettverksmodernisering (størst kortsiktig potensial)  \nKomplett har allerede **kapasitetsproblemer på MS125-switcher**, som skaper ustabilitet i produksjonen.\n\nStatus:\n- MS125 nær kapasitetsgrense\n- Cisco-support har vært involvert i 2 uker\n- Midlertidig løsning: flytte større switch fra datarom til produksjon\n- MS125 og MS250 er ikke lenger i salg\n\nMulighet for Atea:\n- Ny **nettverksarkitektur for Sandefjord**\n- Oppgradering til **Cisco Catalyst 9200 / ny Meraki-generasjon**\n- Nye accesspunkter (WiFi 6/7)\n- Design- og arkitekturbistand\n\nDette kan gi:\n- Konsulentprosjekt\n- Ny hardware\n- Økt NaaS‑scope\n\nNaaS er allerede ca. **NOK 260 000/mnd**, så en refresh kan både sikre og øke denne inntekten.\n\n---\n\n2. VPN / Entra ID-løsning (teknisk showstopper)  \nKomplett ønsker **Entra ID only**, men dagens VPN støtter ikke dette.\n\nStatus:\n- 473 VPN-brukere\n- Blokkerer identitetsstrategien deres\n\nMulige leveranser:\n- Ny **Zero Trust / Entra-integrert VPN**\n- SASE / ZTNA (f.eks. Entra Private Access, Cisco Secure Access eller tilsvarende)\n- Konsulentprosjekt + ny driftstjeneste\n\nDette er en **reell blocker hos kunden**, som gir høy sannsynlighet for investering.\n\n---\n\n3. Copilot / AI-utrulling  \nKomplett har allerede:\n\n- **Copilot forprosjekt signert**\n- 10 pilotbrukere\n- Discovery & Mapping gjennomført\n\nMen organisasjonen mangler:\n- Sensitivity labels\n- DLP-struktur\n- informasjonsarkitektur\n\nMulige leveranser:\n\n- **Purview Simplified Solution** (~98 timer konsulentarbeid)\n- Informasjonsarkitekt\n- Copilot governance\n- Copilot-adopsjonsprogram\n- AI-workshops og agentløsninger\n\nDette kan bli en **strategisk rådgivningslinje**, spesielt siden AI ble diskutert i taktisk møte 26.03.2026.\n\n---\n\n4. NIS2 compliance (rådgivning + sikkerhet)  \nProsjektet er allerede startet.\n\nRamme:\n- **9 sprinter**\n- Scrum-basert leveranse\n- Strategisk rådgiver: **Nils‑Georg Paus**\n\nDekker bl.a.:\n\n- leverandørstyring\n- risikovurdering\n- BCP/DR\n- tekniske sikkerhetstiltak\n- hendelseshåndtering\n\nMulige tilleggssalg:\n\n- implementering av sikkerhetskontroller\n- logging/SIEM-utvidelser\n- sårbarhetshåndtering\n- governance og ISMS\n\nDette er et **regulatorisk drevet område**, altså relativt stabil etterspørsel.\n\n---\n\n5. Microsoft-lisensstrategi  \nKomplett har mål om å **spare NOK 4 000 000 årlig på lisenser**.\n\nMuligheter:\n\n- E3 vs E5-optimalisering\n- 3-års reserved instances / license commitment\n- Copilot licensing strategy\n- CSP-bruk av prosjektfond\n\nCSP-avtalen gir også:\n\n- **10 % av Azure-forbruk til prosjektfond**\n- opptil **50 % prosjektfinansiering etter 2025**\n\nDette kan finansiere rådgivningsprosjekter.\n\n---\n\n6. Bestillingsplattform / “Frie Valg”  \nDe sliter med:\n\n- manuelt katalogarbeid\n- tung administrasjon\n\nMuligheter:\n\n- automatisering\n- integrasjon mot HR / Entra\n- white-label e-handelsløsning\n\nDette er mindre volum, men kan være et **strategisk digitaliseringsprosjekt**.\n\n---\n\n7. Sikkerhetstjenester (SOC+ utvidelser)  \nSOC+ er allerede aktivt.\n\nMulige utvidelser:\n\n- MDR/XDR\n- identitetsovervåkning\n- Purview compliance monitoring\n- NIS2-rapportering\n\n---\n\nKort oppsummert – de 4 mest realistiske vekstdriverne:\n\n1. **Nettverksmodernisering (Catalyst / Meraki refresh)**  \n2. **Entra ID / Zero Trust VPN-løsning**  \n3. **Copilot + Purview governance**  \n4. **NIS2 sikkerhetsimplementering**\n\nDisse kan samlet gi **prosjekt- og tjenesteinntekter som delvis kompenserer for ~4 MNOK årlig nedgang fra insourcing**.\n\n---\n\nHvis du vil, kan jeg også lage en **konkret konto-vekststrategi for 2026–2027 (med estimert NOK-potensial per område)**. Det gjør det mye enklere å prioritere hva vi faktisk bør selge inn først.",
+      "keyword_score": 28.6,
+      "keyword_detaljer": {
+        "treff": 4,
+        "totalt": 14
+      },
+      "judge_scores": {
+        "korrekthet": 9,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 9,
+        "formatering": 10,
+        "begrunnelse": "Svaret dekker alle hovedpunktene i fasiten, bruker alle nøkkelord, og er svært strukturert og profesjonelt. Kun mindre detaljer som KATE AI-agent og SharePoint-migrering nevnes ikke eksplisitt."
+      },
+      "composite_score": 94.0
+    }
+  ]
+}

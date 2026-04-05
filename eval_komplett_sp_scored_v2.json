@@ -1,0 +1,238 @@
+{
+  "scoring_metode": "dual",
+  "judge_model": "gpt-4.1",
+  "keyword_gjennomsnitt": 77.1,
+  "composite_gjennomsnitt": 96.4,
+  "kategori_gjennomsnitt_composite": {
+    "Copilot Discovery": 97.2,
+    "Møtereferat": 98.0,
+    "NIS2 Prosjektplan": 100.0,
+    "NaaS Detaljer": 85.5
+  },
+  "kategori_gjennomsnitt_keyword": {
+    "Copilot Discovery": 85.0,
+    "Møtereferat": 80.8,
+    "NIS2 Prosjektplan": 69.2,
+    "NaaS Detaljer": 50.0
+  },
+  "antall_sporsmal": 8,
+  "resultater": [
+    {
+      "id": "SP-01",
+      "kategori": "Copilot Discovery",
+      "sporsmal": "I Copilot Discovery & Mapping rapporten for Komplett — hvor mange brukere ble inkludert i pilotprogrammet for Copilot, og hva var hovedanbefalingen før bredere utrulling?",
+      "forventet": "10 brukere i pilotprogrammet. Anbefaling: Før mer enn 10 brukere må anbefalingene i rapporten følges. Atea anbefaler 'Advise + Plan and Implement' steget. Bør også nevne behov for informasjonsarkitekt og Purview/sensitivity labels.",
+      "kilde": "CoPilot/Komplett Microsoft Copilot for M365 Discovery and Mapping.pdf, side 11",
+      "svar": "I rapporten **“Copilot M365 – Discovery and Mapping” (22.02.2024)** for Komplett:\n\n**Pilotprogram**\n- **10 brukere** fikk tilgang til Copilot i pilotfasen.\n\n**Hovedanbefaling før bredere utrulling**\nAtea anbefaler at Komplett **ikke ruller ut Copilot bredt før informasjonsstyring og sikkerhetskontroller er etablert**. Konkret:\n\n- Gjennomføre neste fase: **“Advise + Plan and Implement”**\n- **Onboarde en informasjonsarkitekt** for å etablere en helhetlig **informasjonsstrategi**\n- Implementere **Microsoft Purview‑kontroller**, spesielt:\n  - Sensitivity labels\n  - Oppdaterte **DLP-regler**\n  - Strukturert tilgangsstyring og gruppestruktur\n- Etablere bedre **governance for SharePoint og M365-grupper**\n- Oppdatere **Exchange/MRM-policyer** og redusere uregulert e‑postvideresending\n\nBakgrunnen er at analysen fant flere gap:\n- Kun **2 DLP‑regler**\n- **Ingen sensitivity labels**\n- Utdatert DLP/MRM-policy (ikke oppdatert siden 2020)\n- Inkonsistent tilgangsstyring og fri opprettelse av M365‑grupper.\n\n**Konklusjon i rapporten:**  \nDet er **trygt å kjøre pilot med 10 betrodde brukere**, men **før utrulling til flere ansatte bør governance- og Purview‑tiltakene implementeres**.\n\nHvis du vil, kan jeg også oppsummere **de 7 foreslåtte sensitivity label‑klassene** som rapporten anbefaler for Komplett.",
+      "sharepoint_indikatorer": [
+        "Refererer til dokument/kilde",
+        "Copilot Discovery-terminologi",
+        "Copilot pilot-detaljer",
+        "Purview/DLP-funn"
+      ],
+      "tegn": 1306,
+      "keyword_score": 75.0,
+      "keyword_detaljer": {
+        "treff": 3,
+        "totalt": 4
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Svaret er presist, dekker alle aspekter fra fasiten, inkluderer alle nøkkelord og gir ingen feilinformasjon. Strukturen er profesjonell og tydelig."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "SP-02",
+      "kategori": "Copilot Discovery",
+      "sporsmal": "Hva fant Atea om Kompletts DLP-policyer og Purview-konfigurasjon i Copilot Discovery-rapporten? Vær spesifikk om antall og status.",
+      "forventet": "Komplett har kun 1 DLP-policy som ikke er oppdatert siden 2020. Purview har kun 2 DLP-regler. Ingen sensitivity labels er konfigurert. Bruker default MRM-policyer for Exchange som er utdaterte. Ufullstendig GDPR-rapport i Compliance Manager.",
+      "kilde": "CoPilot/Komplett Microsoft Copilot for M365 Discovery and Mapping.pdf, side 7-10",
+      "svar": "I Copilot Discovery & Mapping‑rapporten (22.02.2024) fant Atea flere konkrete svakheter i Kompletts **DLP‑policyer og Microsoft Purview‑konfigurasjon**. De viktigste funnene var:\n\n**DLP‑policyer**\n- Kun **2 DLP‑regler** var konfigurert i miljøet.\n- Det eksisterte **1 aktiv DLP‑policy**, men den var **ikke oppdatert siden 2020**.\n- Policyen ble vurdert som **utdatert og utilstrekkelig** for dagens behov, spesielt med tanke på Copilot‑bruk og håndtering av sensitiv informasjon.\n\n**Sensitivity Labels**\n- **Ingen sensitivity labels var implementert** i tenantet.\n- Det fantes dermed **ingen klassifiseringsstruktur for dokumenter eller e‑post**.\n\n**Purview / Compliance‑oppsett**\n- **Exchange MRM‑policyer (retention)** var **standard og utdaterte**.\n- **Compliance Manager‑rapporten for GDPR var ufullstendig**.\n- Manglende guardrails for **e‑post‑DLP og dataeksfiltrasjon**.\n- Utstrakt bruk av **automatiske videresendinger via mail flow og Outlook‑regler**, uten DLP‑kontroll.\n\n**Atea sin anbefaling før bred Copilot‑utrulling**\n- Etablere en **strukturert informasjonsklassifisering**.\n- Implementere **sensitivity labels (Atea foreslo 7 standard labels)**.\n- Utvide og modernisere **DLP‑regler for GDPR‑sensitiv informasjon** (f.eks. fødselsnummer, adresser).\n- Implementere dette enten via **informasjonsarkitekt‑løp** eller **Purview Simplified Solution‑prosjektet**.\n\nKort sagt: miljøet hadde **svært begrenset DLP‑beskyttelse (2 regler / 1 utdatert policy)** og **ingen klassifiseringsmodell**, noe som var hovedårsaken til at Atea anbefalte å styrke Purview‑oppsettet før Copilot tas i bruk bredt.",
+      "sharepoint_indikatorer": [
+        "Copilot Discovery-terminologi",
+        "Copilot pilot-detaljer",
+        "Purview/DLP-funn"
+      ],
+      "tegn": 1609,
+      "keyword_score": 80.0,
+      "keyword_detaljer": {
+        "treff": 4,
+        "totalt": 5
+      },
+      "judge_scores": {
+        "korrekthet": 9,
+        "nokkelord_treff": 8,
+        "nokkelord_totalt": 10,
+        "hallusinering": 1,
+        "fullstendighet": 9,
+        "formatering": 10,
+        "begrunnelse": "Agentens svar er presist og dekker alle hovedpunktene fra fasit, inkludert antall policyer/regler, status og manglende sensitivity labels. Det er kun små avvik i detaljnivå og noen ekstra anbefalinger, men ingen vesentlige feil."
+      },
+      "composite_score": 91.5
+    },
+    {
+      "id": "SP-03",
+      "kategori": "Copilot Discovery",
+      "sporsmal": "Hvilke sensitivity labels ble foreslått for Komplett i Copilot Discovery-rapporten? List dem opp.",
+      "forventet": "7 labels: Public, General Information, Internal Only, Confidential Internal (protected), User defined Confidential (protected), Sales Information (Pureview_Sales_Information@Komplett.no), HR Information (HRDepartment@komplett.no), Management Information (Management_Information@Komplett.no).",
+      "kilde": "CoPilot/Komplett Microsoft Copilot for M365 Discovery and Mapping.pdf, side 13-14",
+      "svar": "I Copilot **Discovery and Mapping‑rapporten (22.02.2024)** ble følgende **sensitivity labels foreslått for Komplett**:\n\n- Public  \n- General Information  \n- Internal Only  \n- Confidential Internal (protected)  \n- User defined Confidential (protected)  \n- Sales Information (Pureview_Sales_Information@komplett.no)  \n- HR Information (HRDepartment@komplett.no)  \n- Management Information (Management_Information@Komplett.no)\n\nDisse labelene ble foreslått som grunnstruktur for **Microsoft Purview Information Protection**, med fokus på å beskytte spesielt **GDPR‑sensitiv informasjon (f.eks. fødselsnummer og adresser)** og samtidig etablere et klassifiseringsnivå som Copilot kan bruke trygt.\n\nGi beskjed hvis du også vil ha:\n- hvordan disse bør **mappe til DLP‑regler**, eller  \n- hvordan **NetOnNet‑modellen** som Komplett ønsket å speile faktisk er strukturert.",
+      "sharepoint_indikatorer": [
+        "Copilot Discovery-terminologi",
+        "Copilot pilot-detaljer",
+        "Purview/DLP-funn"
+      ],
+      "tegn": 864,
+      "keyword_score": 100.0,
+      "keyword_detaljer": {
+        "treff": 13,
+        "totalt": 13
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Agenten lister opp alle de foreslåtte sensitivity labels nøyaktig som i fasiten, bruker alle relevante nøkkelord, og svaret er strukturert og profesjonelt uten feil eller unødvendig informasjon."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "SP-04",
+      "kategori": "Møtereferat",
+      "sporsmal": "Hva ble diskutert om nettverksinfrastruktur i det taktiske møtet 26. mars 2026? Hva var de konkrete aksjonspunktene?",
+      "forventet": "MS125-switcher har kapasitetsproblemer, nærmer seg/nådd kapasitetsgrense. Forslag: bytte til MS250 eller 9200-serien. Aksjonspunkter: 1) Sette opp møte med AS for topologi-gjennomgang og få inn arkitekt, 2) Bytte ut kritiske nettverkskomponenter, 3) Teste nye Meraki 9200 switcher, 4) Sjekke tilgjengelige switcher fra lager.",
+      "kilde": "Taktiske møter/AI Oppsummeringer og Notater/Transkribering og Copilot sammendrag Taktisk 26.03.26 Komplett.docx",
+      "svar": "I det **taktiske møtet 26.03.2026** ble nettverksinfrastrukturen i Sandefjord diskutert som en **kritisk kapasitetsutfordring**.\n\nStatus som ble gjennomgått:\n\n- **MS125-switchene** har nådd eller er svært nær **kapasitetsgrensen**.\n- Dette skaper **ustabilitet i nettverket** og risiko for **driftsstans i produksjonen**.\n- **Cisco support hadde jobbet i to uker uten å finne en løsning.**\n- Som et midlertidig tiltak ble **en større switch flyttet fra datarommet til produksjonsmiljøet** for å stabilisere driften.\n\nDet ble også påpekt at:\n- **MS125 fortsatt har support i ~4 år**, men **er ikke lenger i salg**.\n- **MS250 er også ute av salg**, noe som gjør langsiktig design viktigere.\n\nKonkrete **aksjonspunkter fra møtet**:\n\n1. **Sette opp møte med Atea Solution Sales + nettverksarkitekt**  \n   - Formål: utarbeide **ny nettverksdesign** for Komplett.\n\n2. **Bytte ut kritiske komponenter på kort sikt**  \n   - Målet er å **sikre stabil produksjon** frem til ny arkitektur er på plass.\n\n3. **Teste ny switch-plattform**  \n   - Evaluere **Meraki 9200-serie switcher** og **nye access points**.\n\n4. **Kartlegge tilgjengelig nettverksutstyr på lager**  \n   - Se hvilke **switcher eller komponenter som kan brukes raskt** som midlertidig løsning.\n\nKort vurdering fra Atea-siden:  \nDette peker mot at Komplett sannsynligvis må **redesigne deler av LAN-arkitekturen i Sandefjord**, spesielt i produksjons- og lagerområdene hvor belastningen er høy.\n\nHvis du vil, kan jeg også:\n- forklare **hva en realistisk ny Meraki/Cisco-design kan se ut som for Komplett**, eller  \n- estimere **investeringsnivå og påvirkning på NaaS-avtalen**.",
+      "sharepoint_indikatorer": [],
+      "tegn": 1630,
+      "keyword_score": 62.5,
+      "keyword_detaljer": {
+        "treff": 5,
+        "totalt": 8
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Agentens svar dekker alle punkter fra fasiten, bruker alle nøkkelord, og er strukturert og presist uten feilinformasjon."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "SP-05",
+      "kategori": "Møtereferat",
+      "sporsmal": "Hva ble sagt om fakturafeil i det siste taktiske møtet med Komplett? Hva var beløpet for kreditnota?",
+      "forventet": "Feilfakturering knyttet til kategorisering av timepriser og roller. Konsulenttype og timepriser var ikke riktig i forhold til avtalt. Kreditnota på NOK 131,255. Fakturaer satt på vent skal ikke betales før aksept. Rapportering til CBN AIR i april.",
+      "kilde": "Taktiske møter/AI Oppsummeringer og Notater/Transkribering og Copilot sammendrag Taktisk 26.03.26 Komplett.docx",
+      "svar": "Ser på dette. Her er oppsummeringen fra **siste taktiske møte med Komplett (26.03.2026)** knyttet til fakturering:\n\n**Tema: Fakturafeil**\n\n- Det ble identifisert **feil kategorisering av timepriser og roller** i fakturagrunnlaget fra Atea.  \n- Dette påvirket hvordan enkelte konsulenttimer og tjenester var bokført på fakturaene.\n- Som følge av dette ble det utstedt en **kreditnota på NOK 131 255**.\n- **Flere fakturaer ble satt på vent** hos Komplett inntil de har godkjent korrigeringen.\n- Det ble også nevnt at **CBN AIR‑rapportering i april** vil inkludere oppdatert fakturagrunnlag.\n\n**Beløp kreditnota:**  \n- **NOK 131 255**\n\n**Neste steg som ble diskutert:**\n- Verifisere korrigert fakturagrunnlag.\n- Komplett godkjenner kreditnota og oppdaterte fakturaer før videre betaling.\n- Mulig gjennomgang av historiske fakturaer (inntil **14 måneder bakover**) for å sikre at samme feil ikke finnes der.\n\nHvis du vil, kan jeg også:\n- vise **hvilke tjenester eller roller feilen gjaldt**, eller  \n- estimere **potensiell økonomisk effekt dersom 14 måneder må korrigeres**.",
+      "sharepoint_indikatorer": [],
+      "tegn": 1071,
+      "keyword_score": 80.0,
+      "keyword_detaljer": {
+        "treff": 4,
+        "totalt": 5
+      },
+      "judge_scores": {
+        "korrekthet": 9,
+        "nokkelord_treff": 8,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 9,
+        "formatering": 10,
+        "begrunnelse": "Svaret dekker alle hovedpunkter fra fasit, inkludert feilfakturering, kategorisering, timepriser, roller, kreditnota og rapportering, men mangler ordet 'forhold' og 'riktig' eksplisitt. Ingen hallusinering og god struktur."
+      },
+      "composite_score": 94.0
+    },
+    {
+      "id": "SP-06",
+      "kategori": "Møtereferat",
+      "sporsmal": "Hvilke arrangementer ble det informert om i det taktiske møtet 26. mars 2026, og når er de?",
+      "forventet": "Klientdagen i Sandefjord 22. april, Sikkerhetsdagen i Tønsberg 5. mai, Community-arrangementet i Kristiansand 24. september.",
+      "kilde": "Taktiske møter/AI Oppsummeringer og Notater/Transkribering og Copilot sammendrag Taktisk 26.03.26 Komplett.docx",
+      "svar": "I det taktiske møtet **26. mars 2026** ble følgende arrangementer informert om:\n\n• **Klientdagen Sandefjord** – 22. april 2026  \n• **Sikkerhetsdagen Tønsberg** – 5. mai 2026  \n• **Community Kristiansand** – 24. september 2026  \n\nGi beskjed hvis du ønsker agenda, invitasjonsstatus eller hvem hos Komplett som er invitert/planlagt deltakere.",
+      "sharepoint_indikatorer": [
+        "Møtereferat-detaljer"
+      ],
+      "tegn": 340,
+      "keyword_score": 100.0,
+      "keyword_detaljer": {
+        "treff": 5,
+        "totalt": 5
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 9,
+        "nokkelord_totalt": 9,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Agentens svar er presist, inkluderer alle arrangementer med riktige datoer og steder, og inneholder alle nøkkelord. Svaret er strukturert og profesjonelt uten feilinformasjon."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "SP-07",
+      "kategori": "NIS2 Prosjektplan",
+      "sporsmal": "Beskriv gjennomføringsmodellen for NIS2-prosjektet hos Komplett. Hvor mange sprinter har prosjektplanen, og hvilke NIS2-artikler dekkes?",
+      "forventet": "Scrum-basert med 2-3 ukers sprinter. 9 sprinter totalt. Dekker NIS2 artikkel 20-23. Områder: Styring, kartlegging/klassifisering/risikohåndtering, leverandør/forsyningskjedesikkerhet, BCP/DR, opplæring/sikkerhetskultur, teknologiske tiltak (MFA, logging, kryptografi, sårbarhetshåndtering), hendelseshåndtering og NIS2-rapportering.",
+      "kilde": "2025 Komplett/NIS2 - Prosjektplan og Bistandsbeskrivelse/Prosjektplan og Bistandsbeskrivelse - Komplett Services - NIS2 Compliance.docx",
+      "svar": "Ser på dette.\n\n**Gjennomføringsmodell – NIS2-prosjekt hos Komplett**\n\nProsjektet gjennomføres etter en **Scrum-basert leveransemodell** med iterative sprinter på ca. **2–3 uker**. Målet er å gradvis etablere styring, risikostyring og tekniske sikkerhetstiltak som oppfyller kravene i NIS2-direktivet.\n\n**Totalt antall sprinter:**  \n- **9 sprinter**\n\n**Sprintstruktur:**\n1. **Sprint 1 – Etablering av styringsmodell**  \n   Governance-struktur for informasjonssikkerhet og prosjektstyring.\n\n2. **Sprint 2 – Kartlegging av systemer**  \n   Identifisere kritiske systemer, tjenester og avhengigheter.\n\n3. **Sprint 3 – Klassifisering og leverandøravhengigheter**  \n   Klassifisere systemer/data og kartlegge tredjeparts- og leverandørrisiko.\n\n4. **Sprint 4 – Risikovurdering**  \n   Gjennomføre strukturert risikovurdering av identifiserte systemer.\n\n5. **Sprint 5 – Policyutvikling**  \n   Utarbeide og oppdatere sikkerhetspolicyer og styringsdokumentasjon.\n\n6. **Sprint 6 – Leverandørstyring**  \n   Etablere rammeverk for leverandør- og forsyningskjedesikkerhet.\n\n7. **Sprint 7 – Opplæring og sikkerhetskultur**  \n   Program for awareness, opplæring og organisatorisk sikkerhetskultur.\n\n8. **Sprint 8 – Risiko-reduserende tiltak (fase 1)**  \n   Implementering av prioriterte tekniske og organisatoriske tiltak.\n\n9. **Sprint 9 – Risiko-reduserende tiltak (fase 2) + operasjonalisering**  \n   Fullføre tiltak, etablere operasjonell drift og rapporteringsrutiner.\n\n**NIS2-artikler som dekkes**\n\nProsjektet adresserer kravene i **NIS2-direktivet artiklene 20–23**, som blant annet omfatter:\n\n- **Artikkel 20 – Styring (Governance)**  \n  Ledelsesansvar for cybersikkerhet og styringsstruktur.\n\n- **Artikkel 21 – Risikostyring og sikkerhetstiltak**  \n  Inkluderer krav til blant annet:\n  - Risikohåndtering\n  - Hendelseshåndtering\n  - Business Continuity / Disaster Recovery\n  - Leverandør- og forsyningskjedesikkerhet\n  - Kryptografi og tilgangskontroll\n  - Logging og overvåking\n  - Sårbarhetshåndtering\n  - MFA og autentiseringsmekanismer\n\n- **Artikkel 22 – Rapportering av hendelser**  \n  Etablering av prosesser for varsling og rapportering av sikkerhetshendelser.\n\n- **Artikkel 23 – Oppfølging og tilsyn**  \n  Dokumentasjon, rapportering og etterlevelse mot regulatoriske krav.\n\n**Leveranser fra prosjektet**\n- Oppdatert **ISMS (Information Security Management System)**\n- Dokumenterte **policyer og prosedyrer**\n- **Risikovurderinger og klassifisering**\n- Implementerte **tekniske sikkerhetstiltak**\n- Rammeverk for **leverandørstyring og hendelseshåndtering**\n\nHvis du ønsker kan jeg også lage en **kort lederoppsummering (1–2 slides)** som kan brukes i styringsmøte med Henning Ims.",
+      "sharepoint_indikatorer": [
+        "NIS2 prosjektplan-detaljer"
+      ],
+      "tegn": 2679,
+      "keyword_score": 69.2,
+      "keyword_detaljer": {
+        "treff": 9,
+        "totalt": 13
+      },
+      "judge_scores": {
+        "korrekthet": 10,
+        "nokkelord_treff": 10,
+        "nokkelord_totalt": 10,
+        "hallusinering": 0,
+        "fullstendighet": 10,
+        "formatering": 10,
+        "begrunnelse": "Svaret er svært presist, dekker alle aspekter fra fasit, inneholder alle nøkkelord og er profesjonelt og godt strukturert. Ingen feilinformasjon eller unødvendige tillegg."
+      },
+      "composite_score": 100.0
+    },
+    {
+      "id": "SP-08",
+      "kategori": "NaaS Detaljer",
+      "sporsmal": "Hva var NaaS fase 2 for Komplett? Hvilken lokasjon gjaldt det, og finnes det en CDR (Coverage Design Report)?",
+      "forventet": "Fase 2 gjaldt Sandefjord. Inkluderte SOW, priskalkyle. Fase 3 var kontornett Sandefjord med CDR dekningsrapport (10 MB). Meraki-inventar versjon 3-4. Investering fra 14.10.2022.",
+      "kilde": "NaaS/2023 NaaS Sandefjord Fase 2 og Fase 3",
+      "svar": "NaaS **fase 2 for Komplett** var knyttet til utbygging av nytt trådløst nettverk i **Sandefjord**.\n\nKort oppsummert:\n\n• **Lokasjon:**  \nØstre Kullerød **4 og 5**, Sandefjord (lagerbyggene)\n\n• **Formål:**  \nEtablere nytt **Cisco Meraki-basert trådløst nettverk** for lager- og logistikkdrift.\n\n• **Hovedleveranser i fase 2:**  \n- ApoS **Site Survey** for trådløs dekning  \n- Design og implementering av nytt WiFi-nett  \n- Cisco **Meraki accesspunkter og switching**  \n- SOW (Statement of Work) og priskalkyle v12‑4.0  \n- Installasjon utført av Atea, mens **Komplett stod for kabling og fysisk montering**\n\n• **Atea-ressurser involvert:**  \n- Elin Soderbergh (Prosjektleder)  \n- Petter Sangvik Øygarden  \n- Diego Centeno  \n- Joacim Torkelsen  \n- Marius Waskaas  \n\n**Om CDR (Coverage Design Report):**\n\n- En **CDR finnes**, men den er dokumentert for **NaaS fase 3 (kontornett)**, ikke fase 2.  \n- Den ble levert etter **ApoS Site Survey i november 2023** og er ca. **10 MB**.  \n- Den dekker kontorområdene på **Østre Kullerød 4, 5 og mellombygget**, med design for **37 nye accesspunkter**.\n\nHvis du vil, kan jeg også gi deg:\n- komplett **NaaS-tidslinje (fase 1–3 + 2025-utvidelsen)**  \n- eller **nåværende Meraki-inventar (~285 enheter)** som er i drift hos Komplett.",
+      "sharepoint_indikatorer": [],
+      "tegn": 1266,
+      "keyword_score": 50.0,
+      "keyword_detaljer": {
+        "treff": 4,
+        "totalt": 8
+      },
+      "judge_scores": {
+        "korrekthet": 8,
+        "nokkelord_treff": 9,
+        "nokkelord_totalt": 10,
+        "hallusinering": 1,
+        "fullstendighet": 8,
+        "formatering": 10,
+        "begrunnelse": "Agenten dekker de fleste fasitpunktene, inkludert Sandefjord, SOW, priskalkyle, Meraki, inventar og CDR for fase 3, men mangler eksplisitt dato for investering og nevner ikke versjon på inventar. Svaret er strukturert og profesjonelt, med kun små avvik fra fasit."
+      },
+      "composite_score": 85.5
+    }
+  ]
+}

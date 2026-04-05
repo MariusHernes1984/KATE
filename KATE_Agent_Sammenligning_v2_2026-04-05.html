@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+<meta charset="UTF-8">
+<title>KATE Agent Evaluering — Sammenligning 2026-04-05 20:07</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', -apple-system, sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.6; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 20px; }
+  .header { background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%); color: white; padding: 40px; border-radius: 16px; margin-bottom: 30px; }
+  .header h1 { font-size: 28px; margin-bottom: 8px; }
+  .header p { opacity: 0.85; font-size: 14px; }
+  .header .subtitle { font-size: 16px; opacity: 0.9; margin-top: 4px; }
+
+  .summary-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 20px; margin-bottom: 30px; }
+  .agent-card { background: white; border-radius: 12px; padding: 24px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); border-top: 4px solid; }
+  .agent-card h3 { font-size: 18px; margin-bottom: 4px; }
+  .agent-card .model { font-size: 12px; color: #64748b; margin-bottom: 16px; }
+  .big-score { font-size: 48px; font-weight: 700; }
+  .score-label { font-size: 13px; color: #64748b; }
+
+  .tier-row { display: flex; align-items: center; margin: 8px 0; gap: 10px; }
+  .tier-label { width: 160px; font-size: 13px; font-weight: 500; }
+  .tier-bar-bg { flex: 1; background: #e2e8f0; border-radius: 6px; height: 22px; position: relative; }
+  .tier-bar { height: 100%; border-radius: 6px; transition: width 0.5s; min-width: 2px; }
+  .tier-score { width: 70px; text-align: right; font-size: 13px; font-weight: 600; }
+
+  .section { background: white; border-radius: 12px; padding: 24px; margin-bottom: 20px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+  .section h2 { font-size: 20px; margin-bottom: 16px; border-bottom: 2px solid #e2e8f0; padding-bottom: 8px; }
+  .section h3 { font-size: 16px; margin: 16px 0 8px; }
+
+  table { width: 100%; border-collapse: collapse; font-size: 13px; }
+  th { background: #f1f5f9; padding: 10px 12px; text-align: left; font-weight: 600; }
+  td { padding: 10px 12px; border-bottom: 1px solid #e2e8f0; }
+  tr:hover { background: #f8fafc; }
+
+  .comparison-table th { text-align: center; }
+  .comparison-table td:not(:first-child) { text-align: center; }
+  .comparison-table td:first-child { font-weight: 500; }
+
+  .weak-item { background: #fef2f2; border-left: 3px solid #ef4444; padding: 12px 16px; margin: 8px 0; border-radius: 0 8px 8px 0; font-size: 13px; }
+  .weak-item .q { font-weight: 600; }
+  .weak-item .reason { color: #64748b; font-style: italic; margin-top: 4px; }
+
+  .rec-box { background: #eff6ff; border-left: 3px solid #2563eb; padding: 12px 16px; margin: 8px 0; border-radius: 0 8px 8px 0; }
+  .rec-box strong { color: #1e40af; }
+
+  .insight { padding: 8px 0; border-bottom: 1px solid #f1f5f9; }
+  .insight:last-child { border-bottom: none; }
+
+  .dual-note { background: #f0fdf4; border: 1px solid #bbf7d0; border-radius: 8px; padding: 16px; margin: 16px 0; font-size: 13px; }
+  .dual-note strong { color: #166534; }
+
+  .footer { text-align: center; color: #94a3b8; font-size: 12px; margin-top: 30px; padding: 20px; }
+</style>
+</head>
+<body>
+<div class="container">
+
+<div class="header">
+  <h1>KATE Agent Evaluering — Sammenligning</h1>
+  <p class="subtitle">3-Tier evaluering med dual scoring (keyword + LLM-as-judge gpt-4.1)</p>
+  <p>Generert: 2026-04-05 20:07 | Agenter oppdatert til Git/Azure</p>
+</div>
+
+<div class="dual-note">
+  <strong>Dual Scoring:</strong> Alle scorer bruker to metoder — <strong>Composite score</strong> (LLM-as-judge, primær) kombinerer korrekthet (35%), fullstendighet (25%), anti-hallusinering (25%) og formatering (15%). <strong>Keyword score</strong> (sekundær) sjekker deterministisk om nøkkelfakta finnes i svaret. Divergenser &gt;25 poeng flagges for gjennomgang.
+</div>
+
+<div class="summary-grid">
+
+  <div class="agent-card" style="border-color: #2563eb">
+    <h3>Bertel O. Steen</h3>
+    <div class="model">Agent: bos | Modell: gpt-5.3 | 48 spørsmål</div>
+    <div class="big-score" style="color: #84cc16">85.5</div>
+    <div class="score-label">Composite snitt / 100 (KW: 0.0%)</div>
+    <div style="margin-top: 16px">
+
+      <div class="tier-row">
+        <span class="tier-label">Tier 1: Knowledge</span>
+        <div class="tier-bar-bg"><div class="tier-bar" style="width:93.3%;background:#22c55e"></div></div>
+        <span class="tier-score">93.3/100</span>
+      </div>
+      <div class="tier-row">
+        <span class="tier-label">Tier 2: Land & Expand</span>
+        <div class="tier-bar-bg"><div class="tier-bar" style="width:89.6%;background:#84cc16"></div></div>
+        <span class="tier-score">89.6/100</span>
+      </div>
+      <div class="tier-row">
+        <span class="tier-label">Tier 3: SP Grounding</span>
+        <div class="tier-bar-bg"><div class="tier-bar" style="width:51.1%;background:#ef4444"></div></div>
+        <span class="tier-score">51.1/100</span>
+      </div>
+    </div>
+  </div>
+  <div class="agent-card" style="border-color: #059669">
+    <h3>Statsforvalteren</h3>
+    <div class="model">Agent: staf | Modell: gpt-4o | 33 spørsmål</div>
+    <div class="big-score" style="color: #22c55e">91.9</div>
+    <div class="score-label">Composite snitt / 100 (KW: 72.2%)</div>
+    <div style="margin-top: 16px">
+
+      <div class="tier-row">
+        <span class="tier-label">Tier 1: Knowledge</span>
+        <div class="tier-bar-bg"><div class="tier-bar" style="width:98.1%;background:#22c55e"></div></div>
+        <span class="tier-score">98.1/100</span>
+      </div>
+      <div class="tier-row">
+        <span class="tier-label">Tier 2: Land & Expand</span>
+        <div class="tier-bar-bg"><div class="tier-bar" style="width:93.5%;background:#22c55e"></div></div>
+        <span class="tier-score">93.5/100</span>
+      </div>
+      <div class="tier-row">
+        <span class="tier-label">Tier 3: SP Grounding</span>
+        <div class="tier-bar-bg"><div class="tier-bar" style="width:78.2%;background:#eab308"></div></div>
+        <span class="tier-score">78.2/100</span>
+      </div>
+    </div>
+  </div>
+  <div class="agent-card" style="border-color: #d97706">
+    <h3>Komplett</h3>
+    <div class="model">Agent: komplett | Modell: gpt-4o | 33 spørsmål</div>
+    <div class="big-score" style="color: #22c55e">96.6</div>
+    <div class="score-label">Composite snitt / 100 (KW: 71.1%)</div>
+    <div style="margin-top: 16px">
+
+      <div class="tier-row">
+        <span class="tier-label">Tier 1: Knowledge</span>
+        <div class="tier-bar-bg"><div class="tier-bar" style="width:98.9%;background:#22c55e"></div></div>
+        <span class="tier-score">98.9/100</span>
+      </div>
+      <div class="tier-row">
+        <span class="tier-label">Tier 2: Land & Expand</span>
+        <div class="tier-bar-bg"><div class="tier-bar" style="width:93.3%;background:#22c55e"></div></div>
+        <span class="tier-score">93.3/100</span>
+      </div>
+      <div class="tier-row">
+        <span class="tier-label">Tier 3: SP Grounding</span>
+        <div class="tier-bar-bg"><div class="tier-bar" style="width:96.4%;background:#22c55e"></div></div>
+        <span class="tier-score">96.4/100</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Comparison Table -->
+<div class="section">
+  <h2>Tier-sammenligning</h2>
+  <table class="comparison-table">
+    <tr>
+      <th></th>
+      <th colspan="2">BOS (gpt-5.3)</th>
+      <th colspan="2">STAF (gpt-4o)</th>
+      <th colspan="2">Komplett (gpt-4o)</th>
+    </tr>
+    <tr>
+      <th>Tier</th>
+      <th>Composite</th><th>Keyword</th>
+      <th>Composite</th><th>Keyword</th>
+      <th>Composite</th><th>Keyword</th>
+    </tr>
+<tr><td>Tier 1: Knowledge</td><td style="font-weight:700;color:#22c55e">93.3</td><td style="color:#64748b">0.0%</td><td style="font-weight:700;color:#22c55e">98.1</td><td style="color:#64748b">87.1%</td><td style="font-weight:700;color:#22c55e">98.9</td><td style="color:#64748b">78.5%</td></tr>
+<tr><td>Tier 2: Land & Expand</td><td style="font-weight:700;color:#84cc16">89.6</td><td style="color:#64748b">0.0%</td><td style="font-weight:700;color:#22c55e">93.5</td><td style="color:#64748b">69.3%</td><td style="font-weight:700;color:#22c55e">93.3</td><td style="color:#64748b">55.3%</td></tr>
+<tr><td>Tier 3: SP Grounding</td><td style="font-weight:700;color:#ef4444">51.1</td><td style="color:#64748b">0.0%</td><td style="font-weight:700;color:#eab308">78.2</td><td style="color:#64748b">47.8%</td><td style="font-weight:700;color:#22c55e">96.4</td><td style="color:#64748b">77.1%</td></tr>
+<tr style='font-weight:700;border-top:2px solid #1e293b'><td>Totalt</td><td style="color:#84cc16">85.5</td><td style="color:#64748b">0.0%</td><td style="color:#22c55e">91.9</td><td style="color:#64748b">72.2%</td><td style="color:#22c55e">96.6</td><td style="color:#64748b">71.1%</td></tr></table>
+
+  <h3 style="margin-top:20px">Bestått-rate (score ≥ 70)</h3>
+  <table class="comparison-table">
+    <tr><th>Tier</th><th>BOS</th><th>STAF</th><th>Komplett</th></tr>
+<tr><td>Tier 1: Knowledge</td><td>25/30</td><td>15/15</td><td>15/15</td></tr>
+<tr><td>Tier 2: Land & Expand</td><td>10/10</td><td>10/10</td><td>10/10</td></tr>
+<tr><td>Tier 3: SP Grounding</td><td>1/8</td><td>6/8</td><td>8/8</td></tr>
+</table></div>
+
+<div class="section">
+  <h2>Bertel O. Steen (BOS) — Detaljert analyse</h2>
+  <p style="color:#64748b;font-size:13px;margin-bottom:16px">Modell: gpt-5.3 | Total: 85.5/100 composite, 0.0% keyword | 48 spørsmål</p>
+
+  <h3>Tier 1: Knowledge — 93.3/100 (KW: 0.0%) | Bestått: 25/30</h3>
+  <table>
+    <tr><th>Kategori</th><th>Composite</th></tr>
+<tr><td>avtale_fakta</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>økonomi</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>kontakter</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>utfordringer</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>tjenester</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>volum</td><td style="font-weight:600;color:#22c55e">98.8/100</td></tr>
+<tr><td>tilbud</td><td style="font-weight:600;color:#22c55e">97.5/100</td></tr>
+<tr><td>språk</td><td style="font-weight:600;color:#22c55e">97.5/100</td></tr>
+<tr><td>pågående</td><td style="font-weight:600;color:#84cc16">88.2/100</td></tr>
+<tr><td>strategi</td><td style="font-weight:600;color:#84cc16">83.0/100</td></tr>
+<tr><td>negativ_test</td><td style="font-weight:600;color:#eab308">79.8/100</td></tr>
+<tr><td>leverandører</td><td style="font-weight:600;color:#f97316">67.0/100</td></tr>
+<tr><td>oppkjøp</td><td style="font-weight:600;color:#f97316">67.0/100</td></tr>
+</table>
+<h3 style='color:#dc2626'>Svake spørsmål (5 stk, score &lt; 70)</h3>
+<div class="weak-item">
+  <div class="q">🔴 16 [strategi] — 49.0/100</div>
+  <div>Hva er BOS sitt AI-effektiviseringsmål?...</div>
+  <div class="reason">Agenten nevner AI og automatisering, men mangler det konkrete målet på 25% og referansen til kundevisjonen. Svaret er strukturert og profesjonelt, men gir ikke det presise svaret som etterspørres.</div>
+</div>
+<div class="weak-item">
+  <div class="q">🟡 19 [pågående] — 67.0/100</div>
+  <div>Hva er status på Windows 11-migreringen hos BOS?...</div>
+  <div class="reason">Svaret er strukturert og profesjonelt, men mangler konkrete tall fra fasit (31 og 200), og dekker ikke status på ikke-kompatible enheter. Det gir en generell status, men er ikke presist nok.</div>
+</div>
+<div class="weak-item">
+  <div class="q">🟡 23 [leverandører] — 67.0/100</div>
+  <div>Hvilke tredjepartsleverandører er involvert i BOS-leveransen?...</div>
+  <div class="reason">Svaret nevner flere relevante leverandører, inkludert Telenor, Accenture og IFS, og refererer til 36 underleverandører, men mangler flere spesifikke navn fra fasiten og dekker ikke alle aspekter. Form</div>
+</div>
+<div class="weak-item">
+  <div class="q">🟡 26 [oppkjøp] — 67.0/100</div>
+  <div>Fortell meg om EGE-Gruppen og governance-modellen....</div>
+  <div class="reason">Svaret forklarer governance-modellen med 3 nivåer og nevner EGE og BOS, men mangler informasjon om antall ansatte, KAM/CM-navn og detaljer om møtefrekvens. Svaret er godt strukturert, men inneholder n</div>
+</div>
+<div class="weak-item">
+  <div class="q">🟡 28 [negativ_test] — 62.0/100</div>
+  <div>Hva er den aktive avtalen mellom Atea og Telenor?...</div>
+  <div class="reason">Agenten gir delvis korrekt informasjon om at det ikke finnes en Atea-Telenor-avtale i BOS-systemet, men mangler eksplisitt avvisning og bruk av nøkkelordene fra fasiten. Svaret inneholder noe unødvend</div>
+</div>
+
+  <h3>Tier 2: Land & Expand — 89.6/100 (KW: 0.0%) | Bestått: 10/10</h3>
+  <table>
+    <tr><th>Kategori</th><th>Composite</th></tr>
+<tr><td>risikohåndtering</td><td style="font-weight:600;color:#22c55e">94.0/100</td></tr>
+<tr><td>identifisere_muligheter</td><td style="font-weight:600;color:#22c55e">91.2/100</td></tr>
+<tr><td>account_planning</td><td style="font-weight:600;color:#84cc16">88.5/100</td></tr>
+<tr><td>møteforberedelse</td><td style="font-weight:600;color:#84cc16">88.5/100</td></tr>
+<tr><td>cross_sell</td><td style="font-weight:600;color:#84cc16">87.2/100</td></tr>
+</table>
+
+  <h3>Tier 3: SP Grounding — 51.1/100 (KW: 0.0%) | Bestått: 1/8</h3>
+  <table>
+    <tr><th>Kategori</th><th>Composite</th></tr>
+<tr><td>bærekraft</td><td style="font-weight:600;color:#ef4444">54.5/100</td></tr>
+<tr><td>KPI</td><td style="font-weight:600;color:#ef4444">50.8/100</td></tr>
+<tr><td>møtereferat</td><td style="font-weight:600;color:#ef4444">49.0/100</td></tr>
+<tr><td>møteplan</td><td style="font-weight:600;color:#ef4444">45.5/100</td></tr>
+</table>
+<h3 style='color:#dc2626'>Svake spørsmål (7 stk, score &lt; 70)</h3>
+<div class="weak-item">
+  <div class="q">🔴 2 [bærekraft] — 41.5/100</div>
+  <div>Hvor mange printservere ble fjernet hos BOS i 2024, og hvor mange ble beholdt? Hvorfor ble noen beholdt?...</div>
+  <div class="reason">Svaret inneholder ingen konkrete tall eller nøkkelord fra fasit, og dekker ikke fasitens aspekter, men det er strukturert og profesjonelt formulert.</div>
+</div>
+<div class="weak-item">
+  <div class="q">🔴 3 [bærekraft] — 39.0/100</div>
+  <div>Atea foreslo å utvide PC-livssyklusen hos BOS. Fra hvor mange år til hvor mange år, og hvor mange bærbare enheter ble fo...</div>
+  <div class="reason">Agenten oppgir feil tall for både livssyklus (3 til 4 år, ikke 5) og antall enheter (ca. 300, ikke 563), og nevner ikke 2019 eller BIOS. Svaret er godt strukturert, men inneholder flere unøyaktigheter</div>
+</div>
+<div class="weak-item">
+  <div class="q">🔴 4 [KPI] — 39.0/100</div>
+  <div>Hva er kravet for morgensjekk-KPIen hos BOS? Når må feil være bekreftet ut, og gjelder det også lørdager?...</div>
+  <div class="reason">Agenten gir feil tidspunkt (09:00 i stedet for 06:30) og feil informasjon om lørdag, men nevner morgensjekk, bekreftet og lørdag. Svaret er godt strukturert, men inneholder flere unøyaktigheter og man</div>
+</div>
+<div class="weak-item">
+  <div class="q">🟡 5 [KPI] — 62.5/100</div>
+  <div>Hvor lenge kan en applikasjonssak ligge uberørt ifølge BOS sine KPIer? Og hvor ofte må bærekraft-fokus adresseres?...</div>
+  <div class="reason">Agenten gir feil svar på hvor lenge en applikasjonssak kan ligge uberørt (5 dager istedenfor 3), men svarer korrekt på bærekraft-fokus. Svaret er godt strukturert og profesjonelt, men mangler ett nøkk</div>
+</div>
+<div class="weak-item">
+  <div class="q">🔴 6 [møtereferat] — 50.5/100</div>
+  <div>I BOS-møtet 12. desember 2025 — hva ble sagt om AutoStore kapasitet og hvor mange enheter trengte service?...</div>
+  <div class="reason">Agenten gir ikke noe konkret svar på spørsmålet og nevner ikke tallene 4 eller 10%, men refererer til AutoStore og kapasitet. Svaret er profesjonelt og strukturert, men mangler fasitens kjerneinformas</div>
+</div>
+<div class="weak-item">
+  <div class="q">🔴 7 [møtereferat] — 47.5/100</div>
+  <div>Hvilke ytelsesutfordringer med PowerBI ble identifisert i desember 2025-møtet, og hva var mulig årsak?...</div>
+  <div class="reason">Svaret inneholder kun ett nøkkelord ('PowerBI') og gir ingen konkret informasjon om ytelsesutfordringer eller geolokasjon, men er strukturert og profesjonelt formulert.</div>
+</div>
+<div class="weak-item">
+  <div class="q">🔴 8 [møteplan] — 45.5/100</div>
+  <div>Når er første halvårsmøte mellom BOS og Atea planlagt i 2026, og hvem deltar på det strategiske møtet i juni?...</div>
+  <div class="reason">Agenten gir ingen konkrete svar på datoer eller deltakere, men beskriver søkeprosessen. Ett nøkkelord (Jahn Roger) nevnes indirekte i søk, men ingen fasitdata gjengis.</div>
+</div>
+</div>
+
+<div class="section">
+  <h2>Statsforvalteren (STAF) — Detaljert analyse</h2>
+  <p style="color:#64748b;font-size:13px;margin-bottom:16px">Modell: gpt-4o | Total: 91.9/100 composite, 72.2% keyword | 33 spørsmål</p>
+
+  <h3>Tier 1: Knowledge — 98.1/100 (KW: 87.1%) | Bestått: 15/15</h3>
+  <table>
+    <tr><th>Kategori</th><th>Composite</th></tr>
+<tr><td>Kontakter</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>Avtaler</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>Økonomi</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>Konsulenter</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>Prosjekter</td><td style="font-weight:600;color:#22c55e">97.2/100</td></tr>
+<tr><td>Strategi</td><td style="font-weight:600;color:#22c55e">94.5/100</td></tr>
+<tr><td>Hardware</td><td style="font-weight:600;color:#22c55e">91.5/100</td></tr>
+</table>
+
+  <h3>Tier 2: Land & Expand — 93.5/100 (KW: 69.3%) | Bestått: 10/10</h3>
+  <table>
+    <tr><th>Kategori</th><th>Composite</th></tr>
+<tr><td>Identifisere muligheter</td><td style="font-weight:600;color:#22c55e">98.0/100</td></tr>
+<tr><td>Møteforberedelse</td><td style="font-weight:600;color:#22c55e">92.8/100</td></tr>
+<tr><td>Cross-sell</td><td style="font-weight:600;color:#22c55e">91.5/100</td></tr>
+<tr><td>Risikohåndtering</td><td style="font-weight:600;color:#22c55e">91.5/100</td></tr>
+<tr><td>Account planning</td><td style="font-weight:600;color:#22c55e">90.2/100</td></tr>
+</table>
+
+  <h3>Tier 3: SP Grounding — 78.2/100 (KW: 47.8%) | Bestått: 6/8</h3>
+  <table>
+    <tr><th>Kategori</th><th>Composite</th></tr>
+<tr><td>Strategi detaljer</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>Tildelingsbrev detaljer</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>Avtaledokumenter</td><td style="font-weight:600;color:#84cc16">83.0/100</td></tr>
+<tr><td>Tilbudshistorikk</td><td style="font-weight:600;color:#eab308">77.0/100</td></tr>
+<tr><td>Taktisk mote</td><td style="font-weight:600;color:#eab308">73.0/100</td></tr>
+<tr><td>SSE Presentasjon</td><td style="font-weight:600;color:#eab308">73.0/100</td></tr>
+<tr><td>Workbook</td><td style="font-weight:600;color:#f97316">61.0/100</td></tr>
+<tr><td>Strategisk mote</td><td style="font-weight:600;color:#ef4444">58.5/100</td></tr>
+</table>
+<h3 style='color:#dc2626'>Svake spørsmål (2 stk, score &lt; 70)</h3>
+<div class="weak-item">
+  <div class="q">🔴 STAF-SP-01 [Strategisk mote] — 58.5/100</div>
+  <div>I det strategiske møtet 19. januar 2026 med STAF — hva ble diskutert om markedstrender, og hvilke temaer ble presentert?...</div>
+  <div class="reason">Svaret dekker flere relevante temaer, men mangler sentrale fasitpunkter som prisøkninger, leveringstider, tall for Atea Norge og eksplisitt omtale av slides dedikert til AI. Det er også noe hallusiner</div>
+</div>
+<div class="weak-item">
+  <div class="q">🟡 STAF-SP-08 [Workbook] — 61.0/100</div>
+  <div>Hva sier Statsforvalteren Workbook fra 2021 om STAFs IT-modenhet og planlagte initiativer den gangen?...</div>
+  <div class="reason">Agenten nevner modernisering, sky, og infrastruktur, men mangler eksplisitt vurdering av IT-modenhet som 'veldig umoden' og nevner ikke sentrale initiativer som datasenterflytt, Splunk eller Hamar. Sv</div>
+</div>
+</div>
+
+<div class="section">
+  <h2>Komplett (Komplett) — Detaljert analyse</h2>
+  <p style="color:#64748b;font-size:13px;margin-bottom:16px">Modell: gpt-4o | Total: 96.6/100 composite, 71.1% keyword | 33 spørsmål</p>
+
+  <h3>Tier 1: Knowledge — 98.9/100 (KW: 78.5%) | Bestått: 15/15</h3>
+  <table>
+    <tr><th>Kategori</th><th>Composite</th></tr>
+<tr><td>Prosjekter</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>Nedtrapping</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>Utfordringer</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>Kontakter</td><td style="font-weight:600;color:#22c55e">99.2/100</td></tr>
+<tr><td>Avtaler</td><td style="font-weight:600;color:#22c55e">99.2/100</td></tr>
+<tr><td>Økonomi</td><td style="font-weight:600;color:#22c55e">97.0/100</td></tr>
+<tr><td>Strategi</td><td style="font-weight:600;color:#22c55e">94.0/100</td></tr>
+</table>
+
+  <h3>Tier 2: Land & Expand — 93.3/100 (KW: 55.3%) | Bestått: 10/10</h3>
+  <table>
+    <tr><th>Kategori</th><th>Composite</th></tr>
+<tr><td>Cross-sell</td><td style="font-weight:600;color:#22c55e">97.0/100</td></tr>
+<tr><td>Identifisere muligheter</td><td style="font-weight:600;color:#22c55e">95.2/100</td></tr>
+<tr><td>Møteforberedelse</td><td style="font-weight:600;color:#22c55e">92.8/100</td></tr>
+<tr><td>Risikohåndtering</td><td style="font-weight:600;color:#22c55e">91.5/100</td></tr>
+<tr><td>Account planning</td><td style="font-weight:600;color:#84cc16">88.5/100</td></tr>
+</table>
+
+  <h3>Tier 3: SP Grounding — 96.4/100 (KW: 77.1%) | Bestått: 8/8</h3>
+  <table>
+    <tr><th>Kategori</th><th>Composite</th></tr>
+<tr><td>NIS2 Prosjektplan</td><td style="font-weight:600;color:#22c55e">100.0/100</td></tr>
+<tr><td>Møtereferat</td><td style="font-weight:600;color:#22c55e">98.0/100</td></tr>
+<tr><td>Copilot Discovery</td><td style="font-weight:600;color:#22c55e">97.2/100</td></tr>
+<tr><td>NaaS Detaljer</td><td style="font-weight:600;color:#84cc16">85.5/100</td></tr>
+</table>
+</div>
+
+<div class="section">
+  <h2>Nøkkelfunn og analyse</h2>
+
+  <div class="insight"><strong>Beste agent totalt:</strong> Komplett med Komplett (96.6/100)</div>
+  <div class="insight"><strong>Svakest på SP Grounding:</strong> Bertel O. Steen (51.1/100) — indikerer at agenten ikke henter informasjon fra SharePoint-dokumenter effektivt</div>
+  <div class="insight"><strong>Keyword vs Judge divergens:</strong> Keyword-scoring underrapporterer konsekvent, spesielt for Land &amp; Expand (samtalebaserte svar). Judge fanger semantisk korrekthet som keyword misser.</div>
+
+  <div class="insight"><strong>BOS-paradokset:</strong> BOS scorer 93.3/100 på knowledge men bare 51.1/100 på SP grounding — den rikeste systemprompt-en betyr at metadata er inline, men agenten henter ikke fra SharePoint-dokumenter for detaljer som kun finnes der.</div>
+
+  <div class="insight"><strong>Komplett-mønsteret fungerer:</strong> Komplett scorer 96.4/100 på SP grounding — dokumentoppsummeringer i instruksjonene hjelper agenten å finne riktig informasjon i SharePoint.</div>
+</div>
+
+<div class="section">
+  <h2>Anbefalinger</h2>
+<div class="rec-box"><strong>BOS: Legg til dokumentoppsummeringer:</strong> Implementer 'Komplett-mønsteret' — legg til oppsummeringer av SharePoint-dokumenter i agent-instruksjonene. Dette løftet Komplett fra ~50% til ~96% på SP grounding.</div>
+<div class="rec-box"><strong>BOS: Forbedre svake kategorier:</strong> Fokuser på: bærekraft (2 stk), KPI (2 stk). Legg til mer spesifikke fakta i instruksjonene for disse områdene.</div>
+<div class="rec-box"><strong>STAF: Forbedre svake kategorier:</strong> Fokuser på: Strategisk mote (1 stk), Workbook (1 stk). Legg til mer spesifikke fakta i instruksjonene for disse områdene.</div>
+<div class="rec-box"><strong>Alle: Standardiser eval-rammeverk:</strong> Bruk 33-spørsmåls-standarden (15+10+8) for alle nye agenter. Alltid dual scoring med gpt-4.1 som judge.</div>
+<div class="rec-box"><strong>Alle: Kjør re-eval etter endringer:</strong> Etter instruksjonsendringer, kjør kun de svake tier-ene på nytt for rask feedback.</div>
+</div>
+
+<div class="footer">
+  KATE Agent Evaluering | Generert 2026-04-05 20:07 | Dual scoring: keyword + LLM-as-judge (gpt-4.1)<br>
+  Powered by Atea KATE Platform
+</div>
+
+</div>
+</body>
+</html>
