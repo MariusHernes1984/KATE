@@ -1,0 +1,274 @@
+[
+  {
+    "id": "STAF-01",
+    "kategori": "Kontakter",
+    "tier": 1,
+    "spørsmål": "Hvem er direktør for Statsforvalterens fellestjenester, og hvem er Ateas account manager?",
+    "fasit": "Direktør: Margot Telnes. Account Manager: Lasse Johnson.",
+    "nøkkelord": ["Margot Telnes", "Lasse Johnson"]
+  },
+  {
+    "id": "STAF-02",
+    "kategori": "Kontakter",
+    "tier": 1,
+    "spørsmål": "Hvem har tatt over som avdelingsdirektør Infrastruktur og Drift hos STAF?",
+    "fasit": "Espen Storetvedt (erstatter Eldar Hovda).",
+    "nøkkelord": ["Espen Storetvedt", "Eldar Hovda"]
+  },
+  {
+    "id": "STAF-03",
+    "kategori": "Kontakter",
+    "tier": 1,
+    "spørsmål": "Hvem hos STAF godkjenner innkjøp under 1,3 MNOK, og hvem godkjenner over 1,3 MNOK?",
+    "fasit": "Under 1,3 MNOK: Tommy Midtun Kjellby. Over 1,3 MNOK: Erik Drivdal.",
+    "nøkkelord": ["Tommy Midtun Kjellby", "Erik Drivdal", "1,3 MNOK"]
+  },
+  {
+    "id": "STAF-04",
+    "kategori": "Avtaler",
+    "tier": 1,
+    "spørsmål": "Hva er verdien og varigheten på rammeavtalen for Microsoft-lisenser?",
+    "fasit": "Verdi: 60 MNOK. Periode: januar 2024 – januar 2027 (3 år).",
+    "nøkkelord": ["60 MNOK", "januar 2024", "januar 2027", "3 år"]
+  },
+  {
+    "id": "STAF-05",
+    "kategori": "Avtaler",
+    "tier": 1,
+    "spørsmål": "Hvilke rammeavtaler ble signert i 2025?",
+    "fasit": "Tre avtaler: Konsulent Microsoft og AV (20.04.2025), Nettverk og Nettverkskonsulent (01.04.2025), AV Managed Services/CVI (21.10.2025).",
+    "nøkkelord": ["Konsulent Microsoft og AV", "20.04.2025", "Nettverk", "01.04.2025", "AV Managed Services", "CVI", "21.10.2025"]
+  },
+  {
+    "id": "STAF-06",
+    "kategori": "Avtaler",
+    "tier": 1,
+    "spørsmål": "Hva dekker tjenesteavtalen for Managed Video CVI?",
+    "fasit": "Managed services for videokonferanseplattform (CVI), signert 21.10.2025.",
+    "nøkkelord": ["CVI", "videokonferanse", "21.10.2025"]
+  },
+  {
+    "id": "STAF-07",
+    "kategori": "Økonomi",
+    "tier": 1,
+    "spørsmål": "Hva var total Atea-omsetning mot STAF i 2025, fordelt på kategorier?",
+    "fasit": "Total: 28,2 MNOK. Software: 20 MNOK, Support: 1,2 MNOK, HW klient: 1,9 MNOK, HW AV: 0,4 MNOK, HW nettverk: 2,6 MNOK, Konsulenter: 1,9 MNOK.",
+    "nøkkelord": ["28,2 MNOK", "20 MNOK", "Software"]
+  },
+  {
+    "id": "STAF-08",
+    "kategori": "Økonomi",
+    "tier": 1,
+    "spørsmål": "Hvorfor falt omsetningen fra 2024 til 2025, og hva er prognosen for 2026?",
+    "fasit": "Nedgang -32,7% hovedsakelig pga. hardware -74,5% (avsluttede leasingavtaler). Prognose 2026: 33,6 MNOK.",
+    "nøkkelord": ["-32,7%", "-74,5%", "33,6 MNOK"]
+  },
+  {
+    "id": "STAF-09",
+    "kategori": "Prosjekter",
+    "tier": 1,
+    "spørsmål": "Hva er FLAKS-programmet, og hvem leder det fra Atea?",
+    "fasit": "Transformasjons-/moderniseringsprogram som vokste ut av TOM-arbeidet (startet des 2024). Programleder Atea: Even Ask.",
+    "nøkkelord": ["FLAKS", "TOM", "Even Ask", "des 2024"]
+  },
+  {
+    "id": "STAF-10",
+    "kategori": "Prosjekter",
+    "tier": 1,
+    "spørsmål": "Hva er planene for datasenter og skyreise i 2026-2027?",
+    "fasit": "HPE-datasenter utløper nov 2026. Elements flyttes til sky i 2026. Hybride driftsmodeller fra 2027. Nye datasenter/skyløsninger forberedes.",
+    "nøkkelord": ["HPE", "nov 2026", "Elements", "sky", "hybrid"]
+  },
+  {
+    "id": "STAF-11",
+    "kategori": "Prosjekter",
+    "tier": 1,
+    "spørsmål": "Hvilke sikkerhetstiltak pågår hos STAF?",
+    "fasit": "Sentinel-gjennomgang (med Martinius), CSPM og Defender Storage avventer Sentinel, Purview skal implementeres.",
+    "nøkkelord": ["Sentinel", "CSPM", "Defender Storage", "Purview"]
+  },
+  {
+    "id": "STAF-12",
+    "kategori": "Strategi",
+    "tier": 1,
+    "spørsmål": "Hva er STAFs fem strategiske hovedmål i virksomhetsstrategien 2023-2026?",
+    "fasit": "1) Kvalitet i samhandling, 2) Informasjonssikkerhet i alle tjenester, 3) Digitale løsninger med brukerne i sentrum, 4) Relevant kompetanse, 5) Bærekraft i drift.",
+    "nøkkelord": ["samhandling", "informasjonssikkerhet", "digitale løsninger", "kompetanse", "bærekraft"]
+  },
+  {
+    "id": "STAF-13",
+    "kategori": "Strategi",
+    "tier": 1,
+    "spørsmål": "Hva er STAFs driftsbudsjett for 2026, og hva er de viktigste styringsparameterne?",
+    "fasit": "Budsjett: 263,5 MNOK. Styringsparametre: brukertilfredshet ≥4,5, oppetid Elements 99,6%, brukerstøtte svar innen 2 timer 95%.",
+    "nøkkelord": ["263,5 MNOK", "4,5", "99,6%", "95%"]
+  },
+  {
+    "id": "STAF-14",
+    "kategori": "Hardware",
+    "tier": 1,
+    "spørsmål": "Hvilke hardware-avtaler utløper i 2026-2027?",
+    "fasit": "HPE Datasenter nov 2026, DFØ AV-utstyr alle møterom okt 2026, MS Lisenser jan 2027, DFØ HP Klienter 1190 stk okt 2027.",
+    "nøkkelord": ["HPE", "nov 2026", "DFØ AV", "okt 2026", "MS Lisenser", "jan 2027", "1190"]
+  },
+  {
+    "id": "STAF-15",
+    "kategori": "Konsulenter",
+    "tier": 1,
+    "spørsmål": "Hvilke Atea-konsulenter er høyest vurdert hos STAF, og hva er deres styrker?",
+    "fasit": "Andreas Aspeli (fleksibel, Hamar), Even Ask (programledelse, fremdrift), Jarle Nordby Johnsen (sky, Elements to Cloud).",
+    "nøkkelord": ["Andreas Aspeli", "Even Ask", "Jarle Nordby Johnsen"]
+  },
+  {
+    "id": "STAF-LE-01",
+    "kategori": "Identifisere muligheter",
+    "tier": 2,
+    "spørsmål": "Jeg har et taktisk møte med STAF neste uke. Basert på pågående utfordringer og prosjekter — hva bør jeg ta opp som potensielle nye salgsinitiativ?",
+    "fasit": "Bør nevne: 1) Datasenter-utløp HPE nov 2026 (ny plattform), 2) Skyreisen/Elements til sky 2026, 3) Nettverksfornyelse Fortinet, 4) AV-utskifting okt 2026, 5) Sentinel/Purview/CSPM sikkerhet, 6) Overvåkingsverktøy (tilbud ute), 7) AI/Copilot.",
+    "nøkkelord": ["HPE", "datasenter", "Elements", "Fortinet", "AV", "Sentinel", "Purview", "CSPM", "AI", "Copilot"]
+  },
+  {
+    "id": "STAF-LE-02",
+    "kategori": "Identifisere muligheter",
+    "tier": 2,
+    "spørsmål": "Atea har ikke datasenteret til STAF i dag. HPE-avtalen utløper november 2026. Hvordan kan vi posisjonere oss for å vinne dette?",
+    "fasit": "Bør identifisere: Start arkitektur-workshop Q2/Q3 2026. Posisjonere hybrid sky (Azure + on-prem). Koble til Skyreisen/Elements. Bruke Even Ask og FLAKS-programmet som inngang. Kontaktpersoner: Espen Storetvedt, Eskil Notesjø. Estimert verdi 20-40 MNOK.",
+    "nøkkelord": ["arkitektur-workshop", "hybrid sky", "Azure", "Even Ask", "FLAKS", "Espen Storetvedt", "20-40 MNOK"]
+  },
+  {
+    "id": "STAF-LE-03",
+    "kategori": "Identifisere muligheter",
+    "tier": 2,
+    "spørsmål": "Hvilke avtaler hos STAF nærmer seg utløp eller har fornyelses-/utvidelsesmuligheter? Lag en tidslinje.",
+    "fasit": "Tidslinje: Okt 2026 - DFØ AV-utstyr utløper. Nov 2026 - HPE Datasenter utløper. Jan 2027 - MS Lisenser utløper (60 MNOK). Okt 2027 - DFØ HP Klienter 1190 stk. Pågående: Fortinet-utskifting, konsulentrammeavtale 2025-2029 (20 MNOK).",
+    "nøkkelord": ["okt 2026", "nov 2026", "jan 2027", "okt 2027", "60 MNOK", "Fortinet", "20 MNOK"]
+  },
+  {
+    "id": "STAF-LE-04",
+    "kategori": "Account planning",
+    "tier": 2,
+    "spørsmål": "Lag en 12-måneders account growth plan for STAF med kvartalsvise milepæler og estimert revenue-potensial.",
+    "fasit": "Strukturert plan: Q2 2026: Nettverksfornyelse + overvåking + Sentinel-oppfølging. Q3 2026: Datasenter-workshop + AV-planlegging + Purview. Q4 2026: Skymigrering Elements + AI/Copilot. Q1 2027: Ny datasenter/hybridplattform. Med NOK-estimater per initiativ.",
+    "nøkkelord": ["Q2 2026", "Q3 2026", "Q4 2026", "Q1 2027", "nettverksfornyelse", "datasenter-workshop", "skymigrering"]
+  },
+  {
+    "id": "STAF-LE-05",
+    "kategori": "Account planning",
+    "tier": 2,
+    "spørsmål": "Hvem hos STAF bør vi bygge sterkere relasjoner med for å utvide samarbeidet? Hvem er de viktigste beslutningstakerne?",
+    "fasit": "Prioriterte: Espen Storetvedt (ny avd.dir, erstatter Eldar Hovda - MÅ bygge relasjon). Margot Telnes (direktør, dialog via Kim Sigurd Wennerberg). Erik Drivdal (godkjenner >1,3 MNOK). Tommy Midtun Kjellby (<1,3 MNOK, operasjonell). Jørgen Tistel (digitalisering, AI).",
+    "nøkkelord": ["Espen Storetvedt", "Margot Telnes", "Kim Sigurd Wennerberg", "Erik Drivdal", "Tommy Midtun Kjellby", "Jørgen Tistel"]
+  },
+  {
+    "id": "STAF-LE-06",
+    "kategori": "Cross-sell",
+    "tier": 2,
+    "spørsmål": "STAF har Sentinel-gjennomgang pågående. Hva bør neste steg være, og hvilke tilleggstjenester kan vi selge inn?",
+    "fasit": "Neste steg: Avvente Sentinel-konklusjoner, deretter foreslå helhetlig Microsoft Security roadmap. Tillegg: CSPM, Defender for Storage, Purview (informasjonsklassifisering), SOC-tjenester, sikkerhetsarkitektur for hybrid sky 2027. Koble til virksomhetsstrategi mål 2 (informasjonssikkerhet).",
+    "nøkkelord": ["Sentinel", "CSPM", "Defender for Storage", "Purview", "SOC", "informasjonssikkerhet"]
+  },
+  {
+    "id": "STAF-LE-07",
+    "kategori": "Cross-sell",
+    "tier": 2,
+    "spørsmål": "Kompetanseprogrammet del 1 var svært vellykket hos STAF. Hvordan kan vi utvide dette til et større engasjement?",
+    "fasit": "Del 2 allerede planlagt mot 2027. Utvide med: sky-kompetanse (Azure), sikkerhetskompetanse, AI/Copilot governance, plattformdrift. Nøkkelperson Atea: Bård Erik Lund. Koble til STAFs strategimål 4 (relevant kompetanse). Potensial 1-3 MNOK.",
+    "nøkkelord": ["del 2", "Bård Erik Lund", "Azure", "AI/Copilot", "1-3 MNOK", "kompetanse"]
+  },
+  {
+    "id": "STAF-LE-08",
+    "kategori": "Møteforberedelse",
+    "tier": 2,
+    "spørsmål": "Forbered meg til et strategisk møte med Margot Telnes (direktør STAF). Hva bør jeg vite og hvilke budskap bør jeg ha med?",
+    "fasit": "Margot er toppsjef STAF. Dialog via ledersponsor Kim Sigurd Wennerberg. Budskap: Atea som strategisk partner for skyreisen, datasenter 2027, og informasjonssikkerhet. Koble til virksomhetsstrategien 2023-2026. Nevn FLAKS-programmets suksess (Even Ask). Vis omsetningsutvikling og prognose 33,6 MNOK 2026. Vekstambisjoner.",
+    "nøkkelord": ["Margot Telnes", "Kim Sigurd Wennerberg", "skyreisen", "datasenter", "FLAKS", "33,6 MNOK"]
+  },
+  {
+    "id": "STAF-LE-09",
+    "kategori": "Møteforberedelse",
+    "tier": 2,
+    "spørsmål": "Espen Storetvedt er ny avdelingsdirektør Infrastruktur og Drift. Hvordan bør vi bygge relasjonen, og hva bør første møte handle om?",
+    "fasit": "Ny i rollen (erstatter Eldar Hovda). Eier: nettverk, datasenter, drift, sikkerhet. Første møte: presentere Atea-teamet, pågående leveranser (Fortinet, konsulenter), kommende utfordringer (datasenter nov 2026, skyreise). Spør om hans prioriteringer. Ta med Lasse Johnson (KAM) og relevante spesialister.",
+    "nøkkelord": ["Espen Storetvedt", "Eldar Hovda", "Fortinet", "datasenter", "Lasse Johnson"]
+  },
+  {
+    "id": "STAF-LE-10",
+    "kategori": "Risikohåndtering",
+    "tier": 2,
+    "spørsmål": "Hva er de største risikoene for at vi mister omsetning hos STAF, og hva kan vi gjøre for å forhindre det?",
+    "fasit": "Risiko: 1) MS Lisenser 60 MNOK utløper jan 2027 (konkurranse), 2) Datasenter-beslutning kan gå til annen leverandør, 3) Ny avd.dir Espen Storetvedt er ukjent relasjon, 4) Offentlig anbud kan gi andre fordeler, 5) Budsjettkutt (effektiviseringskrav i tildelingsbrev). Tiltak: Styrke relasjoner, leveranseeksellens, proaktiv rådgivning, synliggjøre verdi.",
+    "nøkkelord": ["60 MNOK", "jan 2027", "Espen Storetvedt", "anbud", "budsjettkutt"]
+  },
+  {
+    "id": "STAF-SP-01",
+    "kategori": "Strategisk møte",
+    "tier": 3,
+    "spørsmål": "I det strategiske møtet 19. januar 2026 med STAF — hva ble diskutert om markedstrender, og hvilke temaer ble presentert?",
+    "fasit": "Markedstrender: prisøkninger og lengre leveringstider, CIO Analytics, ressurser, fokusområder, sikkerhet, AI (to slides dedikert). Atea Norge i tall: 23 kontorer, 1850 ansatte, 9 strategiske partnere, 9 Gold partnere.",
+    "nøkkelord": ["prisøkninger", "leveringstider", "CIO Analytics", "AI", "23 kontorer", "1850 ansatte"],
+    "kilde": "Dokumentasjon/Presentasjoner/Strategiske møter/STAF Strategisk møte 19.01.2026.pptx"
+  },
+  {
+    "id": "STAF-SP-02",
+    "kategori": "Taktisk møte",
+    "tier": 3,
+    "spørsmål": "Hva ble tatt opp i det taktiske møtet 5. mars 2026 med STAF? Hva var fokusområdene?",
+    "fasit": "Fokus på: prisøkninger/lengre leveringstider, ressurser, AI. FLAKS-programmet i praksis. Feedback fra STAF etterspurt. Samme kundeteam og rammeavtaler som strategisk møte.",
+    "nøkkelord": ["prisøkninger", "leveringstider", "AI", "FLAKS", "feedback"],
+    "kilde": "Dokumentasjon/Presentasjoner/Taktiske møter/2026/STAF Taktisk møte 05.03.2026.pptx"
+  },
+  {
+    "id": "STAF-SP-03",
+    "kategori": "Strategi detaljer",
+    "tier": 3,
+    "spørsmål": "Hva sier STAFs virksomhetsstrategi 2023-2026 om STAFs tre roller? Beskriv dem i detalj.",
+    "fasit": "Tre roller: 1) Tjenesteleverandør — stabile, sikre, effektive fellestjenester. 2) Rådgiver og veileder — kompetansebygging, opplæring, veiledning. 3) Pådriver og utviklingsaktør — ny teknologi, standardisering, digital transformasjon.",
+    "nøkkelord": ["Tjenesteleverandør", "Rådgiver", "veileder", "Pådriver", "utviklingsaktør"],
+    "kilde": "Dokumentasjon/Tildelingsbrev for STAF/2026/stafs-virksomhetsstrategi-2023---2026.pdf"
+  },
+  {
+    "id": "STAF-SP-04",
+    "kategori": "Tildelingsbrev detaljer",
+    "tier": 3,
+    "spørsmål": "Hva er de prioriterte utviklingsprosjektene i tildelingsbrevet 2026 for STAF? List alle med prioritet og bevilgning.",
+    "fasit": "Prioritet 1: Digital gravferdsmelding (13,5 MNOK), Nytt felles fagsystem for tilsyn (TBD), Felles tilskuddsforvaltningssystem (4 MNOK), Enklere saksbehandlingsprosesser (1,5 MNOK). Prioritet 2: Rettshjelpsapplikasjon 2.0, Ny partiportal v2.0 (3,4 MNOK), Oppfølging Balanseprosjektet (3 MNOK). Prioritet 3: Digital løsning tros-/livssynssamfunn, Kommunebilde (1 MNOK).",
+    "nøkkelord": ["gravferdsmelding", "13,5 MNOK", "tilsyn", "tilskuddsforvaltning", "partiportal", "Balanseprosjektet"],
+    "kilde": "Dokumentasjon/Tildelingsbrev for STAF/2026/tildelingsbrev-2026-til-statsforvaltarens-fellestenester-2.pdf"
+  },
+  {
+    "id": "STAF-SP-05",
+    "kategori": "Avtaledokumenter",
+    "tier": 3,
+    "spørsmål": "Hva inneholder den signerte rammeavtalen for konsulentbistand IKT fra april 2025? Hvem signerte?",
+    "fasit": "Signert rammeavtale konsulentbistand IKT, signert 22.04.2025. Detaljer fra selve avtaledokumentet. Bør søke i SharePoint for å hente faktisk innhold fra PDF-en i Avtaler og kontrakter/Rammeavtale Konsulent Microsoft og AV 20.04.2025/.",
+    "nøkkelord": ["konsulentbistand IKT", "22.04.2025", "rammeavtale"],
+    "kilde": "Avtaler og kontrakter/Rammeavtale Konsulent Microsoft og AV 20.04.2025/Signering av rammeavtale konsulentbistand IKT - signert 22.04.2025.pdf"
+  },
+  {
+    "id": "STAF-SP-06",
+    "kategori": "SSE Presentasjon",
+    "tier": 3,
+    "spørsmål": "Hva inneholdt SSE-presentasjonen for STAF i 2024? Hva er SSE i denne konteksten?",
+    "fasit": "SSE 2024_STAF.pptx fra mappen Dokumentasjon/Presentasjoner/2024/SSE med Mikael og Hanne/. Bør søke i SharePoint for å finne faktisk innhold. SSE = Strategic Sales Executive eller lignende salgsformat.",
+    "nøkkelord": ["SSE", "2024", "Strategic Sales Executive"],
+    "kilde": "Dokumentasjon/Presentasjoner/2024/SSE med Mikael og Hanne/SSE 2024_STAF.pptx"
+  },
+  {
+    "id": "STAF-SP-07",
+    "kategori": "Tilbudshistorikk",
+    "tier": 3,
+    "spørsmål": "Atea sendte et tilbud om 'Get Ready 4 Copilot' til STAF i 2024. Hva inneholdt dette tilbudet, og hvilke faser var det?",
+    "fasit": "Tre faser i tilbudsmappen: Get Ready 4 Copilot - Fase 1, Get Ready 4 Copilot - Fase 2, Get Ready for CoPilot - Learn and Decide. Bør søke i SharePoint for å finne detaljer om innholdet i tilbudet.",
+    "nøkkelord": ["Get Ready 4 Copilot", "Fase 1", "Fase 2", "Learn and Decide"],
+    "kilde": "Tilbud/2024/Get Ready 4 Copilot - Fase 1, Fase 2, Learn and Decide"
+  },
+  {
+    "id": "STAF-SP-08",
+    "kategori": "Workbook",
+    "tier": 3,
+    "spørsmål": "Hva sier Statsforvalteren Workbook fra 2021 om STAFs IT-modenhet og planlagte initiativer den gangen?",
+    "fasit": "IT-modenhet vurdert som 'veldig grå' (umoden). 2021-initiativer: Datasenterflytt fra Leikanger til Oslo, datasenteroppgradering Oslo og Hamar, Splunk-implementering, infrastruktur nettverksoppgradering, O365 samhandling, Azure og hybrid sky-utforskning.",
+    "nøkkelord": ["veldig grå", "umoden", "Leikanger", "Splunk", "O365", "Azure"],
+    "kilde": "Dokumentasjon/Workbook/Statsforvalteren Workbook 11.08.2021.docx"
+  }
+]

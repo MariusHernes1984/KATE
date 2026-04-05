@@ -59,10 +59,10 @@ def load_kundeagenter() -> dict[str, dict]:
     return agenter
 
 
-def build_search_tool(client: AIProjectClient, index_name: str) -> AzureAISearchTool:
+def build_search_tool(client: AIProjectClient, index_name: str, connection_name: str = "") -> AzureAISearchTool:
     """Opprett en AzureAISearchTool for kundens SharePoint-indeks."""
-    connection_name = SEARCH_CONNECTION_NAME
-    connection = client.connections.get(connection_name)
+    conn_name = connection_name or SEARCH_CONNECTION_NAME
+    connection = client.connections.get(conn_name)
 
     return AzureAISearchTool(
         azure_ai_search=AzureAISearchToolResource(
@@ -104,8 +104,9 @@ def deploy_agent(client: AIProjectClient, agent_name: str, config: dict) -> dict
     # Legg til Azure AI Search for kundens dokumenter (alternativ)
     search_config = config.get("tools", {}).get("azure_ai_search", {})
     index_name = search_config.get("index_name")
+    search_connection = search_config.get("connection_name", "")
     if index_name:
-        tools.append(build_search_tool(client, index_name))
+        tools.append(build_search_tool(client, index_name, search_connection))
 
     model = config.get("model", {}).get("deployment", MODEL)
 

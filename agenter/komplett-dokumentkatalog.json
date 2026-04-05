@@ -1,0 +1,348 @@
+{
+  "kunde": "Komplett Services AS",
+  "alias": "Komplett",
+  "sharepoint_site": "https://atea.sharepoint.com/sites/AteaRegionSrProspekts",
+  "sharepoint_hovedmappe": "https://atea.sharepoint.com/sites/AteaRegionSrProspekts/Shared%20Documents/Komplett%20Services%20AS%20%2D%20AM%20J%C3%B8rn%20Are%20Olsen",
+  "generert": "2026-04-04",
+  "total_filer": 281,
+  "mapper": [
+    {
+      "navn": "2023 Ny driftskontrakt",
+      "sti": "2023 Ny driftskontrakt",
+      "antall_filer": 65,
+      "beskrivelse": "Komplett fullstendig kontraktsprosess 2023-2024. Inneholder grunnlag, løsningsforslag, kontrakter (SSA-D, SSA-R, SSA-B, SSA-lille sky) og signerte versjoner.",
+      "undermapper": [
+        {
+          "navn": "01 Grunnlag fra Kunden",
+          "antall_filer": 2,
+          "beskrivelse": "Grunnlagsdokumenter fra Komplett som utgangspunkt for kontraktsforhandling"
+        },
+        {
+          "navn": "02 Ateas løsningsforslag",
+          "antall_filer": 3,
+          "beskrivelse": "Ateas løsningsforslag til Komplett"
+        },
+        {
+          "navn": "03 Skriftelig input medarbeidere",
+          "antall_filer": 5,
+          "beskrivelse": "Input fra Atea-medarbeidere (Arild, Eivind, Hans Andreas). Inkl. sammenligning SSA-SKY vs SSA-SKY lille"
+        },
+        {
+          "navn": "04 SSA-R kontrakten",
+          "antall_filer": 4,
+          "beskrivelse": "Infrastruktur vedlikeholdsavtale. 4 versjoner."
+        },
+        {
+          "navn": "05 Intern informasjon",
+          "antall_filer": 4,
+          "beskrivelse": "Intern budinformasjon og strategisk møtepresentasjon (juni 2024, 7.5 MB)"
+        },
+        {
+          "navn": "06 SSA-D kontrakten",
+          "antall_filer": 23,
+          "beskrivelse": "HOVEDKONTRAKT: SSA-D Driftsavtale for IT-systemer og skytjenester. Signert 28.06.2024 av Thomas Røkke (Komplett) og Borger Kruge (Atea). Avtalenr SA0132799. Varighet 5 år fra 01.07.2024. Inkluderer Bilag 2 (løsningsspesifikasjon), Bilag 4 (prosjektplan), Bilag 5 (tjenestenivå/SLA), Bilag 6 (administrative bestemmelser), Bilag 7 (pris). Arbeidsfiler inkl. Give_Get-analyse, fakturaoversikter, serveroversikter.",
+          "nokkeldata": {
+            "avtalenummer": "SA0132799",
+            "signert": "28.06.2024",
+            "oppstart": "01.07.2024",
+            "varighet": "5 år",
+            "utloper": "01.07.2029",
+            "oppsigelse": "6 måneder",
+            "signert_kunde": "Thomas Røkke, Group CFO",
+            "signert_atea": "Borger Kruge, Regionsdirektør",
+            "avtaletype": "SSA-D 2018"
+          },
+          "status": "ACTIVE"
+        },
+        {
+          "navn": "07 SSA-B kontrakten",
+          "antall_filer": 2,
+          "beskrivelse": "Azure kompetanseavtale",
+          "status": "ACTIVE"
+        },
+        {
+          "navn": "07 SSA-lille sky kontrakten",
+          "antall_filer": 2,
+          "beskrivelse": "Liten sky-tjenesteavtale",
+          "status": "ACTIVE"
+        },
+        {
+          "navn": "Signerte kontrakter",
+          "antall_filer": 6,
+          "beskrivelse": "Endelig signerte PDF-versjoner av alle 2024-kontrakter: SSA-D (bilag + hovedavtale), SSA-R, SSA-B Azure",
+          "status": "ACTIVE"
+        },
+        {
+          "navn": "Til signering",
+          "antall_filer": 14,
+          "beskrivelse": "Dokumenter forberedt for signering, inkl. prisvedlegg (XLSX)"
+        }
+      ],
+      "sokeord": ["kontrakt", "avtale", "SSA-D", "SSA-R", "SSA-B", "bilag", "driftsavtale", "signert", "pris", "SLA", "tjenestenivå"]
+    },
+    {
+      "navn": "2024",
+      "sti": "2024",
+      "antall_filer": 8,
+      "beskrivelse": "2024-aktiviteter: fakturering, on-prem serverplanlegging, NoMagic endringsordre, SQL BYOL-lisensiering, Power 9-oppsigelse.",
+      "undermapper": [
+        {
+          "navn": "Kontrakt 2024",
+          "antall_filer": 2,
+          "beskrivelse": "2024 fakturering og on-prem server/lagringsplanlegging"
+        },
+        {
+          "navn": "Nomagic feb 2024",
+          "antall_filer": 2,
+          "beskrivelse": "Endringsordre for NoMagic programvare (SIGNERT)"
+        },
+        {
+          "navn": "SQL BYOL lisens og server",
+          "antall_filer": 2,
+          "beskrivelse": "SQL-lisensdokumentasjon (Bring Your Own License)"
+        },
+        {
+          "navn": "Underlag for epost ad Power 9",
+          "antall_filer": 2,
+          "beskrivelse": "Power 9-plattform oppsigelsesvarsel (SIGNERT)"
+        }
+      ],
+      "sokeord": ["2024", "faktura", "NoMagic", "SQL", "BYOL", "Power 9", "lisens"]
+    },
+    {
+      "navn": "2025 Komplett",
+      "sti": "2025 Komplett",
+      "antall_filer": 14,
+      "beskrivelse": "Inneværende år: Samarbeidsavtale CSP (signert 10.04.2025), fakturaprognoser 2026, Entra ID-migrering, NIS2-compliance, NaaS-utvidelse, internmøter og ledelsesstatus.",
+      "undermapper": [
+        {
+          "navn": "Entra ID prosjekt",
+          "antall_filer": 1,
+          "beskrivelse": "Azure AD til Entra ID Only migrering. SIGNERT. Merk: VPN-showstopper identifisert 31.10.2025 — nåværende VPN støtter ikke Entra ID.",
+          "status": "ACTIVE"
+        },
+        {
+          "navn": "Internmøte Status Komplett",
+          "antall_filer": 2,
+          "beskrivelse": "Interne statuspresentasjoner for Atea-teamet"
+        },
+        {
+          "navn": "Komplett statusmøter ledelse",
+          "antall_filer": 1,
+          "beskrivelse": "Ledelses-statusrapporter (2 MB)"
+        },
+        {
+          "navn": "NIS2 - Prosjektplan og Bistandsbeskrivelse",
+          "antall_filer": 2,
+          "beskrivelse": "NIS2-compliance prosjektplan datert 11.09.2025. Scrum-basert, 9 sprinter. Kontakt: Nils-Georg Paus (strategisk rådgiver). SIGNERT.",
+          "status": "ACTIVE"
+        },
+        {
+          "navn": "NaaS",
+          "antall_filer": 3,
+          "beskrivelse": "NaaS-utvidelse 2025: MS250-svitsjer for datarom, SFP-inventar mars 2025"
+        }
+      ],
+      "nokkeldata": {
+        "samarbeidsavtale_signert": "10.04.2025",
+        "csp_prosjektfond": "10% av Azure-forbruk",
+        "nis2_oppstart": "September 2025",
+        "entra_id_status": "Delvis fullført, VPN-showstopper"
+      },
+      "sokeord": ["2025", "samarbeidsavtale", "CSP", "Entra ID", "NIS2", "compliance", "sikkerhet", "NaaS", "faktura", "prognose"]
+    },
+    {
+      "navn": "2026 Komplett",
+      "sti": "2026 Komplett",
+      "antall_filer": 11,
+      "beskrivelse": "Fremoverplanlegging og nedtrapping. Endringsbilag 9 for tjenestenedtrapping fra april 2026. Serveroversikt for utfasing (69 Azure-servere). Konsulentpriser 2026.",
+      "undermapper": [
+        {
+          "navn": "Endringsmelding nedtrapping",
+          "antall_filer": 9,
+          "beskrivelse": "KRITISK: Komplett insourcer tjenester. Endringsbilag 9 datert 23.03.2026. Nedtrapping av Managed IaaS, Print, Bruker/ID, Servicedesk, Azure VMs. Lokal ressurs Sandefjord terminert 31.01.2026. Øvrige tjenester avsluttes 30.04.2026. Serveroversikt utfasing.xlsx (3.6 MB) — fullstendig inventar over servere som skal dekommisjoneres.",
+          "nokkeldata": {
+            "endringsbilag": "9",
+            "datert": "23.03.2026",
+            "lokal_ressurs_terminert": "31.01.2026",
+            "ovrige_tjenester_terminert": "30.04.2026",
+            "antall_azure_servere_utfases": 69,
+            "manedlig_reduksjon": "~NOK 342,321",
+            "avbestillingsgebyr": "Frafalt (6 mnd varsel oppfylt)",
+            "arsverdi_endringer": "NOK 2,550,970"
+          },
+          "status": "ACTIVE"
+        },
+        {
+          "navn": "Konsulentpriser 2026",
+          "antall_filer": 2,
+          "beskrivelse": "Konsulentprisavtale for 2026"
+        }
+      ],
+      "sokeord": ["2026", "nedtrapping", "endringsbilag", "utfasing", "servere", "insourcing", "konsulentpriser"]
+    },
+    {
+      "navn": "Analytics",
+      "sti": "Analytics",
+      "antall_filer": 6,
+      "beskrivelse": "Atea Analytics konsulentavtale, Snowflake sizing-estimat, analyseløsning fra 2018-2020.",
+      "sokeord": ["analytics", "Snowflake", "analyse", "data"]
+    },
+    {
+      "navn": "Cisco Support Agreement",
+      "sti": "Cisco Support Agreement",
+      "antall_filer": 2,
+      "beskrivelse": "Historisk Cisco-supportkontrakt 2020-2021.",
+      "status": "EXPIRED"
+    },
+    {
+      "navn": "CoPilot",
+      "sti": "CoPilot",
+      "antall_filer": 5,
+      "beskrivelse": "Microsoft Copilot for M365 Discovery and Mapping. Forprosjekt signert. Tilbud Purview Simplified Solution inkludert.",
+      "sokeord": ["Copilot", "M365", "AI", "Purview", "forprosjekt", "discovery"],
+      "status": "ACTIVE"
+    },
+    {
+      "navn": "Email Messages / EmailMessages_11_2021",
+      "sti": "Email Messages",
+      "antall_filer": 16,
+      "beskrivelse": "E-postarkiv: Meraki nettverksutstyr, SFP-anbud, Canon-skrivere, print-utstyr (2021)."
+    },
+    {
+      "navn": "Farmasiet",
+      "sti": "Farmasiet",
+      "antall_filer": 0,
+      "beskrivelse": "Farmasiet-relaterte dokumenter (Komplett-datterselskap/forretningsområde)."
+    },
+    {
+      "navn": "Fremdrift prosjekter 2022-2023",
+      "sti": "Fremdrift prosjekter 2022-2023",
+      "antall_filer": 1,
+      "beskrivelse": "Prosjektfremdrift-sporing fra sept 2022.",
+      "sokeord": ["fremdrift", "prosjekt", "status"]
+    },
+    {
+      "navn": "NaaS",
+      "sti": "NaaS",
+      "antall_filer": 16,
+      "beskrivelse": "Network as a Service — 3 faser pluss 2025-utvidelse. Fase 1 (2021): Endringsbilag 7, signert 22.04.2021, avtale SA0029879. Fase 2 (2023): Sandefjord, SOW, priskalkyle. Fase 3 (2023): Kontornett Sandefjord, CDR (10 MB). 2025: MS250-svitsjer, SFP-inventar. Endringsanmodning #10 (nov 2024): WiFi-problemer Kaupang VLAN24.",
+      "undermapper": [
+        {
+          "navn": "2021 NaaS",
+          "antall_filer": 4,
+          "beskrivelse": "Fase 1: Endringsbilag nr 7, Meraki-inventar v1-v2, overleveringssjekkliste"
+        },
+        {
+          "navn": "2023 NaaS Sandefjord Fase 2",
+          "antall_filer": 5,
+          "beskrivelse": "Fase 2: SOW, priskalkyle v12-4.0, Meraki-inventar v3-v4"
+        },
+        {
+          "navn": "2023 NaaS Sandefjord Fase 3",
+          "antall_filer": 5,
+          "beskrivelse": "Fase 3: SOW Kontornett, CDR dekningsrapport (10 MB), Meraki v4, dekningsmåling"
+        }
+      ],
+      "nokkeldata": {
+        "fase1_signert": "22.04.2021",
+        "fase1_avtalenr": "SA0029879",
+        "fase2_investering": "14.10.2022",
+        "fase3_lokasjon": "Sandefjord kontornett",
+        "meraki_enheter": "~285 enheter (MR + MS + MX)",
+        "manedlig_naas_kostnad": "~NOK 260,000+"
+      },
+      "sokeord": ["NaaS", "nettverk", "Meraki", "switch", "WiFi", "access point", "MR", "MS", "MX", "SFP", "Sandefjord"]
+    },
+    {
+      "navn": "Purecloud",
+      "sti": "Purecloud",
+      "antall_filer": 8,
+      "beskrivelse": "Genesys PureCloud kontaktcenter-plattform. Tilbud, prosjektplan (MPP), POC, risikoanalyse.",
+      "sokeord": ["PureCloud", "Genesys", "kontaktcenter", "telefoni", "POC"]
+    },
+    {
+      "navn": "RIGA avtaler",
+      "sti": "RIGA avtaler",
+      "antall_filer": 1,
+      "beskrivelse": "Service Pricing Quote for Komplett Services AS.",
+      "sokeord": ["RIGA", "pricing", "service"]
+    },
+    {
+      "navn": "Revisjon av inntekstgrunnlag - 2022",
+      "sti": "Revisjon av inntekstgrunnlag - 2022",
+      "antall_filer": 4,
+      "beskrivelse": "Finansiell revisjon/inntektsverifisering 2022. Azure VM-inventar (CSV), VMware RVTools-eksport, Komplett-oversikt.",
+      "sokeord": ["revisjon", "inntekt", "Azure", "VM", "VMware", "RVTools"]
+    },
+    {
+      "navn": "SOC+",
+      "sti": "SOC+",
+      "antall_filer": 2,
+      "beskrivelse": "Atea SOC+ sikkerhetstjeneste. Signert og kryptert (3.4 MB). Tilbud inkludert.",
+      "sokeord": ["SOC", "sikkerhet", "security", "overvåking"],
+      "status": "ACTIVE"
+    },
+    {
+      "navn": "Saker Komplett",
+      "sti": "Saker Komplett",
+      "antall_filer": 8,
+      "beskrivelse": "Support-saker med skjermbilder. TrackingID#2509170050003851 (okt 2025).",
+      "sokeord": ["sak", "support", "tracking", "feil"]
+    },
+    {
+      "navn": "Strategisk møteplass",
+      "sti": "Strategisk møteplass",
+      "antall_filer": 1,
+      "beskrivelse": "Strategisk møtepresentasjon 21.03.2024 (51 MB). Komplett strategisk sesjon.",
+      "sokeord": ["strategisk", "møte", "strategi", "presentasjon"]
+    },
+    {
+      "navn": "Taktiske møter",
+      "sti": "Taktiske møter",
+      "antall_filer": 30,
+      "beskrivelse": "Pågående taktiske møteprogram med fullstendig dokumentasjon. Presentasjoner (12 PPTX, apr 2023-mars 2026), AI-oppsummeringer med transkripsjoner (7+ møter des 2025-mars 2026), forberedelsesnotater.",
+      "undermapper": [
+        {
+          "navn": "AI Oppsummeringer og Notater",
+          "antall_filer": 10,
+          "beskrivelse": "AI-genererte møteoppsummeringer og transkripsjoner fra des 2025 til mars 2026. Detaljerte referat med aksjonspunkter.",
+          "nokkeldata": {
+            "siste_mote": "26.03.2026",
+            "motefrekvens": "Månedlig/annen hver måned"
+          }
+        },
+        {
+          "navn": "Forberedelser",
+          "antall_filer": 3,
+          "beskrivelse": "Forberedelsesnotater og spørsmål til taktiske møter"
+        },
+        {
+          "navn": "Presentasjoner",
+          "antall_filer": 12,
+          "beskrivelse": "Taktiske møtepresentasjoner apr 2023 til mars 2026. Nyeste: Taktisk_260326.pptx (9.4 MB). Dekker: driftsstatus, prosjektoppdateringer, fakturagjennomgang, hendelser, kommende aktiviteter."
+        }
+      ],
+      "sokeord": ["taktisk", "møte", "referat", "aksjonspunkt", "status", "presentasjon", "transkripsjon"]
+    },
+    {
+      "navn": "Arkiv 2020-2023",
+      "sti": "Arkiv 2020-2023",
+      "antall_filer": 15,
+      "beskrivelse": "Historisk arkiv: Power 9 (2020), diskutvidelse, sikkerhetstjenester, Webhallen, print, enterprise landing zone, filserver-erstatning, lisensfornyelse, NaaS Lysaker, Zebra, analytics, diverse, grunnlag ny avtale 2023.",
+      "undermapper": [
+        {
+          "navn": "2020 Power 9",
+          "antall_filer": 2,
+          "beskrivelse": "SAP/Power Platform-dokumentasjon"
+        },
+        {
+          "navn": "2023 Grunnlag ny avtale",
+          "antall_filer": 5,
+          "beskrivelse": "Grunnlag for ny avtale 2023: Managed Azure, Managed Network, SSA-D spesifikasjon"
+        }
+      ],
+      "sokeord": ["arkiv", "historikk", "Power 9", "landing zone", "lisens", "Zebra", "Lysaker"]
+    }
+  ]
+}

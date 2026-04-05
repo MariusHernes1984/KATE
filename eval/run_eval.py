@@ -10,6 +10,7 @@ Bruk:
   python run_eval.py --kategori avtale_fakta # Kjør kun én kategori
   python run_eval.py --report-only          # Generer rapport fra siste kjøring
   python run_eval.py --no-judge             # Kjør uten LLM-scoring (kun svar + latency)
+  python run_eval.py --questions eval_questions_v2_avtaler.json  # Bruk alternativ spørsmålsfil
 """
 
 import os
@@ -28,12 +29,14 @@ AGENT_NAME = os.environ.get("EVAL_AGENT_NAME", "bertel-o-steen")
 JUDGE_MODEL = os.environ.get("JUDGE_MODEL", "gpt-4.1")
 
 EVAL_DIR = Path(__file__).parent
-QUESTIONS_FILE = EVAL_DIR / "eval_questions.json"
+DEFAULT_QUESTIONS_FILE = EVAL_DIR / "eval_questions.json"
 RESULTS_DIR = EVAL_DIR / "resultater"
 
 
-def load_questions(ids: list[int] | None = None, kategori: str | None = None) -> list[dict]:
-    with open(QUESTIONS_FILE, encoding="utf-8") as f:
+def load_questions(ids: list[int] | None = None, kategori: str | None = None,
+                   questions_file: Path | None = None) -> list[dict]:
+    qfile = questions_file or DEFAULT_QUESTIONS_FILE
+    with open(qfile, encoding="utf-8") as f:
         questions = json.load(f)
     if ids:
         questions = [q for q in questions if q["id"] in ids]
@@ -251,7 +254,10 @@ def main():
     parser.add_argument("--report-only", action="store_true", help="Generer rapport fra siste kjøring")
     parser.add_argument("--no-judge", action="store_true", help="Hopp over LLM-as-judge scoring")
     parser.add_argument("--output", type=str, help="Mappenavn for resultater (default: timestamp)")
+    parser.add_argument("--questions", type=str, help="Sti til alternativ spørsmålsfil (default: eval_questions.json)")
     args = parser.parse_args()
+
+    questions_file = Path(args.questions) if args.questions else None
 
     run_name = args.output or datetime.now().strftime("%Y%m%d_%H%M%S")
     output_dir = RESULTS_DIR / run_name
@@ -268,7 +274,7 @@ def main():
             print("Ingen tidligere resultater funnet.")
         return
 
-    questions = load_questions(ids=args.ids, kategori=args.kategori)
+    questions = load_questions(ids=args.ids, kategori=args.kategori, questions_file=questions_file)
 
     print(f"Kobler til Azure AI Foundry: {PROJECT_ENDPOINT}")
     print(f"Agent: {AGENT_NAME} (via responses API)")

@@ -1,0 +1,274 @@
+[
+  {
+    "id": "KOMPLETT-01",
+    "kategori": "Kontakter",
+    "tier": 1,
+    "spørsmål": "Hvem er primærkontakten for IT hos Komplett, og hvem er Ateas senior account manager?",
+    "fasit": "Primærkontakt IT: Henning Ims, Head of IT Operations (henning.ims@komplett.com, +47 48300800). Atea Senior Account Manager: Jørn Are Olsen (91111990).",
+    "nøkkelord": ["Henning Ims", "Jørn Are Olsen", "48300800", "91111990"]
+  },
+  {
+    "id": "KOMPLETT-02",
+    "kategori": "Kontakter",
+    "tier": 1,
+    "spørsmål": "Hvem er den nye workspace manageren hos Komplett, og når startet vedkommende?",
+    "fasit": "Anders Gjengedal, startet uke 4 i februar 2026. Kom fra Eika Gruppen.",
+    "nøkkelord": ["Anders Gjengedal", "uke 4", "februar 2026", "Eika Gruppen"]
+  },
+  {
+    "id": "KOMPLETT-03",
+    "kategori": "Kontakter",
+    "tier": 1,
+    "spørsmål": "Hvem signerte SSA-D driftsavtalen på vegne av Komplett og Atea?",
+    "fasit": "Komplett: Thomas Røkke (Group CFO). Atea: Borger Kruge (Regionsdirektør). Signert 28.06.2024 i Sandefjord.",
+    "nøkkelord": ["Thomas Røkke", "Borger Kruge", "28.06.2024", "Sandefjord"]
+  },
+  {
+    "id": "KOMPLETT-04",
+    "kategori": "Avtaler",
+    "tier": 1,
+    "spørsmål": "Hva er detaljene for hovedkontrakten SSA-D med Komplett?",
+    "fasit": "Avtalenr SA0132799. SSA-D 2018. Drift av IT-systemer og skytjenester. Signert 28.06.2024. Oppstart 01.07.2024. Varighet 5 år (utløper 01.07.2029). Oppsigelse 6 måneder.",
+    "nøkkelord": ["SA0132799", "SSA-D", "28.06.2024", "01.07.2024", "5 år", "01.07.2029", "6 måneder"]
+  },
+  {
+    "id": "KOMPLETT-05",
+    "kategori": "Avtaler",
+    "tier": 1,
+    "spørsmål": "Hva er vilkårene i CSP samarbeidsavtalen med Komplett?",
+    "fasit": "Signert 10.04.2025 av Henning Ims og Eivind Sletthaug. Ingen bindingstid, 3 mnd oppsigelse. 10% av Azure-forbruk avsettes til prosjektfond. 2025: opptil 100% støtte. Etter 2025: opptil 50%. Atea Cloud Insights inkludert.",
+    "nøkkelord": ["10.04.2025", "3 mnd", "10%", "Azure", "prosjektfond", "100%", "50%", "Cloud Insights"]
+  },
+  {
+    "id": "KOMPLETT-06",
+    "kategori": "Avtaler",
+    "tier": 1,
+    "spørsmål": "Beskriv NaaS-avtalen med Komplett – faser, tidslinje og omfang.",
+    "fasit": "Avtalenr SA0029879. Fase 1 signert 22.04.2021. Fase 2 (2023): Sandefjord. Fase 3 (2023): Kontornett Sandefjord. 2025-utvidelse: MS250-svitsjer. ~285 Meraki-enheter. Månedlig kostnad ~NOK 260,000+.",
+    "nøkkelord": ["SA0029879", "22.04.2021", "Fase 1", "Fase 2", "Fase 3", "285", "Meraki", "260"]
+  },
+  {
+    "id": "KOMPLETT-07",
+    "kategori": "Økonomi",
+    "tier": 1,
+    "spørsmål": "Hva er den månedlige fakturaen til Komplett før og etter nedtrappingen?",
+    "fasit": "Før nedtrapping (okt 2025): NOK 830,254/mnd (~9,96 MNOK/år). Månedlig reduksjon: ~NOK 342,321. Etter nedtrapping: ~NOK 500,000/mnd. Kreditering identifisert mars 2026: NOK 131,255.",
+    "nøkkelord": ["830,254", "9,96 MNOK", "342,321", "500,000", "131,255"]
+  },
+  {
+    "id": "KOMPLETT-08",
+    "kategori": "Økonomi",
+    "tier": 1,
+    "spørsmål": "Hvilke tjenester beholdes etter nedtrappingen, og hva koster de?",
+    "fasit": "NaaS Meraki (~260K), Infrastruktur 2 servere/allflash (50K), VPN 473 brukere (52K), SDM 50% (31K), Backup 36TB (18K), Cloud Connect + ExpressRoute (27K), VM Atea DC 22 stk (14K), Catch & Dispatch (12.5K), Border Control (12K) m.fl.",
+    "nøkkelord": ["NaaS", "260K", "VPN", "473", "SDM", "Backup", "36TB", "ExpressRoute"]
+  },
+  {
+    "id": "KOMPLETT-09",
+    "kategori": "Prosjekter",
+    "tier": 1,
+    "spørsmål": "Hva er status på Entra ID-migreringen hos Komplett?",
+    "fasit": "Delvis fullført. SHOWSTOPPER identifisert 31.10.2025: nåværende VPN-løsning støtter ikke Entra ID. Krever VPN-oppgradering eller alternativ før fullføring.",
+    "nøkkelord": ["SHOWSTOPPER", "31.10.2025", "VPN", "Entra ID"]
+  },
+  {
+    "id": "KOMPLETT-10",
+    "kategori": "Prosjekter",
+    "tier": 1,
+    "spørsmål": "Beskriv NIS2 compliance-prosjektet for Komplett.",
+    "fasit": "Prosjektplan datert 11.09.2025. Scrum-basert, 9 sprinter planlagt. Strategisk rådgiver: Nils-Georg Paus. Bakgrunn: Modenhetsanalyse (2024), NIS2 Modenhetsrapport (2025), Gap-analyse vår 2025.",
+    "nøkkelord": ["11.09.2025", "Scrum", "9 sprinter", "Nils-Georg Paus", "NIS2"]
+  },
+  {
+    "id": "KOMPLETT-11",
+    "kategori": "Prosjekter",
+    "tier": 1,
+    "spørsmål": "Hva er situasjonen med nettverksinfrastrukturen hos Komplett?",
+    "fasit": "MS125-svitsjer nær kapasitetsgrense, forårsaker ustabilitet i produksjon. Foreslått oppgradering til MS250 eller Meraki 9200-serie. Ny nettverksdesign med ekstern arkitekt planlagt. Spesielle behov: MAC-adressehåndtering, WiFi 6/7 i produksjon/retur.",
+    "nøkkelord": ["MS125", "kapasitetsgrense", "MS250", "9200", "WiFi 6", "WiFi 7", "MAC-adresse"]
+  },
+  {
+    "id": "KOMPLETT-12",
+    "kategori": "Nedtrapping",
+    "tier": 1,
+    "spørsmål": "Gi en oversikt over Endringsbilag 9 og nedtrappingsplanen for Komplett.",
+    "fasit": "Datert 23.03.2026. Komplett insourcer (e-post Henning Ims 03.11.2025). Lokal ressurs Sandefjord terminert 31.01.2026. Azure VMs (69 stk), ServiceDesk, User Basic, Print avsluttes 30.04.2026. 12-mnd verdi: NOK 2,550,970. Avbestillingsgebyr frafalt.",
+    "nøkkelord": ["23.03.2026", "03.11.2025", "31.01.2026", "69", "30.04.2026", "2,550,970"]
+  },
+  {
+    "id": "KOMPLETT-13",
+    "kategori": "Nedtrapping",
+    "tier": 1,
+    "spørsmål": "Hvor mange servere skal dekommisjoneres, og hva er tidsplanen?",
+    "fasit": "69 Azure-servere (55 Windows + 14 Linux). On-prem Sandefjord: 19+2 servere (avsluttet 31.01.2026). Azure VM-operasjoner avsluttes 30.04.2026. ~22 VMs i Atea Datasenter beholdes.",
+    "nøkkelord": ["69", "55 Windows", "14 Linux", "19", "31.01.2026", "30.04.2026", "22"]
+  },
+  {
+    "id": "KOMPLETT-14",
+    "kategori": "Utfordringer",
+    "tier": 1,
+    "spørsmål": "Hva er de største utfordringene i Komplett-kontoen akkurat nå?",
+    "fasit": "1) Omsetningsnedgang pga insourcing (830K til 500K/mnd), 2) Fakturafeil NOK 131K kreditering, 3) VPN/Entra ID showstopper, 4) Printproblemer (IP-tap), 5) Nettverkskapasitet MS125-svitsjer, 6) Onboarding-feil, 7) 69 servere utfasing med ukjente avhengigheter.",
+    "nøkkelord": ["insourcing", "830K", "500K", "131K", "VPN", "Entra ID", "MS125", "69 servere"]
+  },
+  {
+    "id": "KOMPLETT-15",
+    "kategori": "Strategi",
+    "tier": 1,
+    "spørsmål": "Hvilke vekstmuligheter finnes i Komplett-kontoen til tross for nedtrappingen?",
+    "fasit": "NaaS-utvidelse (MS250/9200-svitsjer, arkitekt), NIS2-compliance, Entra ID (VPN-oppgradering), E5-lisensiering, CSP prosjektfond (10% Azure), Cloud Operations/Automation, SharePoint-migrering, DFV bestillingsløsning, KATE AI-agent (demonstrert mars 2026).",
+    "nøkkelord": ["NaaS", "MS250", "NIS2", "Entra ID", "E5", "CSP", "KATE"]
+  },
+  {
+    "id": "KOMPLETT-LE-01",
+    "kategori": "Identifisere muligheter",
+    "tier": 2,
+    "spørsmål": "Jeg har et taktisk møte med Komplett neste uke. Basert på pågående utfordringer og prosjekter — hva bør jeg ta opp som potensielle nye salgsinitiativ?",
+    "fasit": "Bør nevne: 1) Nettverksoppgradering MS125 til MS250/9200 (kapasitetsproblemer i produksjon), 2) VPN-løsning for Entra ID showstopper, 3) NIS2 utvidelse etter gap-analyse, 4) Copilot rollout etter forprosjekt, 5) E5 lisensstrategi (4 MNOK besparingsmål), 6) CSP prosjektfondmuligheter.",
+    "nøkkelord": ["MS125", "MS250", "9200", "VPN", "Entra ID", "NIS2", "Copilot", "E5", "4 MNOK", "CSP"]
+  },
+  {
+    "id": "KOMPLETT-LE-02",
+    "kategori": "Identifisere muligheter",
+    "tier": 2,
+    "spørsmål": "Komplett insourcer mye av driften. Hva kan vi tilby i stedet for å kompensere for omsetningsnedgangen? Gi meg en konkret plan med estimater.",
+    "fasit": "Bør identifisere skift fra MRR til prosjekt/konsulent. Konkrete muligheter: nettverksoppgradering (HW + prosjekt), VPN/Zero Trust, NIS2 implementering, Copilot, lisensrådgivning, Azure governance, sikkerhetstjenester (MDR/XDR). Bør inkludere estimater og tidsrammer.",
+    "nøkkelord": ["MRR", "prosjekt", "konsulent", "nettverksoppgradering", "Zero Trust", "NIS2", "MDR", "XDR"]
+  },
+  {
+    "id": "KOMPLETT-LE-03",
+    "kategori": "Identifisere muligheter",
+    "tier": 2,
+    "spørsmål": "Hvilke avtaler hos Komplett nærmer seg utløp eller har opsjonsmuligheter vi bør utnytte? Lag en tidslinje.",
+    "fasit": "SSA-D løper til 01.07.2029. NaaS har pågående utvidelser. CSP samarbeidsavtale har ingen binding (3 mnd oppsigelse - må sikres). Bør identifisere at NaaS er strategisk viktigst å forsvare. Meraki-utstyr har livssyklus. Cisco Support Agreement (2020-2021) er utgått.",
+    "nøkkelord": ["SSA-D", "01.07.2029", "NaaS", "CSP", "3 mnd", "Meraki", "Cisco"]
+  },
+  {
+    "id": "KOMPLETT-LE-04",
+    "kategori": "Account planning",
+    "tier": 2,
+    "spørsmål": "Lag en 12-måneders account growth plan for Komplett med kvartalsvise milepæler og estimert revenue-potensial.",
+    "fasit": "Bør lage strukturert plan. Q2 2026: Nettverksoppgradering (akutt kapasitetsproblem), VPN-løsning. Q3: NIS2 implementeringsfase, Copilot rollout. Q4: Lisensfornyelse strategi. Q1 2027: Ny nettverksarkitektur. Med NOK-estimater per initiativ.",
+    "nøkkelord": ["Q2 2026", "Q3", "Q4", "Q1 2027", "nettverksoppgradering", "NIS2", "Copilot"]
+  },
+  {
+    "id": "KOMPLETT-LE-05",
+    "kategori": "Account planning",
+    "tier": 2,
+    "spørsmål": "Hvem hos Komplett bør vi bygge relasjoner med for å utvide samarbeidet? Hvilke stakeholders mangler vi kontakt med?",
+    "fasit": "Eksisterende: Henning Ims (IT Ops), Anders Gjengedal (Workspace, ny). Mangler: ny CEO (bakgrunn olje/gass), ny CFO (Thomas Røkke erstatning). Bør adressere at Thomas Pedersen som signerte kontrakten har sluttet. Ledersponsor Børge Wilhelmsen bør aktiveres mot nye ledere.",
+    "nøkkelord": ["Henning Ims", "Anders Gjengedal", "CEO", "olje/gass", "Thomas Pedersen", "Børge Wilhelmsen"]
+  },
+  {
+    "id": "KOMPLETT-LE-06",
+    "kategori": "Cross-sell",
+    "tier": 2,
+    "spørsmål": "Komplett har et Copilot forprosjekt som er signert. Hva bør neste steg være, og hvilke tilleggstjenester kan vi selge inn i forbindelse med dette?",
+    "fasit": "Copilot rollout etter Discovery & Mapping. Tillegg: Purview Information Protection (allerede tilbudt), Data governance/klassifisering, Change management/adopsjon, E5 lisensoppgradering (Copilot krever E3 minimum). CSP prosjektfond kan finansiere deler.",
+    "nøkkelord": ["Discovery & Mapping", "Purview", "Information Protection", "E5", "E3", "CSP prosjektfond"]
+  },
+  {
+    "id": "KOMPLETT-LE-07",
+    "kategori": "Cross-sell",
+    "tier": 2,
+    "spørsmål": "Komplett har SOC+ fra oss allerede. Med NIS2-kravene som kommer, hva kan vi selge inn av ekstra sikkerhetstjenester?",
+    "fasit": "MDR/XDR utvidelse, Identity Threat Detection, Attack surface management, CSPM i Azure, Incident response retainer, Sikkerhetsopplæring/awareness, Leverandørstyring (NIS2 krav). Bør koble til NIS2-prosjektets funn fra gap-analyse.",
+    "nøkkelord": ["MDR", "XDR", "Identity Threat Detection", "CSPM", "incident response", "NIS2"]
+  },
+  {
+    "id": "KOMPLETT-LE-08",
+    "kategori": "Møteforberedelse",
+    "tier": 2,
+    "spørsmål": "Forbered meg til et strategisk møte med den nye CEO-en hos Komplett. Hva bør jeg vite og hvilke budskap bør jeg ha med?",
+    "fasit": "Ny CEO fra olje/gass sektoren (startet mars 2026). Komplett går godt (bunnlinje 200 MNOK). Atea leverer kritisk nettverksinfrastruktur. Budskap: strategisk partner (ikke bare leverandør), NIS2 compliance, digital transformasjon, kostnadseffektivitet. Bør ha med Børge Wilhelmsen.",
+    "nøkkelord": ["olje/gass", "mars 2026", "200 MNOK", "NIS2", "Børge Wilhelmsen"]
+  },
+  {
+    "id": "KOMPLETT-LE-09",
+    "kategori": "Møteforberedelse",
+    "tier": 2,
+    "spørsmål": "Vi skal ha kvartalsmøte om CSP samarbeidsavtalen. Hva bør vi presentere for å maksimere bruken av prosjektfondet?",
+    "fasit": "Vise opptjente prosjektmidler (10% av Azure-forbruk). Foreslå prosjekter: Azure governance, sikkerhet (Sentinel/Defender), Copilot forberedelser, cloud optimalisering. Maks 50% støtte etter 2025. Midler utløper etter 6 måneder. Bør ha konkrete prosjektforslag klare.",
+    "nøkkelord": ["10%", "Azure", "prosjektfond", "50%", "6 måneder", "Sentinel", "Defender"]
+  },
+  {
+    "id": "KOMPLETT-LE-10",
+    "kategori": "Risikohåndtering",
+    "tier": 2,
+    "spørsmål": "Hva er de største risikoene for at vi mister mer omsetning hos Komplett, og hva kan vi gjøre for å forhindre det?",
+    "fasit": "Risiko: 1) NaaS kan insources (største gjenværende ~260K/mnd), 2) CSP-avtale har 3 mnd oppsigelse, 3) Ny CEO ukjent holdning til Atea, 4) Fakturafeil undergraver tillit, 5) Konkurrenter kan tilby bedre nettverk. Tiltak: styrke relasjoner, leveranseeksellens, proaktiv rådgivning, løse fakturaproblemene raskt.",
+    "nøkkelord": ["NaaS", "260K", "CSP", "3 mnd", "CEO", "fakturafeil"]
+  },
+  {
+    "id": "KOMPLETT-SP-01",
+    "kategori": "Copilot Discovery",
+    "tier": 3,
+    "spørsmål": "I Copilot Discovery & Mapping rapporten for Komplett — hvor mange brukere ble inkludert i pilotprogrammet for Copilot, og hva var hovedanbefalingen før bredere utrulling?",
+    "fasit": "10 brukere i pilotprogrammet. Anbefaling: Før mer enn 10 brukere må anbefalingene i rapporten følges. Atea anbefaler 'Advise + Plan and Implement' steget. Bør også nevne behov for informasjonsarkitekt og Purview/sensitivity labels.",
+    "nøkkelord": ["10 brukere", "Advise", "Plan and Implement", "informasjonsarkitekt", "Purview", "sensitivity labels"],
+    "kilde": "CoPilot/Komplett Microsoft Copilot for M365 Discovery and Mapping.pdf, side 11"
+  },
+  {
+    "id": "KOMPLETT-SP-02",
+    "kategori": "Copilot Discovery",
+    "tier": 3,
+    "spørsmål": "Hva fant Atea om Kompletts DLP-policyer og Purview-konfigurasjon i Copilot Discovery-rapporten? Vær spesifikk om antall og status.",
+    "fasit": "Komplett har kun 1 DLP-policy som ikke er oppdatert siden 2020. Purview har kun 2 DLP-regler. Ingen sensitivity labels er konfigurert. Bruker default MRM-policyer for Exchange som er utdaterte. Ufullstendig GDPR-rapport i Compliance Manager.",
+    "nøkkelord": ["1 DLP-policy", "2020", "2 DLP-regler", "sensitivity labels", "MRM", "GDPR", "Compliance Manager"],
+    "kilde": "CoPilot/Komplett Microsoft Copilot for M365 Discovery and Mapping.pdf, side 7-10"
+  },
+  {
+    "id": "KOMPLETT-SP-03",
+    "kategori": "Copilot Discovery",
+    "tier": 3,
+    "spørsmål": "Hvilke sensitivity labels ble foreslått for Komplett i Copilot Discovery-rapporten? List dem opp.",
+    "fasit": "7 labels: Public, General Information, Internal Only, Confidential Internal (protected), User defined Confidential (protected), Sales Information (Pureview_Sales_Information@Komplett.no), HR Information (HRDepartment@komplett.no), Management Information (Management_Information@Komplett.no).",
+    "nøkkelord": ["Public", "General Information", "Internal Only", "Confidential Internal", "Sales Information", "HR Information", "Management Information"],
+    "kilde": "CoPilot/Komplett Microsoft Copilot for M365 Discovery and Mapping.pdf, side 13-14"
+  },
+  {
+    "id": "KOMPLETT-SP-04",
+    "kategori": "Møtereferat",
+    "tier": 3,
+    "spørsmål": "Hva ble diskutert om nettverksinfrastruktur i det taktiske møtet 26. mars 2026? Hva var de konkrete aksjonspunktene?",
+    "fasit": "MS125-switcher har kapasitetsproblemer, nærmer seg/nådd kapasitetsgrense. Forslag: bytte til MS250 eller 9200-serien. Aksjonspunkter: 1) Sette opp møte med AS for topologi-gjennomgang og få inn arkitekt, 2) Bytte ut kritiske nettverkskomponenter, 3) Teste nye Meraki 9200 switcher, 4) Sjekke tilgjengelige switcher fra lager.",
+    "nøkkelord": ["MS125", "MS250", "9200", "topologi", "arkitekt", "Meraki"],
+    "kilde": "Taktiske møter/AI Oppsummeringer og Notater/Transkribering og Copilot sammendrag Taktisk 26.03.26 Komplett.docx"
+  },
+  {
+    "id": "KOMPLETT-SP-05",
+    "kategori": "Møtereferat",
+    "tier": 3,
+    "spørsmål": "Hva ble sagt om fakturafeil i det siste taktiske møtet med Komplett? Hva var beløpet for kreditnota?",
+    "fasit": "Feilfakturering knyttet til kategorisering av timepriser og roller. Konsulenttype og timepriser var ikke riktig i forhold til avtalt. Kreditnota på NOK 131,255. Fakturaer satt på vent skal ikke betales før aksept. Rapportering til CBN AIR i april.",
+    "nøkkelord": ["131,255", "timepriser", "kreditnota", "CBN AIR", "april"],
+    "kilde": "Taktiske møter/AI Oppsummeringer og Notater/Transkribering og Copilot sammendrag Taktisk 26.03.26 Komplett.docx"
+  },
+  {
+    "id": "KOMPLETT-SP-06",
+    "kategori": "Møtereferat",
+    "tier": 3,
+    "spørsmål": "Hvilke arrangementer ble det informert om i det taktiske møtet 26. mars 2026, og når er de?",
+    "fasit": "Klientdagen i Sandefjord 22. april, Sikkerhetsdagen i Tønsberg 5. mai, Community-arrangementet i Kristiansand 24. september.",
+    "nøkkelord": ["Klientdagen", "22. april", "Sandefjord", "Sikkerhetsdagen", "5. mai", "Tønsberg", "24. september", "Kristiansand"],
+    "kilde": "Taktiske møter/AI Oppsummeringer og Notater/Transkribering og Copilot sammendrag Taktisk 26.03.26 Komplett.docx"
+  },
+  {
+    "id": "KOMPLETT-SP-07",
+    "kategori": "NIS2 Prosjektplan",
+    "tier": 3,
+    "spørsmål": "Beskriv gjennomføringsmodellen for NIS2-prosjektet hos Komplett. Hvor mange sprinter har prosjektplanen, og hvilke NIS2-artikler dekkes?",
+    "fasit": "Scrum-basert med 2-3 ukers sprinter. 9 sprinter totalt. Dekker NIS2 artikkel 20-23. Områder: Styring, kartlegging/klassifisering/risikohåndtering, leverandør/forsyningskjedesikkerhet, BCP/DR, opplæring/sikkerhetskultur, teknologiske tiltak (MFA, logging, kryptografi, sårbarhetshåndtering), hendelseshåndtering og NIS2-rapportering.",
+    "nøkkelord": ["Scrum", "2-3 uker", "9 sprinter", "artikkel 20-23", "BCP", "DR", "MFA", "sårbarhetshåndtering"],
+    "kilde": "2025 Komplett/NIS2 - Prosjektplan og Bistandsbeskrivelse/Prosjektplan og Bistandsbeskrivelse - Komplett Services - NIS2 Compliance.docx"
+  },
+  {
+    "id": "KOMPLETT-SP-08",
+    "kategori": "NaaS Detaljer",
+    "tier": 3,
+    "spørsmål": "Hva var NaaS fase 2 for Komplett? Hvilken lokasjon gjaldt det, og finnes det en CDR (Coverage Design Report)?",
+    "fasit": "Fase 2 gjaldt Sandefjord. Inkluderte SOW, priskalkyle. Fase 3 var kontornett Sandefjord med CDR dekningsrapport (10 MB). Meraki-inventar versjon 3-4. Investering fra 14.10.2022.",
+    "nøkkelord": ["Sandefjord", "SOW", "CDR", "dekningsrapport", "Meraki", "14.10.2022"],
+    "kilde": "NaaS/2023 NaaS Sandefjord Fase 2 og Fase 3"
+  }
+]
