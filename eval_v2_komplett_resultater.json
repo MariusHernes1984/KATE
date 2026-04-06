@@ -1,0 +1,421 @@
+[
+  {
+    "id": "KOMPLETT-V2-01",
+    "kategori": "Tjenester",
+    "spørsmål": "Hva er Purecloud/Genesys-prosjektet hos Komplett, og hva finnes i SharePoint om det?",
+    "fasit": "Genesys PureCloud kontaktcenter. Dokumenter inkluderer tilbud, prosjektplan, POC (Proof of Concept) og risikoanalyse. 8 filer i Purecloud-mappen.",
+    "nøkkelord": [
+      "Genesys",
+      "PureCloud",
+      "kontaktcenter",
+      "POC",
+      "risikoanalyse",
+      "8 filer"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Kort forklaring:**  \nPureCloud/Genesys-prosjektet hos Komplett gjelder en mulig implementering av **Genesys PureCloud (Genesys Cloud)** som kontaktcenter-/telefoni- og kundedialogplattform. Formålet er å modernisere eller erstatte eksisterende løsning for kundeservice og intern telefoni med en skybasert kontaktcenterplattform.\n\n### Hva løsningen innebærer\nGenesys PureCloud er en **CCaaS-plattform (Contact Center as a Service)** som typisk håndterer:\n\n- Telefoni og køhåndtering for kundeservice\n- Omnichannel (telefon, chat, e‑post, meldinger)\n- Agent‑grensesnitt for kundebehandlere\n- IVR / selvbetjeningsmenyer\n- Integrasjoner mot CRM og andre systemer\n- Rapportering og analyse av kundedialog\n\nFor Komplett vil en slik løsning primært være relevant for:\n- **kundeservice og supportfunksjoner**\n- **skalering av kontaktvolum**\n- **integrasjon mot e‑handelssystemer og CRM**\n\n### Hva som finnes i SharePoint\nDet ligger en egen mappe: **“Purecloud” (8 filer)**.\n\nDokumenttypene i mappen er:\n\n- **Tilbud** – kommersielt forslag fra Atea på Genesys PureCloud\n- **Prosjektplan** – forslag til gjennomføring og implementeringsfaser\n- **POC (Proof of Concept)** – dokumentasjon eller plan for pilot/test\n- **Risikoanalyse** – vurdering av tekniske og organisatoriske risikofaktorer\n- Tilhørende støttefiler til prosjektforslaget\n\nDette tyder på at prosjektet var i en **evaluerings-/planleggingsfase**, ikke nødvendigvis full produksjonsimplementering.\n\n### Typisk innhold i prosjektplanen (struktur)\nBasert på slike Genesys‑prosjekter består planen vanligvis av:\n\n1. Design av kontaktcenterarkitektur  \n2. Konfigurering av køer, agenter og routing  \n3. IVR-oppsett  \n4. Integrasjoner (f.eks. CRM/e‑handel)  \n5. Pilot / POC  \n6. Produksjonssetting og opplæring\n\n### Status i dag\nPureCloud er **ikke nevnt i aktive avtaler (SSA‑D, NaaS, SOC+, CSP)**, noe som indikerer at dette enten:\n\n- var et **tidligere initiativ/utredning**, eller  \n- et **prosjektforslag som ikke ble realisert**.\n\n### Hvis du vil\nJeg kan også:\n- åpne **tilbudet eller prosjektplanen** og oppsummere **scope, kostnad og anbefalt arkitektur**, eller  \n- lage en **kort status: hvorfor prosjektet stoppet / ikke gikk videre** hvis det fremgår av dokumentene.",
+    "status": "completed",
+    "latency_s": 30.29,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 6,
+      "nøkkelord_totalt": 6,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Svaret dekker alle fasitpunkter, inkluderer alle nøkkelord, og gir en presis og strukturert beskrivelse uten feilinformasjon."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "KOMPLETT-V2-02",
+    "kategori": "Tjenester",
+    "spørsmål": "Hva er EC-tjenesten på Lysaker, og hva er planen for den?",
+    "fasit": "EC-tjeneste Lysaker skal avvikles. Brukere må fjernes først. Mål innen 30. april 2026. Endringsmelding måtte sendes før 1. mars 2026. Diskutert i taktisk møte 25.02.2026.",
+    "nøkkelord": [
+      "EC-tjeneste",
+      "Lysaker",
+      "avvikles",
+      "30. april",
+      "1. mars"
+    ],
+    "agent_svar": "Ser på dette.\n\n**EC‑tjenesten på Lysaker** er en eldre drifts-/plattformtjeneste knyttet til miljøet på **Lysaker‑lokasjonen**, som fortsatt har noen gjenværende brukere og avhengigheter hos Komplett. Den er identifisert som **ikke lenger nødvendig** og skal derfor fases ut.\n\n**Planen (fra taktisk møte 25.02.2026):**\n- Tjenesten **skal avvikles**.\n- **Første steg:** fjerne eller migrere alle gjenværende brukere fra løsningen.\n- **Endringsmelding:** skulle sendes **før 1. mars 2026**.\n- **Mål:** full **avvikling innen 30. april 2026**.\n\n**Hensikt med avviklingen:**\n- Rydde opp i eldre tjenester\n- Redusere drift og kompleksitet\n- Tilpasse infrastrukturen til Komplett sin **insourcing‑strategi og nedtrapping av driftstjenester**\n\nHvis du vil kan jeg også:\n- finne **hvilke brukere/systemer som fortsatt ligger på EC Lysaker**\n- eller lage en **kort status på hva som gjenstår før 30. april**.",
+    "status": "completed",
+    "latency_s": 17.43,
+    "citations": [],
+    "keyword_score_pct": 80.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten har med alle nøkkelord, korrekt og komplett informasjon, ingen hallusinasjon, og svaret er ryddig og godt formatert."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "KOMPLETT-V2-03",
+    "kategori": "Prosjekter",
+    "spørsmål": "Hva er 'Frie Valg' bestillingsløsningen hos Komplett?",
+    "fasit": "Fleksibel hardware-bestillingsløsning for ansatte. Katalogvedlikehold er utfordrende. Kan white-labels som Komplett-løsning. Diskutert i taktisk møte 25.02.2026.",
+    "nøkkelord": [
+      "Frie Valg",
+      "hardware-bestilling",
+      "katalogvedlikehold",
+      "white-label"
+    ],
+    "agent_svar": "**“Frie Valg”** er en intern **bestillingsløsning for hardware til ansatte i Komplett**.\n\nKort forklart fungerer den slik:\n\n• Ansatte kan **bestille utstyr selv** (typisk PC, tilbehør osv.) innenfor definerte rammer  \n• Bestillingen gjøres via en **produktkatalog** med godkjente modeller  \n• Løsningen kan i praksis fungere som en **self‑service portal for arbeidsverktøy**\n\nFormålet er å:\n- redusere manuelt arbeid i IT  \n- gi ansatte mer fleksibilitet i valg av utstyr  \n- standardisere hvilke produkter som bestilles\n\n**Status / utfordringer (fra taktiske møter):**\n\n- Katalogen krever **betydelig manuelt vedlikehold** (produkter, priser, tilgjengelighet).  \n- Dette gjør at løsningen i praksis krever **nesten fulltids oppfølging** i perioder.  \n- Det er også diskutert at løsningen **kan “white‑labeles” som en Komplett‑løsning**, altså presenteres som en del av Kompletts egne systemer/portaler.\n\n**Mulige forbedringsspor vi har diskutert:**\n\n1. Automatisere produktkatalog (integrasjon mot leverandør / ERP).  \n2. Strengere standardisering av hvilke modeller som kan velges.  \n3. Integrere bestillingen direkte mot **onboarding / HR‑prosessen** slik at utstyr bestilles automatisk ved nyansettelser.\n\nHvis du vil, kan jeg også forklare:\n- hvordan denne løsningen henger sammen med **onboarding-problemet som ble nevnt i møtene**, eller  \n- hvilke **alternativer Atea kan tilby** som erstatter eller forbedrer “Frie Valg”.",
+    "status": "completed",
+    "latency_s": 23.73,
+    "citations": [],
+    "keyword_score_pct": 25.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Svaret dekker alle fasitpunkter, bruker alle nøkkelord, og gir presis og strukturert informasjon uten feil eller unødvendig innhold."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "KOMPLETT-V2-04",
+    "kategori": "Prosjekter",
+    "spørsmål": "Hva er statusen på Microsoft Funding og workshops hos Komplett?",
+    "fasit": "3 workshops godkjent fra E5-avtalen. Marius Olsen koordinerer. Fokus på brukeradopsjon. Diskutert i taktisk møte 25.02.2026.",
+    "nøkkelord": [
+      "3 workshops",
+      "E5-avtale",
+      "Marius Olsen",
+      "brukeradopsjon"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Status per siste taktiske møte (25.02.2026):**\n\n- **Microsoft Funding:** Godkjent  \n- **Antall workshops:** 3 stk finansiert gjennom Microsoft‑midler (knyttet til E5‑avtalen)  \n- **Koordinering:** Marius Olsen (Atea)  \n- **Fokusområde:** Brukeradopsjon og bedre utnyttelse av Microsoft‑plattformen\n\n**Formål med workshopene**\nWorkshopene skal hjelpe Komplett med å få mer verdi ut av eksisterende Microsoft‑investeringer, spesielt rundt:\n- M365‑bruk og effektiv samhandling\n- Adopsjon av sikkerhets- og compliance‑funksjoner (E5)\n- Generell brukeradopsjon og endringsledelse\n\n**Status akkurat nå**\n- Funding er **bekreftet**\n- Workshopene er **ikke gjennomført enda**\n- **Planlegging og koordinering pågår**\n\n**Neste steg**\n- Avklare datoer med Henning/IT‑teamet  \n- Definere konkret agenda for hver workshop  \n- Booke ressurser fra Atea (trolig adoption/security kompetanse)\n\nHvis du vil kan jeg også:\n- foreslå **konkret workshop‑agenda for de tre sesjonene**, eller  \n- gi deg **estimat på verdien av Microsoft‑fundinget i kroner** basert på tilsvarende programmer.",
+    "status": "completed",
+    "latency_s": 16.77,
+    "citations": [],
+    "keyword_score_pct": 50.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Svaret dekker alle fasitpunkter, inneholder alle nøkkelord, og gir ingen feilinformasjon. Svaret er godt strukturert og gir utfyllende status."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "KOMPLETT-V2-05",
+    "kategori": "Prosjekter",
+    "spørsmål": "Hva er planen for SharePoint-migrering hos Komplett?",
+    "fasit": "Kontordokumenter bør flyttes fra filserver til SharePoint. Identifisert i taktisk møte 25.02.2026 som et pågående behov.",
+    "nøkkelord": [
+      "SharePoint-migrering",
+      "filserver",
+      "kontordokumenter"
+    ],
+    "agent_svar": "Ser på dette.\n\nPer nå finnes det **ingen formell prosjektplan eller signert prosjekt for en full SharePoint‑migrering**, men temaet er løftet i de taktiske møtene som et forbedringstiltak.\n\nStatus og plan slik den er diskutert med Komplett:\n\nBakgrunn  \n- Mange **kontordokumenter ligger fortsatt på filserver**.  \n- Dette begrenser samarbeid, versjonshåndtering og integrasjon med **M365/Copilot**.  \n- Atea har derfor anbefalt å **flytte dokumenter til SharePoint Online**.\n\nHva som er foreslått  \n- Gradvis migrering av **kontordokumenter fra filserver → SharePoint Online**  \n- Etablere **struktur og governance for SharePoint** først  \n- Definere **tilgangsmodell og navnekonvensjoner for M365-grupper**  \n- Knytte arbeidet opp mot **Copilot‑initiativet og Purview/informasjonssikkerhet**\n\nAvhengigheter som er identifisert  \n- Informasjonsarkitektur må på plass (fra Copilot‑forprosjektet)  \n- Purview / sensitivity labels bør etableres før bred datamigrering  \n- Avklaring rundt **tilgangsstyring og group governance** (i dag ganske ustrukturert)\n\nNeste naturlige steg (hvis Komplett ønsker å gå videre)  \n1. Kartlegging av filserver‑data  \n2. Definere SharePoint informasjonsstruktur  \n3. Governance (grupper, eiere, tilgang)  \n4. Pilotmigrering av et utvalgt område  \n5. Gradvis migrering per avdeling\n\nStrategisk verdi for Komplett  \n- Bedre datakontroll (Purview / DLP)  \n- Bedre samarbeid i M365  \n- Nødvendig grunnlag for **skalering av Copilot**\n\nHvis du vil, kan jeg også skissere **et konkret migreringsprosjekt (typisk 6–10 uker)** som Atea kunne foreslå til Henning / Anders. Det vil gjøre dette mye mer operasjonelt.",
+    "status": "completed",
+    "latency_s": 23.01,
+    "citations": [],
+    "keyword_score_pct": 66.7,
+    "judge_scores": {
+      "korrekthet": 9,
+      "nøkkelord_treff": 3,
+      "nøkkelord_totalt": 3,
+      "hallusinering": 0,
+      "fullstendighet": 9,
+      "formatering": 10,
+      "begrunnelse": "Svaret dekker alle nøkkelord og gir en grundig status og plan, men mangler eksplisitt dato fra fasit. Ingen feilinformasjon, og svaret er godt strukturert."
+    },
+    "composite_score": 94.0
+  },
+  {
+    "id": "KOMPLETT-V2-06",
+    "kategori": "Økonomi",
+    "spørsmål": "Hva er Kompletts lisensbesparelsesmål, og hva er forskjellen mellom E3 og E5?",
+    "fasit": "Lisensbesparelsesmål: NOK 4 000 000 årlig. E5 vs E3 årlig kostnadsforskjell: ca NOK 200 000. 7% prisnedgang fra februar for online-tjenester.",
+    "nøkkelord": [
+      "4 000 000",
+      "4 MNOK",
+      "E3",
+      "E5",
+      "200 000",
+      "7%"
+    ],
+    "agent_svar": "Komplett har et tydelig mål om å redusere lisenskostnader.\n\nLisensbesparelsesmål  \n- Mål: **NOK 4 000 000 i årlig lisensbesparelse**\n\nDette er en del av den pågående optimaliseringen av Microsoft-porteføljen (spesielt M365), hvor de vurderer lisensnivåer, bindingstid og faktiske behov.\n\nForskjell mellom **Microsoft 365 E3 og E5** (i Kompletts kontekst):\n\nKostnadsforskjell  \n- **E5 koster ca. NOK 200 000 mer per år** enn E3 for Kompletts nåværende brukerbase.\n\nFunksjonelle forskjeller (forenklet):\n\nE3 inkluderer hovedsakelig:\n- Microsoft 365 Apps (Office)\n- Exchange Online\n- SharePoint og OneDrive\n- Teams\n- Grunnleggende sikkerhet og compliance\n\nE5 inkluderer alt i E3, pluss blant annet:\n- **Microsoft Defender (avansert sikkerhet / XDR)**\n- **Microsoft Sentinel / avansert trusseldeteksjon**\n- **Purview eDiscovery Premium og avansert compliance**\n- **Defender for Identity / Endpoint / Office**\n- **Telemetri og sikkerhetsanalyse**\n- **Avansert audit og insider risk**\n\nStrategisk diskusjon hos Komplett:\n- De vurderer **E3 + enkelte sikkerhetstillegg** vs **full E5**\n- Samtidig finnes et alternativ med **3-års binding** for å redusere prisøkning på Microsoft-tjenester.\n\nHvis du vil, kan jeg også forklare **hvilken lisensstrategi som realistisk kan gi 4 MNOK i besparelse** basert på dagens brukerbase og sikkerhetsbehov.",
+    "status": "completed",
+    "latency_s": 17.12,
+    "citations": [],
+    "keyword_score_pct": 83.3,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 6,
+      "nøkkelord_totalt": 6,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten dekker alle fasitpunkter, bruker alle nøkkelord, og gir korrekt og utfyllende informasjon uten feil. Svaret er godt strukturert og lett å lese."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "KOMPLETT-V2-07",
+    "kategori": "Økonomi",
+    "spørsmål": "Hva er Kompletts økonomiske situasjon og konsernstruktur?",
+    "fasit": "Komplett går godt finansielt, bunnlinje over 200 MNOK siste år. Bærer 3 andre selskaper pluss gruppe. Konsern: Komplett Group inkluderer Webhallen, Aronson m.fl. Hovedkontor: Østre Kullerød 4, 3241 Sandefjord.",
+    "nøkkelord": [
+      "200 MNOK",
+      "Komplett Group",
+      "Webhallen",
+      "Aronson",
+      "Sandefjord"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Økonomisk situasjon (overordnet):**  \nKomplett går finansielt bra. Siste rapporterte nivå viser **over 200 MNOK i bunnlinje** siste år. Samtidig fungerer Komplett Services i praksis som et økonomisk bærepunktselskap i konsernet og **bærer kostnader for flere andre selskaper i Komplett Group**.\n\nDet betyr i praksis:  \n- Stabil og lønnsom drift  \n- God kontantstrøm  \n- Interne konsernallokeringer som påvirker regnskapet til Komplett Services  \n- Strategisk fokus på kostnadskontroll (bl.a. **insourcing av IT‑tjenester og lisensbesparelsesmål på ~4 MNOK årlig**)\n\nDette er også en av hovedårsakene til at de har valgt å ta mer drift internt i 2025–2026.\n\n**Konsernstruktur:**  \nKomplett Services AS er del av **Komplett Group**, som er en nordisk e‑handelsgruppe innen IT‑utstyr og elektronikk.\n\nEksempler på selskaper i konsernet:  \n- **Komplett Services AS** – sentral IT/driftsorganisasjon  \n- **Komplett (nettbutikk / retail)**  \n- **Webhallen** – svensk retailkjede innen gaming og IT  \n- **Aronson** – logistikk/distribusjon  \n- Flere interne støtteselskaper\n\nKomplett Services leverer i praksis **IT- og driftstjenester til flere av disse selskapene**, noe som forklarer hvorfor organisasjonen og infrastrukturen er relativt stor sammenlignet med én enkelt nettbutikk.\n\n**Ledelsesendring (2026):**  \n- Tidligere Group CFO: **Thomas Røkke** (signerte SSA‑D avtalen med Atea) – sluttet mars 2026  \n- **Ny CEO startet mars 2026**, med bakgrunn fra olje‑ og gassindustrien\n\n**Implikasjon for Atea:**  \n- Komplett er økonomisk solid, men har **sterkt fokus på kostnadsoptimalisering og kontroll over egen drift**  \n- Derfor ser vi nå **nedtrapping av enkelte managed services**, samtidig som **nettverk (NaaS), infrastruktur og sikkerhet fortsatt er strategiske områder**\n\nHvis du vil kan jeg også forklare:  \n- hvordan konsernstrukturen påvirker **IT‑arkitekturen og Atea‑leveransene**, eller  \n- hvilke deler av **Atea‑kontrakten som fortsatt er mest strategiske for Komplett fremover.**",
+    "status": "completed",
+    "latency_s": 19.41,
+    "citations": [],
+    "keyword_score_pct": 80.0,
+    "judge_scores": {
+      "korrekthet": 9,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 2,
+      "fullstendighet": 9,
+      "formatering": 10,
+      "begrunnelse": "Alle nøkkelord er med og svaret er korrekt og utfyllende, men inneholder noen ekstra detaljer om ledelsesendringer og insourcing som ikke er etterspurt. Formateringen er ryddig og oversiktlig."
+    },
+    "composite_score": 89.0
+  },
+  {
+    "id": "KOMPLETT-V2-08",
+    "kategori": "Kontakter",
+    "spørsmål": "Hvem er Carolina Veloso Martins, og hva er hennes rolle i Komplett-prosjektene?",
+    "fasit": "Carolina Veloso Martins er nøkkelkontakt hos Komplett for Purview Simplified Solution-prosjektet. Hun fungerer som liaison til NetOnNet. Komplett vil speile NetOnNets eksisterende Purview-løsning.",
+    "nøkkelord": [
+      "Carolina Veloso Martins",
+      "Purview",
+      "NetOnNet",
+      "liaison"
+    ],
+    "agent_svar": "Carolina Veloso Martins er nevnt i **Purview Simplified Solution‑tilbudet (15.03.2024)** knyttet til Copilot‑forprosjektet hos Komplett.\n\nRolle i Komplett-prosjektene:\n\n- **Rolle:** Intern kontaktperson hos Komplett  \n- **Funksjon:** **Liaison mot NetOnNet** i forbindelse med Microsoft Purview‑implementering og informasjonsstyring.\n- **Prosjektkontekst:** Copilot M365 forprosjekt / Purview‑implementering\n\nHva dette innebærer i praksis:\n\n- Hun fungerer som **bindeledd mellom Komplett og NetOnNet**, som allerede har etablert en Purview‑løsning.\n- Oppgaven hennes er å:\n  - Hente inn **tekniske regler og konfigurasjon** fra NetOnNet\n  - Sikre at Komplett kan **speile samme governance‑modell** (DLP, sensitivity labels, policyer)\n  - Koordinere informasjonsgrunnlag for Atea‑konsulentene som implementerer løsningen.\n\nI Purview‑prosjektet brukes NetOnNet som **referansearkitektur**, og Carolina er kontaktpunktet som gjør at Atea kan få tilgang til:\n\n- eksisterende **DLP‑regler**\n- **Sensitivity labels**\n- klassifiseringsmodell for sensitiv informasjon\n- policy‑oppsett i Purview\n\nKort sagt:  \n**Carolina Veloso Martins er Kompletts interne kontakt for Purview/Copilot‑governance og koordinerer gjenbruk av NetOnNet sin sikkerhets- og informasjonsklassifiseringsmodell.**\n\nHvis du vil, kan jeg også forklare hvordan **Purview‑prosjektet henger sammen med Copilot‑utrulling hos Komplett**, og hvorfor hennes rolle er ganske kritisk før Copilot kan skaleres.",
+    "status": "completed",
+    "latency_s": 19.39,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten gir et presist, utfyllende og korrekt svar som dekker alle fasitpunkter og nøkkelord, uten feilinformasjon og med god struktur."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "KOMPLETT-V2-09",
+    "kategori": "Kontakter",
+    "spørsmål": "Hvem er Atea sin Service Delivery Manager for Komplett, og hvem er Cyber Security Advisor?",
+    "fasit": "SDM: Troy Atle Kristiansen (95465603). Cyber Security Advisor: Bent Ole Hageløkken (97044209). Senior Solution Advisor (AI): Marius Hernes (91709099).",
+    "nøkkelord": [
+      "Troy Atle Kristiansen",
+      "95465603",
+      "Bent Ole Hageløkken",
+      "97044209"
+    ],
+    "agent_svar": "Ser på dette.\n\nFor **Komplett Services AS** er følgende roller hos Atea:\n\n**Service Delivery Manager (SDM):**  \n- **Navn:** Troy Atle Kristiansen  \n- **Telefon:** +47 954 65 603  \n- **Rolle:** Ansvarlig for tjenesteleveransen mot Komplett, oppfølging av SLA, drift, statusmøter og operativ leveranse.\n\n**Cyber Security Advisor:**  \n- **Navn:** Bent Ole Hageløkken  \n- **Telefon:** +47 970 44 209  \n- **Rolle:** Chief Consultant / Cyber Security Advisor – bistår med sikkerhetsrådgivning, blant annet relatert til SOC+, NIS2 og sikkerhetsarkitektur.\n\nSi ifra hvis du også vil ha en oversikt over hele Atea-teamet som jobber mot Komplett.",
+    "status": "completed",
+    "latency_s": 9.75,
+    "citations": [],
+    "keyword_score_pct": 50.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 0,
+      "fullstendighet": 8,
+      "formatering": 10,
+      "begrunnelse": "Agenten gir korrekt informasjon om SDM og Cyber Security Advisor med navn og telefonnummer, men utelater Senior Solution Advisor (AI). Svaret er godt formatert og inneholder ingen feil."
+    },
+    "composite_score": 95.0
+  },
+  {
+    "id": "KOMPLETT-V2-10",
+    "kategori": "NaaS detaljer",
+    "spørsmål": "Hva var WiFi-problemet på Kaupang (Endringsanmodning #10), og hvilke tiltak ble foreslått?",
+    "fasit": "WiFi-problemer på VLAN24, Mellombygg AP201-AP215. Brukere på ansatt-WiFi mistet tilkobling i Teams-møter. Tiltak: 1) Disable Client-Balancing, 2) Disable Band Steering, 3) Evt. disable 2.4GHz, 4) Evt. disable WiFi6. Godkjent av Henning Ims 19.11.2024. Teknisk leder: Per Ivar Rotevatn.",
+    "nøkkelord": [
+      "Kaupang",
+      "VLAN24",
+      "AP201-AP215",
+      "Client-Balancing",
+      "Band Steering",
+      "Per Ivar Rotevatn"
+    ],
+    "agent_svar": "WiFi-problemet på **Kaupang (VLAN24)** ble behandlet i **Endringsanmodning #10**, datert **18.11.2024** og godkjent av **Henning Ims 19.11.2024**.\n\n**Problem:**\nBrukere på **ansatt‑WiFi i mellombygget (AP201–AP215)** opplevde at de **mistet trådløs tilkobling midt i Teams‑møter**. Problemet var knyttet til stabilitet på **Meraki WiFi‑nettverket i VLAN24 på Kaupang**.\n\n**Foreslåtte tiltak (testsekvens):**\n\n1. **Disable Client Balancing**  \n   – For å hindre at Meraki automatisk flytter klienter mellom accesspunkter, noe som kan bryte aktive sesjoner.\n\n2. **Disable Band Steering**  \n   – For å unngå at klienter tvinges mellom 2.4 GHz og 5 GHz, som kan gi reconnect‑problemer under belastning.\n\n3. **Eventuelt deaktivere 2.4 GHz**  \n   – Redusere interferens og tvinge klienter til 5 GHz hvis enhetene støtter det.\n\n4. **Eventuelt deaktivere WiFi 6‑funksjoner**  \n   – Som en feilsøkingsmekanisme dersom klientkompatibilitet var årsaken.\n\n**Teknisk ansvarlig hos Atea:**  \nPer Ivar Rotevatn (NaaS teknisk leder)\n\nHvis du vil kan jeg også forklare **hva som typisk forårsaker slike Meraki‑problemer i lager/produksjonsmiljøer**, og hvordan dette henger sammen med **kapasitetsproblemene vi nå ser på MS125‑switchene i Sandefjord.** Det kan være relatert.",
+    "status": "completed",
+    "latency_s": 23.84,
+    "citations": [],
+    "keyword_score_pct": 66.7,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 6,
+      "nøkkelord_totalt": 6,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten dekker alle deler av fasiten, bruker alle nøkkelord, og gir ingen feilinformasjon. Svaret er komplett, korrekt og godt formatert."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "KOMPLETT-V2-11",
+    "kategori": "Volum",
+    "spørsmål": "Hvor mange SFP-moduler har Komplett i Meraki-nettverket, fordelt på type?",
+    "fasit": "Totalt ~291 SFP-moduler: LR 153, SR 136, CR4 20, SX 2. I tillegg 60 Windows Server-lisenser.",
+    "nøkkelord": [
+      "291",
+      "SFP",
+      "LR 153",
+      "SR 136",
+      "CR4 20"
+    ],
+    "agent_svar": "Komplett har følgende **SFP-moduler i Meraki-nettverket** (basert på siste inventar):\n\n- **SFP‑LR (Long Range)**: 153 stk  \n- **SFP‑SR (Short Range)**: 136 stk  \n- **SFP‑CR4 (Direct Attach / copper)**: 20 stk  \n- **SFP‑SX**: 2 stk  \n\n**Totalt:** 311 moduler installert/registrert i inventaret.\n\nHvis du ønsker kan jeg også bryte dette ned på **switch‑typer (MS125, MS250 osv.) eller lokasjon i Sandefjord‑miljøet**.",
+    "status": "completed",
+    "latency_s": 11.9,
+    "citations": [],
+    "keyword_score_pct": 20.0,
+    "judge_scores": {
+      "korrekthet": 8,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 2,
+      "fullstendighet": 8,
+      "formatering": 10,
+      "begrunnelse": "Agenten har korrekt oppgitt antall og typer SFP-moduler, men totalen er feil (311 vs. 291) og Windows Server-lisenser mangler. Svaret er godt formatert og inneholder de fleste nøkkelord."
+    },
+    "composite_score": 83.0
+  },
+  {
+    "id": "KOMPLETT-V2-12",
+    "kategori": "Sikkerhet",
+    "spørsmål": "Hva ble sagt om sikkerhetssituasjonen i det taktiske møtet 25. februar 2026?",
+    "fasit": "2 nye ansettelser forventet innen en måned. Ny ISO-rolle (outsourcet). Kristian Kjørnsmo ny ledelse for sikkerhet.",
+    "nøkkelord": [
+      "2 nye ansettelser",
+      "ISO-rolle",
+      "outsourcet",
+      "Kristian Kjørnsmo"
+    ],
+    "agent_svar": "Ser på dette.\n\nI det **taktiske møtet 25.02.2026** ble sikkerhet kun kort berørt, men følgende punkter ble diskutert:\n\n• **Organisatoriske endringer i sikkerhetsteamet**  \n  - Komplett forventet **to nye sikkerhetsansettelser innen ca. én måned**.\n\n• **Ny ISO‑rolle (Information Security Officer)**  \n  - Rollen skulle **settes ut/outsources**, ikke nødvendigvis bemannes internt.\n\n• **Ledelsesendringer innen sikkerhet**  \n  - **Kristian Kjørnsmo** ble nevnt som del av **ny ledelsesstruktur på sikkerhetssiden**.\n\nKort vurdering fra møtet:  \nDette ble sett på som et tegn på at **Komplett styrker sikkerhetsorganisasjonen**, sannsynligvis også relatert til pågående initiativer som **NIS2‑arbeidet** og økt fokus på compliance og governance.\n\nHvis du vil, kan jeg også oppsummere:\n- alle **sikkerhetsrelaterte diskusjoner fra taktiske møter i 2026**, eller  \n- hvordan dette **henger sammen med NIS2‑prosjektet og SOC+ tjenesten** vi leverer.",
+    "status": "completed",
+    "latency_s": 15.65,
+    "citations": [],
+    "keyword_score_pct": 25.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten dekker alle fasitpunktene presist, bruker alle nøkkelord, og gir ingen feilinformasjon. Svaret er godt strukturert og komplett."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "KOMPLETT-V2-13",
+    "kategori": "Prosjekter",
+    "spørsmål": "Hva ble sagt om AI og KATE-plattformen i taktisk møte 26. mars 2026?",
+    "fasit": "Atea presenterte multiagent-arkitektur og KATE-plattformen. Komplett er interessert men har ikke tatt i bruk ennå. Claude er blokkert hos Komplett pga. copyright-detection.",
+    "nøkkelord": [
+      "multiagent",
+      "KATE",
+      "interessert",
+      "Claude",
+      "blokkert",
+      "copyright-detection"
+    ],
+    "agent_svar": "I det taktiske møtet **26.03.2026** ble følgende sagt om **AI og KATE-plattformen**:\n\n- **Atea presenterte en multiagent‑arkitektur** samt **KATE-plattformen** som eksempel på hvordan AI‑agenter kan samarbeide for å automatisere oppgaver og prosesser.\n- Løsningen ble diskutert som et mulig rammeverk for fremtidige AI‑initiativer hos Komplett.\n- **Komplett uttrykte interesse**, men det ble **ikke besluttet å ta plattformen i bruk på dette tidspunktet**.\n- Det ble også nevnt at **Claude AI er blokkert hos Komplett**, på grunn av **copyright‑deteksjon og policyhensyn**.\n\nStatus etter møtet:\n- AI/KATE ligger fortsatt på **utforskningsstadiet**.\n- Ingen pilot eller implementering er igangsatt per møtet 26. mars 2026.\n\nHvis ønskelig kan jeg også:\n- oppsummere **hele AI-diskusjonen fra møtet**, eller  \n- foreslå **konkrete use cases hos Komplett (support, bestillingssystem, drift)** hvor KATE/multiagent faktisk kan gi verdi.",
+    "status": "completed",
+    "latency_s": 15.28,
+    "citations": [],
+    "keyword_score_pct": 66.7,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 6,
+      "nøkkelord_totalt": 6,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten dekker alle fasitpunkter, bruker alle nøkkelord, og gir ingen feilinformasjon. Svaret er presist, komplett og godt formatert."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "KOMPLETT-V2-14",
+    "kategori": "Tjenester",
+    "spørsmål": "Hva inneholder Purview Simplified Solution-tilbudet til Komplett? Gi detaljer om faser og timeestimat.",
+    "fasit": "Estimert 98 timer (kan bli 50). Tre-fase tilnærming, tilbudet dekker kun Fase 1. Oppgaver: Innhente regler fra NetOnNet (2t), Assessment (16t), Sensitive Information Types (16t), DLP Rules (16t), Sensitivity Labels (8t), Pilot (24t), Full Rollout (16t). Valgfritt: Teams Order portal (24t). Priser: Mickael Pedersen kr 2224, Benjamin Berglund kr 1880, Elin Soderbergh kr 1710.",
+    "nøkkelord": [
+      "98 timer",
+      "Fase 1",
+      "NetOnNet",
+      "DLP",
+      "Sensitivity Labels",
+      "Mickael Pedersen",
+      "2224"
+    ],
+    "agent_svar": "**Purview Simplified Solution‑tilbudet til Komplett** er et konsulenttilbud fra Atea for å etablere grunnleggende Microsoft Purview‑styring før bred utrulling av Copilot i Microsoft 365. Løsningen er designet som en **tre‑fase tilnærming**, men tilbudet som foreligger dekker **kun fase 1 (implementeringsfasen)**.\n\nNedenfor er detaljene.\n\n---\n\n**Overordnet omfang**\n\n- Estimert totalt: **98 timer**  \n- Kan reduseres til **ca. 50 timer** dersom Komplett kan gjenbruke konfigurasjon fra **NetOnNet** i stor grad.  \n- Formål: etablere **DLP‑regler, sensitivity labels og informasjonsklassifisering** for GDPR‑relevant informasjon.\n\n**Nøkkelkontakt hos Komplett**\n- Carolina Veloso Martins (kontakt mot NetOnNet for å speile deres Purview‑oppsett)\n\n**Atea‑ressurser og timepriser**\n\n- Mickael Pedersen – Arkitekt: **2 224 NOK/time**\n- Benjamin Berglund – Senior konsulent: **1 880 NOK/time**\n- Elin Soderbergh – Prosjektleder: **1 710 NOK/time**\n\n---\n\n# Fase 1 – Purview Implementering (del av tilbudet)\n\nTotalt estimat: **98 timer**\n\nAktiviteter:\n\n1. **Innhente tekniske regler fra NetOnNet – 2 timer**\n   - Kartlegge eksisterende Purview‑policyer hos NetOnNet\n   - Avklare hvilke regler som kan gjenbrukes hos Komplett\n\n2. **Assessment og Customization – 16 timer**\n   - Analyse av eksisterende Purview‑oppsett hos Komplett\n   - Tilpasning av policy‑struktur til Kompletts miljø\n\n3. **Sensitive Information Types – 16 timer**\n   - Definere og konfigurere datatyper som skal overvåkes\n   - Fokus på GDPR‑data som:\n     - fødselsnummer\n     - adresser\n     - personopplysninger\n\n4. **DLP Rule Development – 16 timer**\n   - Opprette Data Loss Prevention‑regler\n   - Beskytte sensitiv informasjon i:\n     - Exchange\n     - SharePoint\n     - OneDrive\n     - Teams\n\n5. **Sensitivity Labels – 8 timer**\n   - Etablere klassifiseringsetiketter for dokumenter og e‑post\n   - Basert på struktur brukt hos NetOnNet\n\n6. **Pilot – 24 timer**\n   - Test av policyer i begrenset brukergruppe\n   - Validere at regler ikke skaper driftsproblemer\n\n7. **Full‑scale rollout – 16 timer**\n   - Utrulling til hele organisasjonen\n   - Justering etter pilotresultater\n\n---\n\n**Valgfri tilleggskomponent**\n\n- **Teams Order Portal – 24 timer**\n  - Portal for bestilling eller håndtering av policyer/klassifisering i Teams.\n\n---\n\n**Strategisk hensikt**\n\nTilbudet ble laget i forbindelse med **Copilot‑forprosjektet**, fordi funnene der viste at Komplett hadde:\n\n- Kun **2 DLP‑regler**\n- **1 DLP‑policy som ikke er oppdatert siden 2020**\n- **Ingen sensitivity labels**\n- Ufullstendig GDPR‑rapportering i Compliance Manager\n\nPurview‑implementeringen er derfor ment å etablere **minimums‑governance før større Copilot‑utrulling**.\n\n---\n\nHvis du vil, kan jeg også forklare **hvordan dette henger sammen med Copilot‑forprosjektet (115 timer Discovery & Mapping)** og hvilke risikoer Atea identifiserte i informasjonsstyringen hos Komplett.",
+    "status": "completed",
+    "latency_s": 38.39,
+    "citations": [],
+    "keyword_score_pct": 85.7,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 7,
+      "nøkkelord_totalt": 7,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Svaret dekker alle faser, timeestimater, nøkkelpersoner og priser korrekt, uten feilinformasjon. Alle nøkkelord er med, og svaret er godt strukturert og komplett."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "KOMPLETT-V2-15",
+    "kategori": "Prosjekter",
+    "spørsmål": "Hva er utfordringene med Entra/HR-integrasjon og onboarding hos Komplett?",
+    "fasit": "Statusmøte trengs for Entra Katalyst og HR-integrasjon. Utfordringer ved onboarding, f.eks. Finance-avdelingen. Nye brukere opprettes feilaktig med dårlig kommunikasjonsflyt. Diskutert i taktisk møte 25.02.2026.",
+    "nøkkelord": [
+      "Entra Katalyst",
+      "HR-integrasjon",
+      "onboarding",
+      "Finance",
+      "kommunikasjonsflyt"
+    ],
+    "agent_svar": "Kort svar: utfordringene ligger hovedsakelig i **manglende integrasjon mellom HR-systemet og Entra ID**, samt **manuelle prosesser og svak informasjonsflyt i onboarding**.\n\nDe viktigste punktene vi kjenner til:\n\n• **Manglende eller ufullstendig HR → Entra-integrasjon**  \nDet er behov for et statusmøte rundt **Entra Katalyst og HR-integrasjonen**. Integrasjonen som skal automatisere brukeropprettelse og livssyklus er ikke fullt etablert eller stabil.\n\n• **Feil i onboarding av nye ansatte**  \nDet er rapportert at **nye brukere opprettes feil**, spesielt nevnt i forbindelse med **Finance-brukere**. Dette tyder på at attributter, roller eller tilgangsgrupper ikke settes korrekt ved opprettelse.\n\n• **Manuell håndtering av brukeropprettelse**  \nTilgangsstyring og opprettelse av brukere er i stor grad **manuell**, noe som gir:  \n- inkonsistent tilgang  \n- større risiko for feil  \n- tregere onboarding\n\n• **Ustrukturert gruppestruktur i Entra/M365**  \nDet finnes **ingen tydelig navnekonvensjon eller governance for grupper**, og ansatte kan opprette security groups og M365-grupper fritt. Dette gjør tilgangsstyring vanskelig å automatisere.\n\n• **Svak prosessflyt mellom HR, IT og bestillingssystem**  \nKommunikasjonsflyten rundt onboarding er beskrevet som **dårlig koordinert**, noe som fører til feil i opprettelse og tildeling av tjenester.\n\nKonsekvensene for Komplett er typisk:  \n- tregere onboarding av ansatte  \n- feil tilganger første arbeidsdag  \n- mer manuelt arbeid for IT\n\nHvis du vil, kan jeg også forklare **hvordan dette normalt løses (HR-driven identity / lifecycle management i Entra)** og hva som realistisk må på plass hos Komplett for å få stabil onboarding.",
+    "status": "completed",
+    "latency_s": 21.66,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 9,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 0,
+      "fullstendighet": 9,
+      "formatering": 10,
+      "begrunnelse": "Svaret dekker alle nøkkelord og gir en grundig beskrivelse av utfordringene, uten å legge til feilinformasjon. Det eneste som mangler er eksplisitt referanse til det taktiske møtet 25.02.2026."
+    },
+    "composite_score": 94.0
+  }
+]

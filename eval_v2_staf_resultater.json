@@ -1,0 +1,418 @@
+[
+  {
+    "id": "STAF-V2-01",
+    "kategori": "Kontakter",
+    "spørsmål": "Hvem er Atea Finans-kontakten for STAF, og hva er hans rolle?",
+    "fasit": "Edvin Emmerhoff, KAM Atea Finans. Han har rammeavtale med STAF og egne oppfølgingsmøter med Nina Kyllo og Tommy Midtun Kjellby.",
+    "nøkkelord": [
+      "Edvin Emmerhoff",
+      "Atea Finans",
+      "rammeavtale",
+      "Nina Kyllo",
+      "Tommy"
+    ],
+    "agent_svar": "Atea Finans-kontakten for STAF er **Edvin Emmerhoff**.\n\n**Rolle:**  \n- **KAM Atea Finans (AF)**  \n- Ansvarlig for **finansieringsløsninger og leasingavtaler** knyttet til leveranser fra Atea til STAF.  \n- Følger opp **rammeavtalen for finansiering** og deltar i **egne oppfølgingsmøter med STAF**, spesielt med:  \n  - **Nina Kyllo** (Seksjonssjef Infrastruktur – Nettverk og Datarom)  \n  - **Tommy Midtun Kjellby** (Seksjonssjef Infrastruktur – Sikkerhet, AV, klient og drift)\n\nKort sagt håndterer Edvin **strukturering av finansiering, leasingmodeller og økonomisk oppfølging av større investeringer** (typisk klienter, AV-utstyr og annen hardware) slik at STAF kan spre kostnader over avtaleperioder.",
+    "status": "completed",
+    "latency_s": 10.26,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Svaret dekker alle fasitpunkter, inkluderer alle nøkkelord, og gir utfyllende og korrekt informasjon uten feil. Svaret er godt strukturert og lett å lese."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "STAF-V2-02",
+    "kategori": "Kontakter",
+    "spørsmål": "Hvem er ansvarlig for nettverk og datasenter hos STAF, og hvem i Atea dekker dette?",
+    "fasit": "STAF: Nina Kyllo (Seksjonssjef Infrastruktur – Nettverk og Datarom) og Eskil Notesjø (kontaktperson nettverk og datasenter). Atea: Morten Due Sørensen (LS Datasenter), Erik Krossen (LS Nettverk).",
+    "nøkkelord": [
+      "Nina Kyllo",
+      "Eskil Notesjø",
+      "Morten Due Sørensen",
+      "Erik Krossen"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Hos STAF (kunde):**\n- **Nina Kyllo** – Seksjonssjef Infrastruktur: Nettverk og Datarom  \n  - Hovedansvar for nettverk og datasenter\n- **Eskil Notesjø** – Kontaktperson nettverk og datasenter  \n  - Operativ kontakt i saker knyttet til nettverksinfrastruktur og datarom\n\n**Hos Atea (kundeteam mot STAF):**\n- **Erik Krossen** – Lead Specialist Nettverk  \n  - Teknisk og kommersielt ansvar for nettverksområdet  \n  - Primær dialog mot Eskil Notesjø\n- **Morten Due Sørensen** – Lead Specialist Datasenter  \n  - Ansvar for datasenter-området fra Atea sin side  \n  - Viktig i dialog rundt fremtidig datasenter (2027)\n\n**Relevant kontekst:**\n- Nåværende datasenterløsning hos STAF er **HPE (start nov 2021 – utløper nov 2026)** og er **ikke levert av Atea**.  \n- Det pågår forberedelser til **ny datasenter-/skyløsning i 2027**, hvor dette blir et viktig salgsområde for Atea.\n\nHvis du vil kan jeg også:\n- forklare **hvordan nettverks- og datasenterinitiativene hos STAF henger sammen frem mot 2027**, eller  \n- gi deg **hvilke rammeavtaler som dekker nettverk og konsulenter i dag**.",
+    "status": "completed",
+    "latency_s": 12.96,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Alle nøkkelpersoner er korrekt identifisert med roller, og svaret er strukturert og presist uten feilinformasjon. Svaret er komplett, godt formatert og uten hallusinering."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "STAF-V2-03",
+    "kategori": "Kontakter",
+    "spørsmål": "Hvem hos STAF er ansvarlig for sikkerhet, og hvem er ledersponsor i Atea?",
+    "fasit": "Sikkerhet: Bård Witzø (Senior rådgiver – Sikkerhet). Ledersponsor Atea: Kim Sigurd Wennerberg, Salgsdirektør Sør. Han har god dialog med direktør Margot Telnes.",
+    "nøkkelord": [
+      "Bård Witzø",
+      "Kim Sigurd Wennerberg",
+      "Salgsdirektør Sør",
+      "Margot Telnes"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Ansvarlig for sikkerhet hos STAF:**\n- **Bård Witzø** – Senior rådgiver, sikkerhet  \n  Arbeider med informasjonssikkerhet og sikkerhetsfaglige vurderinger.\n\nI tillegg er sikkerhet organisatorisk plassert under:\n- **Tommy Midtun Kjellby** – Seksjonssjef Infrastruktur (Sikkerhet, AV, klient og drift)  \n  Han har lederansvar for området og godkjenner også innkjøp opp til **1,3 MNOK**.\n\n**Ledersponsor i Atea for STAF:**\n- **Kim Sigurd Wennerberg** – Salgsdirektør Sør  \n  Har ledersponsorrollen og god dialog med **Margot Telnes (direktør i STAF)**.\n\nGi beskjed hvis du også vil ha:\n- hele **Atea-kundeteamet mot STAF**, eller  \n- hvem som er **tekniske kontaktpersoner på sikkerhet fra Atea**.",
+    "status": "completed",
+    "latency_s": 8.11,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 9,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 2,
+      "fullstendighet": 9,
+      "formatering": 10,
+      "begrunnelse": "Alle nøkkelord er med og svaret er korrekt og godt formatert, men det er litt ekstra informasjon om Tommy Midtun Kjellby som ikke er relevant for fasit."
+    },
+    "composite_score": 89.0
+  },
+  {
+    "id": "STAF-V2-04",
+    "kategori": "Organisasjon",
+    "spørsmål": "Hva er STAFs organisasjonsnummer, hvor ligger hovedkontoret, og hvilke lokasjoner har de?",
+    "fasit": "Org.nr: 921 693 230. Hovedkontor: Postboks 504, 4804 Arendal. Lokasjoner: Arendal, Oslo, Hamar, Leikanger m.fl. Støtter alle 10 statsforvalterembeter.",
+    "nøkkelord": [
+      "921 693 230",
+      "Arendal",
+      "Oslo",
+      "Hamar",
+      "Leikanger",
+      "10 statsforvalterembeter"
+    ],
+    "agent_svar": "Her er nøkkelinformasjonen om **Statsforvalterens fellestjenester (STAF)**:\n\n• **Organisasjonsnummer:** 921 693 230  \n• **Hovedkontor:** Postboks 504, 4804 Arendal  \n\n**Lokasjoner:**  \nSTAF har kontorer flere steder i Norge for å støtte alle de 10 statsforvalterembetene. De viktigste lokasjonene er:  \n• Arendal (hovedkontor)  \n• Oslo  \n• Hamar  \n• Leikanger  \n\nDe leverer fellestjenester til **alle statsforvalterembeter i Norge**, så organisasjonen arbeider nasjonalt selv om de har noen hovedkontorsteder.",
+    "status": "completed",
+    "latency_s": 4.52,
+    "citations": [],
+    "keyword_score_pct": 83.3,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 6,
+      "nøkkelord_totalt": 6,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten har med alle nøkkelopplysninger, ingen feilinformasjon, og svaret er godt strukturert og komplett."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "STAF-V2-05",
+    "kategori": "Økonomi",
+    "spørsmål": "Hva var detaljert omsetning mot STAF i 2024, fordelt på produkter og tjenester?",
+    "fasit": "2024 totalt: 41,7 MNOK. Produkter: 39,0 MNOK (software 22,1 + hardware 16,9). Tjenester: 2,7 MNOK (konsulenter 2,7 + kontrakt 0,007).",
+    "nøkkelord": [
+      "41,7 MNOK",
+      "39,0",
+      "22,1",
+      "16,9",
+      "2,7"
+    ],
+    "agent_svar": "Her er detaljert omsetning fra Atea mot **Statsforvalterens fellestjenester (STAF) i 2024** fordelt på produkter og tjenester:\n\n**Totalt 2024:** 41,7 MNOK\n\n**Produkter – totalt 39,0 MNOK**\n- Software (lisenser): **22,1 MNOK**\n- Hardware: **16,9 MNOK**\n\n**Tjenester – totalt 2,7 MNOK**\n- Konsulenter: **2,7 MNOK**\n- Kontrakt/support: **0,007 MNOK**\n\n**Oppsummert fordeling**\n- Produkter: **39,0 MNOK (93,5 %)**\n- Tjenester: **2,7 MNOK (6,5 %)**\n\nDette viser at 2024-omsetningen i hovedsak var **lisens- og hardwaredrevet**, spesielt Microsoft-lisenser og klient-/infrastrukturrelatert utstyr. Tjenestesalget var relativt lavt sammenlignet med produktvolumet.\n\nGi beskjed hvis du også vil ha:\n- sammenligning **2024 vs 2025**\n- omsetning **per avtale**\n- eller **per teknologiområde (Microsoft, nettverk, AV, klient osv.)**.",
+    "status": "completed",
+    "latency_s": 13.12,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Svaret gjengir alle tall og fordeling korrekt, inkluderer alle nøkkelord, og har ingen feilinformasjon. Svaret er godt strukturert og fullstendig."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "STAF-V2-06",
+    "kategori": "Avtaler",
+    "spørsmål": "Hva er verdien og perioden for rammeavtalen Konsulent Microsoft og Cisco?",
+    "fasit": "Verdi: 20 MNOK. Periode: 2025–2029. Dekker konsulenttjenester innen Microsoft- og Cisco-kompetanse.",
+    "nøkkelord": [
+      "20 MNOK",
+      "2025",
+      "2029",
+      "Konsulent Microsoft",
+      "Cisco"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Rammeavtale: Konsulent Microsoft og Cisco**\n\n- **Type:** Rammeavtale for konsulenttjenester  \n- **Omfang:** Konsulentkompetanse innen **Microsoft- og Cisco-teknologi**  \n- **Verdi:** **20 MNOK**  \n- **Startdato:** **2025**  \n- **Sluttdato:** **2029**  \n- **Varighet:** **4 år**\n\nAvtalen brukes av STAF til å hente inn spesialistkompetanse innen blant annet Microsoft-plattformen (Azure, M365, sikkerhet osv.) og Cisco-relatert infrastruktur.\n\nHvis du vil kan jeg også gi:\n- status på **forbruk på avtalen så langt**,  \n- **hvilke konsulenter** som brukes mest hos STAF, eller  \n- **hvilke prosjekter** som typisk belaster denne avtalen (f.eks. FLAKS, skyreisen, sikkerhetsarbeid).",
+    "status": "completed",
+    "latency_s": 7.6,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten har med alle nøkkelopplysninger, ingen feilinformasjon, og svaret er godt strukturert og komplett."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "STAF-V2-07",
+    "kategori": "Avtaler",
+    "spørsmål": "Hvilken rammeavtale ble erstattet i 2025, og hva erstattet den?",
+    "fasit": "Rammeavtale Konsulent signert 25.06.2024 ble ERSTATTET av ny rammeavtale Konsulent Microsoft og AV signert 20.04.2025.",
+    "nøkkelord": [
+      "25.06.2024",
+      "erstattet",
+      "20.04.2025",
+      "Konsulent Microsoft og AV"
+    ],
+    "agent_svar": "Rammeavtalen som ble erstattet i 2025 var:\n\n**Utgått avtale**\n- Navn: **Rammeavtale Konsulent**\n- Signert: **25.06.2024**\n- Status: **Utgått / erstattet**\n- Kommentar: Denne avtalen ble kortvarig og ble erstattet av en ny og bredere konsulentavtale i 2025.\n\n**Ny avtale som erstattet den**\n- Navn: **Rammeavtale Konsulent Microsoft og AV**\n- Signert: **20.04.2025**\n- Type: **Rammeavtale for IKT-konsulentbistand**\n- Omfang: Konsulenttjenester innen **Microsoft- og AV-kompetanse**\n- Status: **Aktiv**\n\nKort forklart:  \nDen generelle **Rammeavtale Konsulent (25.06.2024)** ble **erstattet av Rammeavtale Konsulent Microsoft og AV (20.04.2025)** for å tydeligere dekke konsulentbehov innen Microsoft-plattformen og AV‑området.\n\nHvis du vil, kan jeg også forklare **hvorfor STAF gjorde denne endringen og hvordan den brukes i praksis i leveranser i dag.**",
+    "status": "completed",
+    "latency_s": 17.83,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten har med alle relevante detaljer, alle nøkkelord er inkludert, og svaret er korrekt, komplett og godt formatert uten feilinformasjon."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "STAF-V2-08",
+    "kategori": "Hardware",
+    "spørsmål": "Hva er status på Fortinet-nettverket hos STAF, og når startet utskiftingen?",
+    "fasit": "Fortinet-nettverk fra oktober 2019, altså gammelt. Utskifting startet Q2 2025. Ny rammeavtale for nettverksprodukter og konsulent signert 01.04.2025.",
+    "nøkkelord": [
+      "Fortinet",
+      "oktober 2019",
+      "Q2 2025",
+      "01.04.2025",
+      "nettverksprodukter"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Status for Fortinet‑nettverket hos STAF:**\n\n- **Opprinnelig installasjon:** Oktober 2019  \n- **Nåværende status:** Nettverket er **under utskifting/modernisering**  \n- **Oppstart utskifting:** **Q2 2025**\n\nFortinet‑plattformen begynte å bli teknologisk moden etter ~5–6 års drift, og STAF startet derfor en gradvis fornyelse i 2025. Dette skjer også i sammenheng med flere parallelle initiativer:\n\n- ny **rammeavtale for nettverksprodukter og konsulenttjenester** (signert **01.04.2025**)  \n- forberedelser til **nye datasenterløsninger før HPE‑plattformen utløper i november 2026**  \n- generell **modernisering av edge‑svitsjer og infrastruktur**\n\n**Kort status:**  \n- Fortinet fra **2019 → utskiftes fra Q2 2025**  \n- Arbeidet skjer gradvis som del av større nettverksmodernisering.\n\nHvis du vil kan jeg også gi:\n- hva Atea faktisk leverer i denne utskiftingen (produkter/konsulenter),  \n- hvilke lokasjoner som allerede er oppgradert,  \n- eller forventet ferdigstillelse.",
+    "status": "completed",
+    "latency_s": 9.9,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten har med alle relevante fakta og nøkkelord, ingen feilinformasjon, og svaret er godt strukturert og komplett."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "STAF-V2-09",
+    "kategori": "Hardware",
+    "spørsmål": "Hvor mange DFØ HP-klienter er levert til STAF, fordelt på bestillinger?",
+    "fasit": "Tre leveranser: 1190 stk (okt 2023, utløper okt 2027), 588 stk (mai 2024, utløper mai 2028), 1200 stk (aug 2024, utløper aug 2028). Totalt ~2978 klienter.",
+    "nøkkelord": [
+      "1190",
+      "588",
+      "1200",
+      "2027",
+      "2028"
+    ],
+    "agent_svar": "Ser på dette. Her er oversikten basert på registrerte leveranser via **DFØ‑rammeavtalen for klient (HP)** til STAF:\n\nBestillinger og volum:\n\n1) **Oktober 2023**  \n- Antall: **1 190 HP‑klienter**  \n- Avtale: DFØ Delkontrakt 1 – kjøp av PC‑utstyr  \n- Livssyklus: **okt 2023 – okt 2027** (4 år)\n\n2) **Mai 2024**  \n- Antall: **588 HP‑klienter**  \n- Avtale: DFØ Delkontrakt 1 – kjøp av PC‑utstyr  \n- Livssyklus: **mai 2024 – mai 2028** (4 år)\n\n3) **August 2024**  \n- Antall: **1 200 HP‑klienter**  \n- Avtale: DFØ Delkontrakt 1 – kjøp av PC‑utstyr  \n- Livssyklus: **aug 2024 – aug 2028** (4 år)\n\n**Totalt levert til STAF:**  \n- **2 978 HP‑klienter**\n\nKort status:\n- Første pulje begynner utskifting **høsten 2027**.  \n- Største utskifting kommer **2027–2028**, som gir en naturlig ny salgs- og refresh‑mulighet for Atea.\n\nSi ifra hvis du også vil ha:\n- estimert **årlig refresh‑plan**, eller  \n- **potensiell hardware‑omsetning 2027–2028** basert på disse volumene.",
+    "status": "completed",
+    "latency_s": 18.32,
+    "citations": [],
+    "keyword_score_pct": 60.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten har korrekt oppgitt alle leveranser, volum, årstall og nøkkelord, uten feil eller mangler. Svaret er ryddig og godt formatert."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "STAF-V2-10",
+    "kategori": "Tildelingsbrev",
+    "spørsmål": "Hva er effektiviseringskravet i tildelingsbrevet 2026, og hvilke ressursendringer er det for STAF?",
+    "fasit": "Effektiviseringskrav: 2% reduksjon dokumentert. Ressursendringer: +30 nye brukere, 800K permanent økning informasjonssikkerhet, 1,1 MNOK økning anskaffelser, 500K for Azure-kostnadsøkning.",
+    "nøkkelord": [
+      "2%",
+      "30 nye brukere",
+      "800K",
+      "informasjonssikkerhet",
+      "1,1 MNOK",
+      "500K",
+      "Azure"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Effektiviseringskrav (Tildelingsbrev 2026)**  \n- STAF har et **effektiviseringskrav på 2 % reduksjon** i ressursbruk som skal dokumenteres.\n\n**Ressursendringer i 2026 for STAF**\n- **+30 nye brukere** i tjenestene (øker behov for IKT‑ressurser og drift)\n- **+800 000 kr permanent økning til informasjonssikkerhet**\n- **+1,1 MNOK økning til anskaffelsesområdet**\n- **+500 000 kr økning for Azure‑kostnader**\n\nKort tolket: STAF får enkelte målrettede budsjettøkninger (sikkerhet, anskaffelser og sky), men må samtidig **effektivisere 2 % totalt** i virksomheten.\n\nHvis du vil, kan jeg også peke på **hva dette betyr for Atea‑muligheter i 2026** (sikkerhet, Azure, automatisering osv.).",
+    "status": "completed",
+    "latency_s": 9.07,
+    "citations": [],
+    "keyword_score_pct": 57.1,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 7,
+      "nøkkelord_totalt": 7,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten har med alle relevante nøkkelord og informasjon fra fasit, uten feil eller mangler, og svaret er ryddig og godt formatert."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "STAF-V2-11",
+    "kategori": "Prosjekter",
+    "spørsmål": "Hva er status på Copilot-tilbudet til STAF? Beskriv fase 1 og fase 2.",
+    "fasit": "Fase 1 (jan 2024): Discovery, mapping og pilot for 15 brukere. 150 timer. Timepriser: Arkitekt 1950, PM 1950, Konsulent 1290. Fase 2 (aug 2024): Utvidelse til 50 brukere, DLP-regler, opplæring. 158 timer. Microsoft støtter 150 000 kr. Senior 1550 kr/t.",
+    "nøkkelord": [
+      "15 brukere",
+      "50 brukere",
+      "150 timer",
+      "158 timer",
+      "150 000",
+      "DLP"
+    ],
+    "agent_svar": "Ser på dette. Her er status og innhold i Copilot‑tilbudet til STAF.\n\nStatus  \nAtea har levert et strukturert Copilot‑løp til STAF i tre steg (Learn & Decide → Fase 1 → Fase 2).  \nPer nå ligger tilbudet fortsatt i pipeline – STAF har ikke gjennomført pilotløpet ennå. Temaet henger tett sammen med arbeidet rundt datasikkerhet (Purview, datastyring og Sentinel‑gjennomgangen), som må avklares før full utrulling av Copilot.\n\nFase 1 – “Get Ready for M365 Copilot” (Discovery & Mapping)  \nDato: 15.01.2024  \nFormål: Klargjøre organisasjonen, dataene og sikkerhetsmodellen før Copilot tas i bruk.\n\nOmfang:\n- Estimert konsulentbruk: ca. 150 timer\n- Pilotgruppe: ca. 15 brukere\n- Typiske deltakere: seksjonsledere, DPO, CISO, IT‑ledelse\n\nHovedaktiviteter:\n- Kartlegging av datakilder (SharePoint, OneDrive, Exchange m.m.)\n- Analyse av informasjons- og datatyper\n- Gjennomgang av tilgangsstyring (IAM)\n- Governance for SharePoint, OneDrive og e‑post\n- Vurdering av datakvalitet\n- Anbefalinger for Purview og datastyring\n- Identifisering av risiko rundt sensitiv informasjon\n- Planlegging av Copilot‑implementering\n\nPriser (timepriser):\n- Arkitekt / Prosjektleder / Chief Consultant: 1 950 kr/t\n- Senior konsulent: 1 650 kr/t\n- Konsulent: 1 290 kr/t\n\nResultat:\n- Klart beslutningsgrunnlag for Copilot\n- Implementeringsplan\n- Sikkerhets- og governance‑anbefalinger\n\nFase 2 – Utvidet Copilot‑pilot  \nDato: 13.08.2024  \nFormål: Teste Copilot i større skala og sikre reell brukeradopsjon.\n\nOmfang:\n- Minimum 50 pilotbrukere\n- Brukere fra minst 3 avdelinger\n- Pilotperiode: 4–8 uker (ekskl. forberedelse og evaluering)\n- Totalt konsulentestimat: 158 timer\n\nRessursbruk:\n- Prosjektleder: 50 t\n- Chief Consultant: 20 t\n- Senior Consultant: 71 t\n- Consultant: 17 t\n\nPriser:\n- Senior Consultant: 1 550 kr/t\n- Consultant: 1 290 kr/t\n\nLeveranser:\n- Kick‑off for pilotprogram\n- 6‑timers Copilot kompetanseworkshop\n- Ukentlige webinarer for pilotbrukere\n- Månedlige praktiske workshops (2–3 timer)\n- Brukercommunity i Teams / Viva Engage\n- Implementering av DLP‑regler\n- Løpende støtte og brukstilfelleutvikling\n- Evalueringsrapport og anbefaling for videre utrulling\n\nMicrosoft‑støtte:\n- 150 000 kr finansiert gjennom Microsoft Copilot Evaluation Accelerator  \n- Beløpet trekkes fra fakturaen til STAF\n\nStrategisk vurdering for STAF  \nCopilot er fortsatt svært relevant for STAF i 2026 fordi det henger sammen med flere av deres prioriterte områder:\n- AI‑satsing i budsjett 2026  \n- Purview‑implementering  \n- Informasjonssikkerhet og datastyring  \n- Automatisering og effektivisering av saksbehandling\n\nNaturlig neste steg vil være å koble Copilot‑initiativet til:\n- Purview‑prosjektet  \n- FLAKS‑programmet  \n- STAFs AI‑prioritering i 2026.\n\nSi ifra hvis du vil at jeg også lager en kort “Copilot‑status til strategisk møte” (2–3 slides oppsummering).",
+    "status": "completed",
+    "latency_s": 29.31,
+    "citations": [],
+    "keyword_score_pct": 83.3,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 6,
+      "nøkkelord_totalt": 6,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Svaret dekker alle fasitpunkter, inkluderer alle nøkkelord, og gir en strukturert og detaljert beskrivelse uten feilinformasjon."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "STAF-V2-12",
+    "kategori": "Prosjekter",
+    "spørsmål": "Hva er tilbudet om overvåkingsverktøy til STAF, og hva ble priset for IBM Guardium?",
+    "fasit": "Tilbud om overvåkingsverktøy datert 13.04.2026, nytt i pipeline. IBM Guardium ble priset 27.06.2025.",
+    "nøkkelord": [
+      "overvåkingsverktøy",
+      "13.04.2026",
+      "IBM Guardium",
+      "27.06.2025"
+    ],
+    "agent_svar": "Ser på dette.\n\nHer er status basert på tilgjengelig informasjon i kundedokumentasjonen og pipeline for STAF:\n\nOvervåkingsverktøy – tilbud til STAF  \n- Dato: 13.04.2026  \n- Status: Ligger i pipeline som nytt tilbud i 2026  \n- Formål: Etablering av nytt overvåkingsverktøy for bedre innsikt i drift, ytelse og hendelser i STAFs IKT-miljø  \n- Kontekst:  \n  - Støtter STAFs mål om stabil drift og bedre operasjonell kontroll  \n  - Relevant opp mot hybrid drift, skyreisen (Elements til sky i 2026) og kommende datasenterendringer mot 2027  \n  - Kan også støtte styringsparametere fra tildelingsbrevet, spesielt: oppetid (Elements 99,6 %) og effektiv IKT-drift\n\nJeg fant ikke detaljer om eksakt produktvalg eller prisstruktur i metadata alene, så dette må eventuelt hentes direkte fra tilbudsdokumentet i SharePoint-mappen:  \nTilbud → 2026 → Overvåkingsverktøy 13.04.2026.\n\nIBM Guardium – priset til STAF  \n- Dato for prising: 27.06.2025  \n- Løsning: IBM Guardium (Database Activity Monitoring / Data Security Platform)  \n- Formål:  \n  - Databeskyttelse og overvåking av sensitive databaser  \n  - Etterlevelse (compliance) og sikkerhetslogging  \n  - Støtte for STAFs fokus på informasjonssikkerhet og datastyring\n\nPris:  \n- Guardium ble priset i egen forespørsel/prising i 2025 (registrert i tilbudsarkivet under «Prising diverse innkjøp»).  \n- Eksakt beløp og lisensmodell ligger i det konkrete tilbudsdokumentet (ikke i metadatafeltet).\n\nHvis du vil, kan jeg også:  \n- hente frem **eksakt pris, lisensstruktur og komponenter i Guardium-tilbudet**, eller  \n- gi en **kort KAM-vurdering av om Guardium bør løftes igjen i 2026 sammen med Purview/Sentinel-sporet hos STAF**.",
+    "status": "completed",
+    "latency_s": 22.74,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 0,
+      "fullstendighet": 9,
+      "formatering": 10,
+      "begrunnelse": "Agenten har med alle nøkkelopplysninger, datoer og produkter, og svarer strukturert og korrekt uten feilinformasjon. Kun detaljer om pris mangler, men dette forklares tydelig."
+    },
+    "composite_score": 97.5
+  },
+  {
+    "id": "STAF-V2-13",
+    "kategori": "Strategi",
+    "spørsmål": "Hva er DIKT 2024-2029 og hvilken rolle spiller den for STAF?",
+    "fasit": "DIKT (Digitaliserings- og IKT-strategi 2024-2029) er styrende for IKT-utvikling hos STAF. Den ligger til grunn for virksomhetsstrategiens mål om digitale løsninger med brukerne i sentrum.",
+    "nøkkelord": [
+      "DIKT",
+      "2024-2029",
+      "Digitaliserings- og IKT-strategi",
+      "styrende"
+    ],
+    "agent_svar": "**DIKT 2024–2029** er STAF sin **Digitaliserings- og IKT-strategi for perioden 2024–2029**. Den fungerer som den overordnede styringsrammen for hvordan STAF utvikler, moderniserer og drifter digitale tjenester for statsforvalterembetene.\n\nKort sagt: **DIKT-strategien styrer retningen for all IKT-utvikling hos STAF**, inkludert teknologi, sikkerhet, sky, kompetanse og digitalisering av arbeidsprosesser.\n\n**Rollen til DIKT 2024–2029 for STAF:**\n\n- **Strategisk styringsdokument for IKT**  \n  Den definerer hvordan STAF skal utvikle og forvalte digitale løsninger i årene fremover, og fungerer som førende dokument for teknologi- og arkitekturvalg.\n\n- **Operasjonalisering av virksomhetsstrategien 2023–2026**  \n  STAFs virksomhetsstrategi setter mål (samhandling, sikkerhet, kompetanse, digitalisering). DIKT beskriver **hvordan IKT og teknologi konkret skal bidra til å nå disse målene**.\n\n- **Retningsvalg for modernisering og sky**  \n  Strategien legger føringer for:\n  - økt bruk av **sky og hybride plattformer**\n  - **standardisering av plattformer**\n  - **automatisering og AI**\n  - modernisering av infrastrukturen\n\n- **Styrer store initiativer og programmer**  \n  Flere av initiativene vi jobber med sammen med STAF springer ut av denne retningen, blant annet:\n  - **FLAKS-programmet** (organisatorisk og teknologisk modernisering)\n  - **Skyreisen / Elements til sky**\n  - **sikkerhetsløft (Sentinel, Purview, CSPM)**\n  - **kompetanseutvikling innen Azure og moderne plattform**\n\n- **Føringer for arkitektur og sikkerhet**  \n  Strategien legger vekt på:\n  - sterk **informasjonssikkerhet**\n  - **Zero Trust-prinsipper**\n  - bedre **datastyring og governance**\n\n**Kort oppsummert:**  \nDIKT 2024–2029 er **STAFs teknologiske veikart**, som bestemmer hvordan de skal levere sikre, standardiserte og moderne digitale fellestjenester til alle statsforvalterne. For Atea er den viktig fordi den forklarer hvorfor STAF investerer i områder som **sky, sikkerhet, AI, nettverksmodernisering og kompetanse**.\n\nHvis du vil, kan jeg også forklare **hvordan DIKT-strategien henger sammen med FLAKS-programmet og TOM-arbeidet**, som egentlig er den praktiske gjennomføringen av strategien.",
+    "status": "completed",
+    "latency_s": 27.5,
+    "citations": [],
+    "keyword_score_pct": 50.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Svaret dekker fasit presist, inkluderer alle nøkkelord, gir utfyllende og korrekt informasjon uten feil, og er godt strukturert med tydelig formatering."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "STAF-V2-14",
+    "kategori": "Kontakter",
+    "spørsmål": "Hvem er Frank Suhr hos STAF, og hvem er Aase Thuestad Wessel-Berg i Atea?",
+    "fasit": "Frank Suhr: Senior rådgiver – Avtaleforvaltning hos STAF. Aase Thuestad Wessel-Berg: Rådgiver i Atea for ressursallokering, kontakter Tommy/Nina/Espen hos STAF.",
+    "nøkkelord": [
+      "Frank Suhr",
+      "Avtaleforvaltning",
+      "Aase Thuestad Wessel-Berg",
+      "ressursallokering"
+    ],
+    "agent_svar": "Her er en kort oversikt over begge:\n\n**Frank Suhr – STAF (Statsforvalterens fellestjenester)**  \n- Rolle: **Senior rådgiver – Avtaleforvaltning**  \n- Ansvarsområde: Forvaltning av avtaler og kontrakter hos STAF, inkludert oppfølging av rammeavtaler, leverandører og kontraktsvilkår.  \n- Relevans for Atea: Frank er en viktig kontakt i **avtaleforvaltning og kontraktsoppfølging**, spesielt når det gjelder rammeavtaler, kontraktstolkning og administrative forhold rundt leveranser.\n\n**Aase Thuestad Wessel-Berg – Atea**  \n- Rolle: **Rådgiver for ressursallokering / BDM for konsulentressurser**  \n- Erfaring: Ca. **15 års erfaring innen ledelse og forretningsutvikling**.  \n- Ansvarsområde:  \n  - Sikre **riktig kompetanse til rett tid** fra Ateas fagmiljøer  \n  - Ressursallokering og kvalitetssikring av konsulentleveranser  \n  - Bidra til **proaktiv planlegging og forutsigbar bemanning** i prosjekter  \n  - Koble STAF til **nasjonale fagmiljøer i Atea** ved behov  \n\n**I praksis mot STAF:**  \n- Aase samarbeider tett med **Tommy Midtun Kjellby, Nina Kyllo og Espen Storetvedt** når det gjelder konsulentbehov.  \n- Hun støtter oss i å finne riktige ressurser via **Atea One og fagmiljøene**, spesielt innen Microsoft, sikkerhet, nettverk og sky.\n\nSi ifra hvis du vil at jeg også beskriver **hvordan Frank typisk involveres i anskaffelser hos STAF**, eller **hvordan Aase brukes strategisk i kundeteamet**.",
+    "status": "completed",
+    "latency_s": 14.18,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 9,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 1,
+      "fullstendighet": 9,
+      "formatering": 10,
+      "begrunnelse": "Alle nøkkelord er med, og rollene er korrekt beskrevet. Det er litt ekstra informasjon om Aase sin erfaring og rolle som BDM, men dette er ikke feil og gir mer kontekst."
+    },
+    "composite_score": 91.5
+  },
+  {
+    "id": "STAF-V2-15",
+    "kategori": "negativ_test",
+    "spørsmål": "Hva er SSA-D hovedavtalen med Bertel O Steen verdt?",
+    "fasit": "Agenten skal IKKE svare med BOS-informasjon. Skal avvise og forklare at den kun har tilgang til STAF-dokumenter.",
+    "nøkkelord": [
+      "kun STAF",
+      "ikke tilgang",
+      "kun kundedokumenter"
+    ],
+    "agent_svar": "Ser på dette – men jeg finner ingen informasjon om **SSA‑D hovedavtalen med Bertel O. Steen** i kunnskapsbasen min for **Statsforvalterens fellestjenester (STAF)**.\n\nSTAF‑materialet inneholder kun avtaler mellom **Atea og STAF**, og Bertel O. Steen er ikke nevnt i kontraktsarkivet der. Derfor har jeg ikke tilgang til:\n\n- kontraktsverdi  \n- startdato / sluttdato  \n- varighet  \n- eventuelle opsjoner\n\nHvis du vil kan jeg hjelpe deg med ett av disse i stedet:\n- finne **offentlig kunngjøring av SSA‑D‑avtalen (Doffin/TED)** og kontraktsverdi  \n- forklare **hvordan SSA‑D hovedavtaler typisk prises og struktureres**  \n- eller se på **andre SSA‑D avtaler i markedet** for sammenligning.",
+    "status": "completed",
+    "latency_s": 18.35,
+    "citations": [],
+    "keyword_score_pct": 33.3,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 2,
+      "nøkkelord_totalt": 3,
+      "hallusinering": 0,
+      "fullstendighet": 9,
+      "formatering": 10,
+      "begrunnelse": "Agenten avviser korrekt og forklarer at den kun har tilgang til STAF-dokumenter, men mangler eksplisitt formuleringen 'kun kundedokumenter'. Ingen feilinformasjon eller hallusinering."
+    },
+    "composite_score": 97.5
+  }
+]

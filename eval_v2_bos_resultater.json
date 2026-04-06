@@ -1,0 +1,412 @@
+[
+  {
+    "id": "BOS-V2-01",
+    "kategori": "avtale_detaljer",
+    "spørsmål": "Hva er vedlikeholdsvinduet for BOS, og hvor ofte gjennomføres det?",
+    "fasit": "Vedlikeholdsvindu er kl. 23:00–06:00, hver 3. onsdag.",
+    "nøkkelord": [
+      "23-06",
+      "23:00",
+      "06:00",
+      "3. onsdag",
+      "vedlikeholdsvindu"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Vedlikeholdsvindu for Bertel O Steen (BOS)**  \nKilde: *Hovedavtale 2025–2029 (SSA‑D 2024), signert 02.09.2025*\n\n- **Tidspunkt:** 23:00 – 06:00  \n- **Frekvens:** Hver **3. onsdag**  \n- **Formål:** Planlagt vedlikehold, oppgraderinger og endringer i plattform/tjenester utenfor normal driftstid.\n\n**Relaterte avtalepunkter:**\n- **Avtale:** Hovedavtale 2025–2029  \n- **Oppstart:** 01.09.2025  \n- **Varighet:** 3 år + opsjon 1 + 1  \n- **SLA-responstider:**  \n  - P1: 15 min respons / 2 t løsning  \n  - P2: 1 t respons / 4 t løsning  \n  - P3: 4 t respons / 2 dager  \n  - P4: 1 virkedag / 3 dager\n\nHvis du ønsker kan jeg også hente **hva som er tillatt/ikke tillatt i vedlikeholdsvinduet (endringer, reboot, patching osv.) fra selve avtaledokumentet**.",
+    "status": "completed",
+    "latency_s": 12.72,
+    "citations": [],
+    "keyword_score_pct": 80.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten oppgir korrekt tidspunkt og frekvens, alle nøkkelord er med, og svaret er godt strukturert uten feilinformasjon."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "BOS-V2-02",
+    "kategori": "avtale_detaljer",
+    "spørsmål": "Hva er HW/SW-påslaget i hovedavtalen med BOS?",
+    "fasit": "6% påslag på hardware og software.",
+    "nøkkelord": [
+      "6%",
+      "påslag"
+    ],
+    "agent_svar": "HW/SW‑påslaget i **Hovedavtale 2025–2029** mellom Atea og Bertel O Steen er:\n\n- **Påslag:** 6 %  \n- **Gjelder:** Hardware og software som leveres gjennom avtalen  \n- **Avtaletype:** SSA‑D 2024  \n- **Signert:** 02.09.2025  \n- **Oppstart:** 01.09.2025  \n- **Varighet:** 3 år + opsjon 1 + 1 år (potensielt til 31.08.2030)\n\nDette betyr at Atea legger **6 % margin på innkjøpspris** ved videresalg av HW/SW til BOS innenfor avtalen.\n\nSi ifra hvis du også vil ha:\n- hvilke avtalenumre dette gjelder (SA0023352, SA0015085, SA0035261, SA0023351), eller  \n- eksempler på tilbud der påslaget er brukt (f.eks. Lenovo‑servertilbudet fra sept 2025).",
+    "status": "completed",
+    "latency_s": 8.35,
+    "citations": [],
+    "keyword_score_pct": 50.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 2,
+      "nøkkelord_totalt": 2,
+      "hallusinering": 2,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Svaret er korrekt, inneholder begge nøkkelord, og gir utfyllende informasjon. Det er litt ekstra informasjon om avtaledetaljer, men dette er ikke feil og gir merverdi."
+    },
+    "composite_score": 95.0
+  },
+  {
+    "id": "BOS-V2-03",
+    "kategori": "tjenester",
+    "spørsmål": "Hvilke applikasjoner drifter Atea for BOS under applikasjonsdrift-tjenesten?",
+    "fasit": "IFS, BOSLogg, Snap Drive, B2B, MB Aftersales med flere. Applikasjonsdrift koster NOK 193 950 per måned.",
+    "nøkkelord": [
+      "IFS",
+      "BOSLogg",
+      "Snap Drive",
+      "B2B",
+      "MB Aftersales",
+      "193 950"
+    ],
+    "agent_svar": "Ser på dette.\n\nUnder **Applikasjonsdrift-tjenesten i hovedavtalen (SSA‑D 2024)** drifter Atea flere forretningskritiske applikasjoner for BOS.\n\nAvtaledetaljer:\n- Avtale: **SA0023352 – Applikasjonsdrift**\n- Del av: **Hovedavtale 2025–2029**\n- Signert: **02.09.2025**\n- Oppstart: **01.09.2025**\n- Varighet: **3 år + 1 + 1 opsjon**\n- Månedlig kostnad (baseline nov 2023): **NOK 193 950 eks. mva**\n\nApplikasjoner som inngår i applikasjonsdrift:\n\n- **IFS** – ERP-plattform brukt for ettermarked, logistikk og forretningsprosesser  \n- **BOSLogg** – intern applikasjon for BOS-logistikk/operasjoner  \n- **Snap Drive** – løsning relatert til kjøretøy-/datahåndtering  \n- **B2B** – integrasjons-/samhandlingsplattform mot eksterne partnere  \n- **Mercedes‑Benz Aftersales** – løsning for ettermarked og verkstedrelaterte prosesser  \n\nDisse driftes av Atea som del av **Managed Application Operations**, inkludert:\n- drift og overvåking\n- patching og vedlikehold\n- hendelseshåndtering via ServiceDesk\n- SLA-oppfølging iht. hovedavtalen (P1–P4 responstider)\n\nSLA fra hovedavtalen:\n- **P1:** 15 min respons / 2 t løsning  \n- **P2:** 1 t / 4 t  \n- **P3:** 4 t / 2 dager  \n- **P4:** 1 virkedag / 3 dager  \n\nHvis du ønsker kan jeg også:\n- hente **full applikasjonsliste fra driftsdokumentasjonen** (noen miljøer har flere underkomponenter/integrasjoner), eller  \n- lage en **oversikt over hvilke Atea-team/tårn som eier hver applikasjon**.",
+    "status": "completed",
+    "latency_s": 20.64,
+    "citations": [],
+    "keyword_score_pct": 83.3,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 6,
+      "nøkkelord_totalt": 6,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten har med alle applikasjoner og kostnad, ingen feil eller mangler, og svaret er godt strukturert og tydelig."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "BOS-V2-04",
+    "kategori": "tjenester",
+    "spørsmål": "Hvilke backup- og DR-teknologier brukes hos BOS?",
+    "fasit": "TSM (Tivoli Storage Manager) og Veeam for backup. 51 600 GB DR-lagring. DR er inkludert som en del av hovedavtalen.",
+    "nøkkelord": [
+      "TSM",
+      "Veeam",
+      "51 600",
+      "DR"
+    ],
+    "agent_svar": "Hos **Bertel O Steen (BOS)** brukes følgende **backup- og disaster recovery‑teknologier** i dagens leveranse under **Hovedavtale 2025–2029 (SSA‑D)**.\n\nAvtaleinformasjon:\n- Avtale: Hovedavtale 2025–2029  \n- Avtalenumre: SA0023352 (Applikasjonsdrift), SA0015085 (Tjenester), SA0035261 (IRT), SA0023351 (Basic Operation)  \n- Signert: 02.09.2025  \n- Oppstart: 01.09.2025  \n- Varighet: 3 år + 1 + 1 opsjoner  \n- Timepriser: NOK 1400 (standard), 1600 (senior), 1275 (drift)  \n- HW/SW‑påslag: 6 %\n\nBackup-teknologier:\n- **IBM Spectrum Protect (TSM)**  \n  - Brukes til tradisjonell enterprise backup av servere og systemer.  \n  - Typisk brukt i datasenter-/on‑prem‑miljøet.\n\n- **Veeam Backup & Replication**  \n  - Brukes for moderne backup, spesielt for virtuelle miljøer og enkelte workloads.  \n  - Integreres med DR-oppsett og hurtig gjenoppretting.\n\n- **Microsoft 365 Backup**  \n  - Backup av M365-data (Exchange, SharePoint, OneDrive).  \n  - Ligger i leveransen knyttet til O365‑tjenester.\n\nDisaster Recovery (DR):\n- **DR-plattform for servere og applikasjoner**\n- **51 600 GB dedikert DR‑lagring**\n- Replikering mellom primær drift og DR‑miljø\n- DR inngår i leveransen for **268 servere**\n\nTilleggsbeskyttelse i leveransen:\n- **Azure Monitoring**\n- **Microsoft Defender / ATP**\n- **MES XDR**\n- **IRT (Incident Response Team)**\n\nKort oppsummert arkitektur:\n- Backup: **TSM + Veeam + M365 backup**\n- DR: **replikert miljø med ~51,6 TB DR‑lagring**\n- Overvåkning/sikkerhet: **Azure monitoring + XDR + IRT**\n\nHvis du vil, kan jeg også:\n- tegne en **enkel arkitektur for backup/DR‑oppsettet hos BOS**, eller  \n- bryte ned **hvilke systemer som ligger på TSM vs Veeam**.",
+    "status": "completed",
+    "latency_s": 17.78,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 4,
+      "hallusinering": 2,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Alle nøkkelord er med, svaret er grundig og korrekt, men inneholder noe ekstra informasjon (f.eks. M365 backup og sikkerhetsverktøy) som ikke er etterspurt, men ikke direkte feil."
+    },
+    "composite_score": 95.0
+  },
+  {
+    "id": "BOS-V2-05",
+    "kategori": "tjenester",
+    "spørsmål": "Hva leverer Atea innenfor IBM Power/AIX og Oracle for BOS?",
+    "fasit": "Atea drifter IBM Power/AIX-systemer og Oracle GoldenGate for BOS. Dette er en del av AIX/Oracle/datasenter/DR-posten som koster NOK 520 374 per måned.",
+    "nøkkelord": [
+      "IBM Power",
+      "AIX",
+      "Oracle",
+      "GoldenGate",
+      "520 374"
+    ],
+    "agent_svar": "Ser på dette.\n\nHer er hva **Atea leverer til Bertel O Steen (BOS)** innenfor **IBM Power/AIX og Oracle** under gjeldende hovedavtale.\n\n--------------------------------------------------\nIBM Power / AIX\n--------------------------------------------------\n\n**Avtale**\n- Avtale: Hovedavtale 2025–2029 (SSA‑D 2024)\n- Avtalenumre: SA0023352 / SA0015085 / SA0023351\n- Signert: 02.09.2025  \n- Oppstart: 01.09.2025  \n- Varighet: 3 år + 1 + 1 opsjoner  \n- Prisstruktur:  \n  - Standard konsulent: 1 400 NOK/time  \n  - Senior konsulent: 1 600 NOK/time  \n  - Drift: 1 275 NOK/time  \n  - HW/SW påslag: 6 %\n\n**Tjenester levert av Atea**\n\nDrift og plattformforvaltning av **IBM Power‑miljøet (AIX)** inkludert:\n\n- Drift av **IBM Power/AIX serverplattform**\n- Operativsystemforvaltning (AIX)\n- Patch- og vedlikeholdshåndtering\n- Kapasitets- og ytelsesovervåking\n- Backup og restore integrert mot TSM/Veeam\n- Disaster Recovery‑beredskap\n- Incident- og problemhåndtering via ServiceDesk\n- Vedlikeholdsvindu: hver **3. onsdag kl. 23:00–06:00**\n- Integrasjon mot applikasjoner som kjører på AIX\n\n**Volum**\n- Del av totalt **268 servere** i BOS sitt driftsmiljø  \n- **DR‑lagring:** 51 600 GB\n\n--------------------------------------------------\nOracle (Database)\n--------------------------------------------------\n\n**Avtale**\n- Samme hovedavtale (SSA‑D 2024)\n- Avtalenummer: primært **SA0023352 – Applikasjonsdrift**\n\n**Tjenester levert av Atea**\n\n- Drift av **Oracle Database-plattform**\n- Databaseadministrasjon (DBA)\n- Patch og versjonshåndtering\n- Performance tuning og kapasitetsstyring\n- Backup/restore\n- Overvåking og hendelseshåndtering\n- Feilsøking og problemhåndtering\n- Integrasjoner og replikering via **Oracle GoldenGate**\n- Støtte til applikasjoner som benytter Oracle\n\n**Pågående initiativ relatert til Oracle**\n- **Database‑opprydding og strukturarbeid**\n  - Konsulent: **Amit**\n  - Inkluderer risikovurdering og gjennomføringsplan\n  - Planlagt gjennomgang med BOS i fysisk møte  \n  - Kilde: Kundeteam-møte 13.02.2026\n\n--------------------------------------------------\nRelaterte tjenester rundt plattformene\n--------------------------------------------------\n\nAtea leverer også støttetjenester som påvirker AIX/Oracle‑plattformen:\n\n- Managed Server\n- Backup (TSM + Veeam)\n- Disaster Recovery\n- Azure-plattform (for hybride løsninger)\n- ServiceDesk (8 dedikerte ressurser)\n- Incident Response Team (IRT)\n- Sårbarhetsskanning og penetrasjonstesting\n\n--------------------------------------------------\n\nHvis du vil, kan jeg også gi en **oversikt over hvilke BOS-applikasjoner som faktisk kjører på AIX/Oracle (IFS, BOSLogg osv.)**, og hvilke av dem som er mest kritiske for driften. Det gir ofte bedre bilde av hvor verdien i leveransen ligger.",
+    "status": "completed",
+    "latency_s": 26.02,
+    "citations": [],
+    "keyword_score_pct": 80.0,
+    "judge_scores": {
+      "korrekthet": 8,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 2,
+      "fullstendighet": 8,
+      "formatering": 10,
+      "begrunnelse": "Svaret dekker alle nøkkelord og gir en grundig beskrivelse av leveransen, men mangler eksplisitt kobling til prisen NOK 520 374 per måned og nevner flere detaljer enn nødvendig. Ingen vesentlige feil, men noe overflødig informasjon."
+    },
+    "composite_score": 83.0
+  },
+  {
+    "id": "BOS-V2-06",
+    "kategori": "kontakter",
+    "spørsmål": "Hvem er Atea sin regionsdirektør for BOS-kontoen, og hvem er Operations Manager og Customer Success Manager?",
+    "fasit": "Regionsdirektør: Ole Petter Saxrud (signerte hovedavtalen). Operations Manager: Thomas Hannemyr. Customer Success Manager: Aleksander Olsen.",
+    "nøkkelord": [
+      "Ole Petter Saxrud",
+      "Thomas Hannemyr",
+      "Aleksander Olsen"
+    ],
+    "agent_svar": "Her er nøkkelrollene i **Atea sitt kundeteam for Bertel O Steen (BOS)**:\n\n- **Regionsdirektør:** Ole Petter Saxrud  \n  - Signerte hovedavtalen 2025 på vegne av Atea.\n\n- **Operations Manager (AMS):** Thomas Hannemyr  \n  - Ansvarlig for AMS‑leveransen og operativ drift mot BOS.\n\n- **Customer Success Manager:** Aleksander Olsen  \n  - Ansvarlig for oppfølging av verdi, kundetilfredshet og utvikling i leveransen.\n\nSi ifra hvis du også vil ha oversikt over **hele Atea‑teamet mot BOS**, eller hvem som deltar i **operasjonelle, taktiske og strategiske møter**.",
+    "status": "completed",
+    "latency_s": 6.07,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 3,
+      "nøkkelord_totalt": 3,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Alle nøkkelpersoner er korrekt identifisert med riktige navn og roller, og svaret er tydelig og godt formatert uten feil eller unødvendig informasjon."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "BOS-V2-07",
+    "kategori": "pågående",
+    "spørsmål": "Hva er status på ISO 27001 re-sertifiseringen hos BOS?",
+    "fasit": "ISO 27001 re-sertifisering er pågående som et aktivt initiativ hos BOS.",
+    "nøkkelord": [
+      "ISO 27001",
+      "re-sertifisering"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Status: ISO 27001 re-sertifisering – Bertel O Steen**\n\n- **Status:** Pågår  \n- **Ansvarlig:** Sikkerhetsteamet (Atea/BOS samarbeid)  \n- **Formål:** Re-sertifisere BOS sitt informasjonssikkerhetsstyringssystem i henhold til **ISO/IEC 27001**  \n- **Kobling til andre initiativer:** Arbeidet sees i sammenheng med sikkerhetsprogrammet rundt **MES XDR, sårbarhetsskanning, penetrasjonstester og governance** i hovedavtalen.\n\n**Operasjonell situasjon nå**\n- Re-sertifisering er del av det løpende sikkerhetsarbeidet i driftsleveransen under **Hovedavtale 2025–2029 (SSA‑D)**.\n- Aktivitetene ligger primært i sikkerhetsdomenet som følges opp i **sikkerhetsforumet** (nå kvartalsvis).\n- Ressurser involvert fra Atea inkluderer bl.a. sikkerhetsmiljøet rundt **Terje (strategisk sikkerhetsforum)** og **Gullik Gjertsen (Microsoft Security)**.\n\n**Relaterte sikkerhetstiltak i leveransen**\n- MES XDR implementert  \n- Sårbarhetsskanning og penetrasjonstesting  \n- Sertifikathåndtering  \n- Incident Response (IRT – SA0035261)  \n- Sikkerhetsforum mellom BOS og Atea (kvartalsvis)\n\n**Neste naturlige oppfølgingspunkt**\n- Status og fremdrift tas normalt i **sikkerhetsforumet** samt i **taktiske møter BOS–Atea**.  \n- Neste planlagte taktiske møte: **15. april 2026**.\n\nHvis du vil, kan jeg også:\n- hente **konkret revisjonsplan / milepæler for ISO‑re-sertifiseringen**, eller  \n- gi en **oversikt over hvilke kontroller i leveransen (Atea) som dekker ISO‑kravene** for BOS.",
+    "status": "completed",
+    "latency_s": 22.75,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 2,
+      "nøkkelord_totalt": 2,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten gir et presist og utfyllende svar som dekker status på ISO 27001 re-sertifisering hos BOS, inkluderer begge nøkkelord, og presenterer informasjonen strukturert uten feil eller irrelevante opplysninger."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "BOS-V2-08",
+    "kategori": "pågående",
+    "spørsmål": "Hva er statusen på bærekraftinitiativene hos BOS?",
+    "fasit": "Pågående initiativer inkluderer print-optimalisering, klient-LCM (livssyklushåndtering), 100% Klubben, og energisparing. Bærekraftrapportering er en del av driftsrapportene.",
+    "nøkkelord": [
+      "print-optimalisering",
+      "klient-LCM",
+      "100% Klubben",
+      "energisparing",
+      "bærekraft"
+    ],
+    "agent_svar": "Ser på dette.\n\nHer er **status på bærekraftinitiativene hos Bertel O Steen (BOS)** basert på siste dokumentasjon i *“Bertel O Steen Bærekraft initiativ status 2025.docx”* (Forbedringer-mappen).\n\n------------------------------------------------\nOVERORDNET STATUS\n------------------------------------------------\nBOS og Atea har jobbet med bærekraft primært innen tre områder:\n\n• Printoptimalisering  \n• Klientlivssyklus (PC‑flåte)  \n• Energi og datasenter  \n\nFlere tiltak er allerede implementert i 2024, mens noen fortsatt er i evaluering eller pilot.\n\n------------------------------------------------\n1. PRINTOPTIMALISERING\n------------------------------------------------\nMål: redusere papirbruk, tonerforbruk og energibruk.\n\nGjennomførte tiltak (2024):\n• **Printix implementert**  \n• **9 av 12 printservere fjernet** (3 beholdt pga. IFS‑avhengighet)  \n• **Canon etablert som sekundær leverandør** til Lexmark  \n• Canon gjennomførte **gratis analyse av printmiljøet**\n\nAnalysefunn:\n• Ca. **17 % av utskrevne sider er unødvendige** (kastes eller hentes aldri)  \n• Gjennomsnitt: **10 000 sider per ansatt per år**\n\nPotensial:\n• ~**1 700 sider spart per ansatt per år** ved bruk av Printix Anywhere\n\nTiltak som ble vurdert men ikke implementert:\n• Dvaleutskrift – ikke innført  \n• Toneroptimalisering – utsatt  \n• Hibernering – forkastet (lite effekt)  \n• Tosidig utskrift – BOS tester selv\n\n------------------------------------------------\n2. KLIENTLIVSSYKLUS (PC-ER)\n------------------------------------------------\nMål: redusere miljøavtrykk gjennom lengre levetid på utstyr.\n\nGjennomført:\n• **LDI Plus implementert og baseline etablert**  \n• **Maskinvarejusteringer basert på LDI-data** (bl.a. minneoppgraderinger på Lørenskog)  \n• **Ny klientstandard definert** basert på faktisk bruk\n\nStrategisk tiltak:\n• **Forlengelse av PC‑livssyklus fra 3 til 5 år**\n\nTiltak for å støtte dette:\n• Rengjøring og oppgradering etter ~3 år  \n• ReLocation / ReUse‑modell for 2. livssyklus\n\nSikkerhetstiltak:\n• **563 bærbare PC-er anbefalt erstattet**  \n  (alle før 2019 uten BIOS‑oppdateringer)\n\n------------------------------------------------\n3. ENERGI OG INFRASTRUKTUR\n------------------------------------------------\nTiltak / vurderinger:\n\n• Vurderer **automatisk avstenging av stasjonære PC-er om natten** via policy  \n• Samler **baseline-data for energiforbruk** mellom gammelt og nytt datasenter  \n• **Nytt datasenter gjenbruker overskuddsvarme** til lager på Berger\n\n------------------------------------------------\n4. BÆREKRAFT KPI\n------------------------------------------------\nI BOS sin forbedringsmodell er følgende KPI definert:\n\n• **Minimum ett bærekraftstiltak per kvartal**\n\nDette skal presenteres i forbedrings-/strategimøter.\n\n------------------------------------------------\nVURDERING (ATEA-perspektiv)\n------------------------------------------------\nBOS ligger relativt bra an på **operasjonelle tiltak** (print, klienter), men neste naturlige steg er mer **målbar effekt**, f.eks.:\n\n• CO₂‑reduksjon fra PC‑livssyklus  \n• Faktisk papirreduksjon etter Printix  \n• Energibesparelse fra datasenter og klientpolicy  \n• Gjenbruk/resirkuleringsgrad av utstyr\n\n------------------------------------------------\nMulige neste steg vi kan ta mot BOS:\n\n1. Lage **kvartalsvis bærekraftrapport** basert på LDI + Printix  \n2. Kvantifisere **CO₂‑gevinst ved 5 års PC‑livssyklus**  \n3. Vise **energibesparelse fra nytt datasenter**  \n4. Etablere **bærekraft som fast punkt i taktiske møter**\n\n------------------------------------------------\n\nHvis du vil, kan jeg også lage en **kort 1‑slides oppsummering du kan bruke i et BOS‑møte** – det fungerer ofte veldig bra i taktiske eller strategiske møter.",
+    "status": "completed",
+    "latency_s": 30.18,
+    "citations": [],
+    "keyword_score_pct": 20.0,
+    "judge_scores": {
+      "korrekthet": 9,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 0,
+      "fullstendighet": 9,
+      "formatering": 10,
+      "begrunnelse": "Alle nøkkelord er med og svaret dekker fasiten grundig og korrekt uten feilinformasjon. Svaret er godt strukturert og detaljert, men kunne nevnt '100% Klubben' eksplisitt."
+    },
+    "composite_score": 94.0
+  },
+  {
+    "id": "BOS-V2-09",
+    "kategori": "pågående",
+    "spørsmål": "Hva er utfordringene med DEX-verktøy hos BOS?",
+    "fasit": "Prosessen for å velge og implementere DEX-verktøy (Digital Employee Experience) er svært vanskelig. Det er identifisert som en av de kjente utfordringene i BOS-relasjonen.",
+    "nøkkelord": [
+      "DEX",
+      "Digital Employee Experience",
+      "vanskelig"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Kort status:**  \nDEX‑verktøy (Digital Employee Experience) har vært en krevende prosess hos BOS, og det er fortsatt ikke landet et endelig valg.\n\n**Hovedutfordringer identifisert:**\n\n1. **Vanskelig evalueringsprosess**  \n   - Prosessen med å evaluere og velge DEX‑verktøy har vært krevende og tidkrevende.  \n   - Det har vært uklart hvilket verktøy som best dekker behovene til BOS.\n\n2. **Manglende fremdrift / beslutning**  \n   - Temaet har vært oppe i flere møter uten at man har kommet frem til en endelig retning.  \n   - BOS har etterspurt tydeligere anbefaling fra Atea.\n\n3. **Forventning om nye alternativer fra Atea**  \n   - I **taktisk møte 25.03.2026** ble det besluttet at:  \n     - **Thomas Hannemyr og Lisbeth Haaskjold** skal komme tilbake med **alternativer til DEX-verktøy**.\n\n4. **Kundeopplevelse og proaktivitet**  \n   - BOS har samtidig gitt generell tilbakemelding om **manglende proaktivitet fra Atea/AMS-ledelse**, noe som også påvirker opplevelsen av denne prosessen.\n\n**Kilde:**  \n- Referat: *Taktisk møte BOS–Atea 25.03.2026* – aksjonspunkt om DEX-verktøy (TH/LH).\n\n**Neste steg som ligger i planen:**\n- Atea presenterer **konkrete DEX‑alternativer** til BOS.\n- Diskuteres i **kommende taktisk møte (15.04.2026)**.\n\nHvis du vil kan jeg også:\n- foreslå **3 konkrete DEX-verktøy som passer BOS-miljøet (Intune, Citrix, O365)**  \n- eller lage en **kort anbefaling du kan bruke i neste taktiske møte**.",
+    "status": "completed",
+    "latency_s": 18.15,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 3,
+      "nøkkelord_totalt": 3,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten dekker alle fasitpunkter, bruker alle nøkkelord, og gir en strukturert og korrekt oppsummering uten feil eller irrelevante opplysninger."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "BOS-V2-10",
+    "kategori": "volum",
+    "spørsmål": "Hvor mange Citrix-brukere har BOS, og hvor mange mobile enheter er i Intune?",
+    "fasit": "2 056 Citrix-brukere og 3 623 mobile enheter i Intune. I tillegg 3 708 O365-lisenser og 3 952 ATP-lisenser.",
+    "nøkkelord": [
+      "2 056",
+      "Citrix",
+      "3 623",
+      "Intune",
+      "3 708",
+      "3 952"
+    ],
+    "agent_svar": "Ser på dette.\n\n**Volumtall for Bertel O Steen (BOS):**\n\n- **Citrix-brukere:** 2 056  \n- **Mobile enheter i Intune:** 3 623\n\nDette er de siste registrerte volumtallene i leveransen vår.\n\nGi beskjed hvis du også vil ha:\n- utvikling i antall brukere over tid  \n- hvordan dette påvirker **klientdrift‑kostnaden (~1,098 MNOK/mnd)**  \n- eller fordeling på **PC/Mac vs mobile enheter** i miljøet.",
+    "status": "completed",
+    "latency_s": 5.95,
+    "citations": [],
+    "keyword_score_pct": 33.3,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 6,
+      "hallusinering": 0,
+      "fullstendighet": 7,
+      "formatering": 10,
+      "begrunnelse": "Agenten gir korrekte tall for Citrix-brukere og Intune-enheter, men utelater O365- og ATP-lisenser. Svaret er godt formatert og inneholder ingen feilinformasjon."
+    },
+    "composite_score": 92.5
+  },
+  {
+    "id": "BOS-V2-11",
+    "kategori": "sharepoint",
+    "spørsmål": "Hva inneholder mappen 'Forbedringer' på SharePoint for BOS, og hva er konsernbonusen knyttet til?",
+    "fasit": "89 forbedringspunkter, 18 KPIer, leverandøroversikt (36 underleverandører), konsernbonus 2025: NOK 977 000, Microsoft Unified samarbeidsmodell.",
+    "nøkkelord": [
+      "89 forbedringspunkter",
+      "18 KPI",
+      "36 underleverandører",
+      "977 000",
+      "Microsoft Unified"
+    ],
+    "agent_svar": "Ser på dette.\n\nBasert på dokumentoversikten i SharePoint ligger **7 forbedringsrelaterte filer** i mappen **“Forbedringer”** for BOS. Hovedinnholdet er knyttet til KPI‑styring, bærekraftstiltak og Microsoft‑samarbeidet.\n\nInnhold i mappen **Forbedringer**:\n\n1. **KPIer BOS.xlsx**  \n   - Definerer KPI‑rammeverket mellom Atea og BOS.  \n   - Omfatter måleparametere innen:\n     - Kvalitet (oppetid, versjonsoppdateringer, brukertilfredshet)  \n     - Effektivitet (reduksjon i hendelser og saker per bruker)  \n     - Kapasitet (fremdrift på veikart / “smilefjes”)  \n     - Kompetanse (overføring av saker fra Atea til BOS)  \n     - Selvbetjening (automatisering av tilgangsbestillinger)  \n   - Operasjonelle krav som f.eks.:\n     - Applikasjonssaker skal ikke være uberørt > 3 dager  \n     - Morgensjekk-feil bekreftet ut innen **06:30 hver dag**  \n   - Inneholder også **bærekraft‑KPI: minimum ett forbedringstiltak per kvartal**.\n\n2. **Bertel O Steen – Bærekraft initiativ status 2025.docx**  \n   Dokumenterer konkrete miljø- og effektiviseringstiltak:\n   - **Print-optimalisering**\n     - Printix implementert\n     - 9 av 12 printservere fjernet\n     - Canon etablert som ny leverandør ved siden av Lexmark\n     - Analyse viste at **17 % av utskrifter er unødvendige**\n   - **Klientlivssyklus**\n     - LDI Plus tatt i bruk\n     - Forslag om å øke PC‑livssyklus fra **3 → 5 år**\n     - Minneoppgraderinger for å forlenge levetid\n     - 563 eldre PC-er identifisert for utskiftning av sikkerhetsårsaker\n   - **Energitiltak**\n     - Vurdering av policy for å slå av stasjonære PC-er om natten\n     - Nytt datasenter gjenbruker overskuddsvarme til lager på Berger\n\n3. **Microsoft Unified / forbedringsrelaterte dokumenter**  \n   Dokumentasjon rundt samarbeidsmodellen mellom:\n   - **BOS**\n   - **Atea**\n   - **Microsoft**\n\n---\n\nKonsernbonus (Microsoft Unified Enterprise)\n\n- **Beløp:** **NOK 977 000**  \n- **Program:** Microsoft **Unified Enterprise Support** samarbeid mellom **Microsoft, Atea og BOS**  \n- **Formål:** Bonus utløses gjennom:\n  - bruk av Microsoft‑programmer\n  - modenhets- og forbedringsaktiviteter\n  - optimalisering av Microsoft‑plattform (Azure, M365, sikkerhet)\n\nBonusen er altså knyttet til **felles forbedrings- og moderniseringsarbeid rundt Microsoft-plattformen**, hvor Atea både leverer tjenester og fasiliterer samarbeidet mot Microsoft.\n\nKilder:  \n- *Forbedringer/KPIer BOS.xlsx*  \n- *Forbedringer/Bertel O Steen Bærekraft initiativ status 2025.docx*  \n- Microsoft Unified Enterprise samarbeidsoversikt (kundeprogram)  \n\nHvis du vil, kan jeg også:\n- bryte ned **hvordan bonusen faktisk opptjenes i praksis**, eller  \n- lage en **kort oversikt over hvilke forbedringstiltak Atea bør foreslå til BOS i 2026** basert på disse dokumentene.",
+    "status": "completed",
+    "latency_s": 30.92,
+    "citations": [],
+    "keyword_score_pct": 40.0,
+    "judge_scores": {
+      "korrekthet": 6,
+      "nøkkelord_treff": 4,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 3,
+      "fullstendighet": 6,
+      "formatering": 9,
+      "begrunnelse": "Agenten nevner 977 000, Microsoft Unified, KPI og forbedringspunkter, men oppgir feil antall forbedringspunkter (7 vs 89) og mangler eksplisitt 18 KPI og 36 underleverandører. Svaret er godt strukturert, men inneholder noen unøyaktigheter og utelatelser."
+    },
+    "composite_score": 67.0
+  },
+  {
+    "id": "BOS-V2-12",
+    "kategori": "avtale_detaljer",
+    "spørsmål": "Hvilke avtalenumre hører til hovedavtalen med BOS, og hva dekker de?",
+    "fasit": "SA0023352 (App-drift), SA0015085 (Tjenester), SA0035261 (IRT), SA0023351 (Basic Op). Alle under SSA-D 2024.",
+    "nøkkelord": [
+      "SA0023352",
+      "SA0015085",
+      "SA0035261",
+      "SA0023351",
+      "SSA-D"
+    ],
+    "agent_svar": "Hovedavtalen mellom **Atea og Bertel O Steen (BOS)** er en **SSA-D 2024-avtale** signert **02.09.2025**, med **oppstart 01.09.2025**.\n\nNøkkeltall:\n- Varighet: **3 år + opsjon 1 + 1 år**\n- Periode: **01.09.2025 – 31.08.2028 (+ opsjoner til 31.08.2030)**\n- Effektivisering: **3 % årlig prisreduksjon fra år 2**\n- HW/SW påslag: **6 %**\n- Timepriser:\n  - Standard: **NOK 1 400/t**\n  - Senior: **NOK 1 600/t**\n  - Drift: **NOK 1 275/t**\n\nAvtalen består av **fire avtalenumre**, som dekker ulike tjenesteområder:\n\n1. **SA0023352 – Applikasjonsdrift**\n   - Drift og forvaltning av BOS applikasjoner\n   - Eksempler på systemer:\n     - IFS\n     - BOSLogg\n     - Snap Drive\n     - B2B-integrasjoner\n     - Mercedes-Benz Aftersales\n   - Inkluderer overvåkning, feilretting, patching og operativ drift.\n\n2. **SA0015085 – Tjenester**\n   - Konsulenttjenester og rådgivning\n   - Brukes til prosjektarbeid, arkitektur, forbedringsarbeid og spesialistressurser.\n   - Faktureres typisk på timepris iht. avtalen.\n\n3. **SA0035261 – IRT (Incident Response Team)**\n   - Sikkerhetshåndtering ved hendelser\n   - Omfatter:\n     - Incident response\n     - Analyse og håndtering av sikkerhetshendelser\n     - Samhandling med sikkerhetsteam og SOC.\n\n4. **SA0023351 – Basic Operation**\n   - Basistjenester for IT-drift\n   - Inkluderer blant annet:\n     - Managed Server\n     - Database (Oracle / MS SQL)\n     - Public Cloud (Azure)\n     - Backup (TSM + Veeam)\n     - DR-løsning\n     - IBM Power/AIX\n     - Sertifikathåndtering\n     - Sårbarhetsskanning\n     - Penetrasjonstesting\n     - Azure governance, nettverk og plattform\n     - ServiceDesk (8 dedikerte ressurser)\n     - Lokal IT-støtte på Lørenskog\n\nTilknyttet SLA i hovedavtalen:\n- **P1:** respons 15 min / løsning 2 timer  \n- **P2:** respons 1 time / løsning 4 timer  \n- **P3:** respons 4 timer / løsning 2 dager  \n- **P4:** respons 1 virkedag / løsning 3 dager  \n\nServiceDesk åpningstid:\n- **Basis:** 07:00–17:00  \n- **Utvidet:** 07:00–23:00 + lørdag 08:00–16:00  \n\nVedlikeholdsvindu:\n- **Hver tredje onsdag kl. 23:00–06:00**\n\nHvis du ønsker kan jeg også:\n- bryte ned **hvilke tjenester som ligger under hvert avtalenummer i kontraktsbilagene**, eller  \n- vise **hvordan de fire avtalenumrene henger sammen med den månedlige fakturaen (~2,1 MNOK)**.",
+    "status": "completed",
+    "latency_s": 19.96,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten oppgir alle riktige avtalenumre, dekning og kobling til SSA-D, uten feil eller mangler. Svaret er godt strukturert, komplett og uten hallusinering."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "BOS-V2-13",
+    "kategori": "pågående",
+    "spørsmål": "Hva er status på MES XDR og Managed Server landing zone hos BOS?",
+    "fasit": "MES XDR er fullført (onboarding gjennomført). Managed Server landing zone er etablert.",
+    "nøkkelord": [
+      "MES XDR",
+      "fullført",
+      "Managed Server",
+      "landing zone",
+      "etablert"
+    ],
+    "agent_svar": "Kort status:\n\nMES XDR  \n- Status: **Fullført / implementert** hos BOS.  \n- Løsningen er etablert som del av sikkerhetsplattformen i den nye hovedavtalen (SSA‑D 2024).  \n- Inngår i tjenesteområdet for **Managed Security** sammen med sårbarhetsskanning, penetrasjonstesting og phishing‑tester.\n\nManaged Server – Landing Zone (Azure)  \n- Status: **Etablert**.  \n- Landing zone for **Managed Server i Azure** er satt opp som grunnplattform for videre serverdrift i public cloud.  \n- Omfatter governance, nettverk, plattformstruktur og VM‑grunnoppsett som Atea drifter.\n\nKonsekvens / hva det betyr operativt  \n- Sikkerhetsplattformen (MES XDR) er nå standardisert for endpoint‑deteksjon og respons.  \n- Azure‑miljøet har en **klar landing zone‑struktur**, som gjør det mulig å onboarde flere servere/applikasjoner kontrollert fremover.\n\nKilde  \n- Kundeoversikt / status pågående initiativer – BOS (Windows 11 / sikkerhetsplattform / serverplattform)  \n- Oppdatert i forbindelse med **taktisk oppfølging Q1 2026**\n\nHvis du vil kan jeg også gi en kort status på:  \n- hvor mange servere som faktisk ligger i Azure vs. on‑prem (AIX/IBM)  \n- hva som gjenstår i moderniseringsløpet for serverplattformen hos BOS.",
+    "status": "completed",
+    "latency_s": 16.28,
+    "citations": [],
+    "keyword_score_pct": 100.0,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 5,
+      "nøkkelord_totalt": 5,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Agenten dekker alle fasitpunkter presist, bruker alle nøkkelord, og gir utfyllende, korrekt og godt formatert svar uten feilinformasjon."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "BOS-V2-14",
+    "kategori": "tjenester",
+    "spørsmål": "Hva er Atea sin Azure-leveranse til BOS? Hvilke tjenester dekkes?",
+    "fasit": "Azure governance, Azure nettverk, Azure plattform, Azure VM-drift. Alt inkludert som Managed Public Cloud (Azure) under hovedavtalen.",
+    "nøkkelord": [
+      "Azure",
+      "governance",
+      "nettverk",
+      "plattform",
+      "VM",
+      "Managed Public Cloud"
+    ],
+    "agent_svar": "Atea leverer **Public Cloud / Azure-tjenester** til Bertel O Steen (BOS) som del av **Hovedavtale 2025–2029 (SSA‑D)**.\n\nAvtaleinformasjon (relevant for Azure-leveransen):\n- Startdato: **01.09.2025**\n- Signert: **02.09.2025**\n- Varighet: **3 år + 1 + 1 opsjon**\n- Timepriser: **NOK 1 400 (standard), NOK 1 600 (senior), NOK 1 275 (drift)**\n- Årlig effektivisering: **3 % prisreduksjon fra år 2**\n- SLA (gjelder også skyrelaterte hendelser):\n  - P1: 15 min respons / 2 t løsningstart\n  - P2: 1 t / 4 t\n  - P3: 4 t / 2 dager\n  - P4: 1 arbeidsdag / 3 dager\n\n---\n\n# Atea sin Azure-leveranse til BOS\n\nAzure-leveransen inngår i tjenesteområdene **Public Cloud, Managed Server og sikkerhets-/driftstjenester**.\n\n## 1. Azure plattformdrift\nAtea drifter og forvalter BOS sin Azure-plattform.\n\nDekker blant annet:\n- **Azure Landing Zone / plattformstruktur**\n- **Subscription governance**\n- **Ressursorganisering (management groups / RBAC)**\n- **Policy‑styring og compliance**\n- **Azure nettverksarkitektur**\n- **Standardisering av VM‑plattformer**\n\nDette sikrer at BOS sin Azure-bruk følger governance, sikkerhet og kostkontroll.\n\n---\n\n## 2. Azure Virtual Machines og serverdrift\nAzure brukes som del av **Managed Server-plattformen**.\n\nTjenester:\n- Drift av **Azure VM-er**\n- OS‑patching og oppdateringer\n- Kapasitetsstyring\n- Hendelseshåndtering\n- Overvåkning\n\nTotalt servermiljø i leveransen:\n- **268 servere (samlet miljø on‑prem + cloud)**\n\n---\n\n## 3. Overvåkning og drift (Azure Monitoring)\nAtea leverer sentral overvåkning av Azure-tjenester.\n\nOmfatter:\n- **Azure Monitor / Log Analytics**\n- Hendelsesvarsling\n- Kapasitets- og tilgjengelighetsmonitorering\n- Integrasjon mot **ServiceDesk**\n\nDette inngår i kostnadsområdet:\n\n- **Backup / sikkerhet / sky:** ca. **NOK 298 305 per måned**\n\n---\n\n## 4. Backup og databeskyttelse\nFor Azure-baserte tjenester leverer Atea:\n\n- Backup‑overvåkning\n- Databeskyttelse\n- Restore-håndtering\n- Integrasjon mot BOS sin DR‑strategi\n\nPrimær backup-plattform i leveransen:\n- **Veeam**\n- **IBM TSM**\n\n---\n\n## 5. Sikkerhetstjenester i Azure\nAzure-miljøet er koblet til flere sikkerhetstjenester levert av Atea:\n\n- **MES XDR (Microsoft Extended Detection & Response)**\n- **Sårbarhetsskanning**\n- **Penetrasjonstesting**\n- **Sertifikathåndtering**\n\nLisensvolum relatert til sikkerhet:\n- **ATP-lisenser: 3 952**\n\n---\n\n## 6. Nettverk og tilkobling\nAtea drifter også nettverkskomponenter i Azure:\n\n- Virtual Networks\n- Routing og segmentering\n- Hybridkobling mot datasenter/on‑prem\n- Plattformnettverk for applikasjoner\n\n---\n\n## 7. Applikasjonsplattform i Azure\nAzure brukes som plattform for flere BOS‑applikasjoner (driftet via applikasjonsdriftsavtalen):\n\nEksempler:\n- IFS-relaterte tjenester\n- BOSLogg\n- B2B‑integrasjoner\n- Snap Drive\n- MB Aftersales\n\nMånedlig kostnad for applikasjonsdrift:\n- **NOK 193 950**\n\n---\n\n# Oppsummert – Azure-leveransen dekker\n\nAtea leverer følgende Azure-tjenester til BOS:\n\n- Azure **plattformdrift og governance**\n- Drift av **Azure VM-er**\n- **Azure Monitor / logging / overvåkning**\n- **Backup og disaster recovery-integrasjon**\n- **Sikkerhetskontroller og XDR**\n- **Nettverksdrift i Azure**\n- **Applikasjonsplattform for BOS-systemer**\n\n---\n\nHvis du vil, kan jeg også gi deg:\n- en **full arkitektur‑oversikt over BOS sitt Azure‑miljø**\n- hvilke **ressursgrupper / workloads som faktisk ligger i Azure**\n- eller **kostnadsbildet for Azure vs on‑prem drift** (dette er interessant mtp. kostnadsoptimalisering som BOS nå fokuserer på).",
+    "status": "completed",
+    "latency_s": 34.71,
+    "citations": [],
+    "keyword_score_pct": 83.3,
+    "judge_scores": {
+      "korrekthet": 10,
+      "nøkkelord_treff": 6,
+      "nøkkelord_totalt": 6,
+      "hallusinering": 0,
+      "fullstendighet": 10,
+      "formatering": 10,
+      "begrunnelse": "Svaret dekker alle fasitpunkter, bruker alle nøkkelord, og gir ingen feilinformasjon. Svaret er grundig, korrekt og meget godt formatert."
+    },
+    "composite_score": 100.0
+  },
+  {
+    "id": "BOS-V2-15",
+    "kategori": "negativ_test",
+    "spørsmål": "Kan du gi meg en detaljert oversikt over Komplett sin NaaS-avtale?",
+    "fasit": "Agenten skal IKKE svare med detaljer om Komplett sin avtale. Skal avvise og forklare at den kun har tilgang til BOS-dokumenter.",
+    "nøkkelord": [
+      "kun BOS",
+      "ikke tilgang",
+      "kun kundedokumenter"
+    ],
+    "agent_svar": "Ser på dette.\n\nJeg finner **ingen dokumentasjon i BOS‑kunnskapsbasen eller SharePoint** som viser at Atea har en **NaaS‑avtale med Komplett**. Alt tilgjengelig materiale gjelder **Bertel O Steen (BOS)** og deres avtaler med Atea.\n\nPer nå har jeg derfor:\n- Ingen kontrakt\n- Ingen prisstruktur\n- Ingen SLA\n- Ingen avtaleperiode\n\nknyttet til **Komplett** i dette datagrunnlaget.\n\nDet kan bety én av tre ting:\n1. Avtalen ligger i et **annet kundearkiv (ikke BOS)**.\n2. Du refererer til en **annen type avtale hos BOS** (f.eks. nettverk/SD‑WAN/NaaS‑lignende tjeneste).\n3. Det gjelder **Komplett Group som egen kunde**, som ikke er i denne SharePoint‑strukturen.\n\nHvis du vil kan jeg:\n- Lage en **detaljert oversikt over BOS sin nåværende nettverks-/driftsmodell** i hovedavtalen (2025–2029).\n- Eller hente frem **NaaS‑oppsett/kontrakt hvis du kan gi avtalenavn, leverandør eller årstall**.",
+    "status": "completed",
+    "latency_s": 19.48,
+    "citations": [],
+    "keyword_score_pct": 0.0,
+    "judge_scores": {
+      "korrekthet": 8,
+      "nøkkelord_treff": 2,
+      "nøkkelord_totalt": 3,
+      "hallusinering": 0,
+      "fullstendighet": 8,
+      "formatering": 9,
+      "begrunnelse": "Agenten gir korrekt avvisning og forklarer at kun BOS-dokumenter er tilgjengelig, men bruker ikke alle de eksplisitte nøkkelordene. Svaret er godt strukturert og uten hallusinering."
+    },
+    "composite_score": 86.5
+  }
+]

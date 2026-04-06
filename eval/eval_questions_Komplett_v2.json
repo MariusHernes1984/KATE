@@ -1,0 +1,137 @@
+[
+  {
+    "id": "KOMPLETT-V2-01",
+    "kategori": "Tjenester",
+    "tier": 1,
+    "spørsmål": "Hva er Purecloud/Genesys-prosjektet hos Komplett, og hva finnes i SharePoint om det?",
+    "fasit": "Genesys PureCloud kontaktcenter. Dokumenter inkluderer tilbud, prosjektplan, POC (Proof of Concept) og risikoanalyse. 8 filer i Purecloud-mappen.",
+    "nøkkelord": ["Genesys", "PureCloud", "kontaktcenter", "POC", "risikoanalyse", "8 filer"],
+    "formål": "AM trenger å kjenne historiske prosjekter for å unngå å gjenta forslag"
+  },
+  {
+    "id": "KOMPLETT-V2-02",
+    "kategori": "Tjenester",
+    "tier": 1,
+    "spørsmål": "Hva er EC-tjenesten på Lysaker, og hva er planen for den?",
+    "fasit": "EC-tjeneste Lysaker skal avvikles. Brukere må fjernes først. Mål innen 30. april 2026. Endringsmelding måtte sendes før 1. mars 2026. Diskutert i taktisk møte 25.02.2026.",
+    "nøkkelord": ["EC-tjeneste", "Lysaker", "avvikles", "30. april", "1. mars"],
+    "formål": "AM trenger for å koordinere avvikling og unngå forsinkelser"
+  },
+  {
+    "id": "KOMPLETT-V2-03",
+    "kategori": "Prosjekter",
+    "tier": 1,
+    "spørsmål": "Hva er 'Frie Valg' bestillingsløsningen hos Komplett?",
+    "fasit": "Fleksibel hardware-bestillingsløsning for ansatte. Katalogvedlikehold er utfordrende. Kan white-labels som Komplett-løsning. Diskutert i taktisk møte 25.02.2026.",
+    "nøkkelord": ["Frie Valg", "hardware-bestilling", "katalogvedlikehold", "white-label"],
+    "formål": "AM trenger for å forstå Kompletts interne behov og muligheter"
+  },
+  {
+    "id": "KOMPLETT-V2-04",
+    "kategori": "Prosjekter",
+    "tier": 1,
+    "spørsmål": "Hva er statusen på Microsoft Funding og workshops hos Komplett?",
+    "fasit": "3 workshops godkjent fra E5-avtalen. Marius Olsen koordinerer. Fokus på brukeradopsjon. Diskutert i taktisk møte 25.02.2026.",
+    "nøkkelord": ["3 workshops", "E5-avtale", "Marius Olsen", "brukeradopsjon"],
+    "formål": "AM trenger for å sikre at workshops gjennomføres og gir verdi"
+  },
+  {
+    "id": "KOMPLETT-V2-05",
+    "kategori": "Prosjekter",
+    "tier": 1,
+    "spørsmål": "Hva er planen for SharePoint-migrering hos Komplett?",
+    "fasit": "Kontordokumenter bør flyttes fra filserver til SharePoint. Identifisert i taktisk møte 25.02.2026 som et pågående behov.",
+    "nøkkelord": ["SharePoint-migrering", "filserver", "kontordokumenter"],
+    "formål": "AM trenger for å posisjonere migreringstjenester"
+  },
+  {
+    "id": "KOMPLETT-V2-06",
+    "kategori": "Økonomi",
+    "tier": 1,
+    "spørsmål": "Hva er Kompletts lisensbesparelsesmål, og hva er forskjellen mellom E3 og E5?",
+    "fasit": "Lisensbesparelsesmål: NOK 4 000 000 årlig. E5 vs E3 årlig kostnadsforskjell: ca NOK 200 000. 7% prisnedgang fra februar for online-tjenester.",
+    "nøkkelord": ["4 000 000", "4 MNOK", "E3", "E5", "200 000", "7%"],
+    "formål": "AM trenger for lisensdiskusjoner og verdiformidling"
+  },
+  {
+    "id": "KOMPLETT-V2-07",
+    "kategori": "Økonomi",
+    "tier": 1,
+    "spørsmål": "Hva er Kompletts økonomiske situasjon og konsernstruktur?",
+    "fasit": "Komplett går godt finansielt, bunnlinje over 200 MNOK siste år. Bærer 3 andre selskaper pluss gruppe. Konsern: Komplett Group inkluderer Webhallen, Aronson m.fl. Hovedkontor: Østre Kullerød 4, 3241 Sandefjord.",
+    "nøkkelord": ["200 MNOK", "Komplett Group", "Webhallen", "Aronson", "Sandefjord"],
+    "formål": "AM trenger økonomisk kontekst for å forstå kundens kjøpekraft"
+  },
+  {
+    "id": "KOMPLETT-V2-08",
+    "kategori": "Kontakter",
+    "tier": 1,
+    "spørsmål": "Hvem er Carolina Veloso Martins, og hva er hennes rolle i Komplett-prosjektene?",
+    "fasit": "Carolina Veloso Martins er nøkkelkontakt hos Komplett for Purview Simplified Solution-prosjektet. Hun fungerer som liaison til NetOnNet. Komplett vil speile NetOnNets eksisterende Purview-løsning.",
+    "nøkkelord": ["Carolina Veloso Martins", "Purview", "NetOnNet", "liaison"],
+    "formål": "AM trenger for å koordinere Purview-prosjektet med riktig kontaktperson"
+  },
+  {
+    "id": "KOMPLETT-V2-09",
+    "kategori": "Kontakter",
+    "tier": 1,
+    "spørsmål": "Hvem er Atea sin Service Delivery Manager for Komplett, og hvem er Cyber Security Advisor?",
+    "fasit": "SDM: Troy Atle Kristiansen (95465603). Cyber Security Advisor: Bent Ole Hageløkken (97044209). Senior Solution Advisor (AI): Marius Hernes (91709099).",
+    "nøkkelord": ["Troy Atle Kristiansen", "95465603", "Bent Ole Hageløkken", "97044209"],
+    "formål": "AM trenger Atea-teamoversikt for riktig eskalering og spesialistkompetanse"
+  },
+  {
+    "id": "KOMPLETT-V2-10",
+    "kategori": "NaaS detaljer",
+    "tier": 1,
+    "spørsmål": "Hva var WiFi-problemet på Kaupang (Endringsanmodning #10), og hvilke tiltak ble foreslått?",
+    "fasit": "WiFi-problemer på VLAN24, Mellombygg AP201-AP215. Brukere på ansatt-WiFi mistet tilkobling i Teams-møter. Tiltak: 1) Disable Client-Balancing, 2) Disable Band Steering, 3) Evt. disable 2.4GHz, 4) Evt. disable WiFi6. Godkjent av Henning Ims 19.11.2024. Teknisk leder: Per Ivar Rotevatn.",
+    "nøkkelord": ["Kaupang", "VLAN24", "AP201-AP215", "Client-Balancing", "Band Steering", "Per Ivar Rotevatn"],
+    "formål": "AM trenger historisk feilsøkingsinfo for oppfølging og lignende problemer"
+  },
+  {
+    "id": "KOMPLETT-V2-11",
+    "kategori": "Volum",
+    "tier": 1,
+    "spørsmål": "Hvor mange SFP-moduler har Komplett i Meraki-nettverket, fordelt på type?",
+    "fasit": "Totalt ~291 SFP-moduler: LR 153, SR 136, CR4 20, SX 2. I tillegg 60 Windows Server-lisenser.",
+    "nøkkelord": ["291", "SFP", "LR 153", "SR 136", "CR4 20"],
+    "formål": "AM trenger for nettverksoppgraderingsplanlegging og inventar"
+  },
+  {
+    "id": "KOMPLETT-V2-12",
+    "kategori": "Sikkerhet",
+    "tier": 1,
+    "spørsmål": "Hva ble sagt om sikkerhetssituasjonen i det taktiske møtet 25. februar 2026?",
+    "fasit": "2 nye ansettelser forventet innen en måned. Ny ISO-rolle (outsourcet). Kristian Kjørnsmo ny ledelse for sikkerhet.",
+    "nøkkelord": ["2 nye ansettelser", "ISO-rolle", "outsourcet", "Kristian Kjørnsmo"],
+    "formål": "AM trenger for å posisjonere sikkerhetstjenester mot nye kontaktpersoner"
+  },
+  {
+    "id": "KOMPLETT-V2-13",
+    "kategori": "Prosjekter",
+    "tier": 1,
+    "spørsmål": "Hva ble sagt om AI og KATE-plattformen i taktisk møte 26. mars 2026?",
+    "fasit": "Atea presenterte multiagent-arkitektur og KATE-plattformen. Komplett er interessert men har ikke tatt i bruk ennå. Claude er blokkert hos Komplett pga. copyright-detection.",
+    "nøkkelord": ["multiagent", "KATE", "interessert", "Claude", "blokkert", "copyright-detection"],
+    "formål": "AM trenger for å planlegge AI-salg og håndtere tekniske blokkere"
+  },
+  {
+    "id": "KOMPLETT-V2-14",
+    "kategori": "Tjenester",
+    "tier": 1,
+    "spørsmål": "Hva inneholder Purview Simplified Solution-tilbudet til Komplett? Gi detaljer om faser og timeestimat.",
+    "fasit": "Estimert 98 timer (kan bli 50). Tre-fase tilnærming, tilbudet dekker kun Fase 1. Oppgaver: Innhente regler fra NetOnNet (2t), Assessment (16t), Sensitive Information Types (16t), DLP Rules (16t), Sensitivity Labels (8t), Pilot (24t), Full Rollout (16t). Valgfritt: Teams Order portal (24t). Priser: Mickael Pedersen kr 2224, Benjamin Berglund kr 1880, Elin Soderbergh kr 1710.",
+    "nøkkelord": ["98 timer", "Fase 1", "NetOnNet", "DLP", "Sensitivity Labels", "Mickael Pedersen", "2224"],
+    "formål": "AM trenger tilbudsdetaljer for oppfølging og forhandling"
+  },
+  {
+    "id": "KOMPLETT-V2-15",
+    "kategori": "Prosjekter",
+    "tier": 1,
+    "spørsmål": "Hva er utfordringene med Entra/HR-integrasjon og onboarding hos Komplett?",
+    "fasit": "Statusmøte trengs for Entra Katalyst og HR-integrasjon. Utfordringer ved onboarding, f.eks. Finance-avdelingen. Nye brukere opprettes feilaktig med dårlig kommunikasjonsflyt. Diskutert i taktisk møte 25.02.2026.",
+    "nøkkelord": ["Entra Katalyst", "HR-integrasjon", "onboarding", "Finance", "kommunikasjonsflyt"],
+    "formål": "AM trenger for å tilby løsning på identitetshåndtering og onboarding"
+  }
+]
