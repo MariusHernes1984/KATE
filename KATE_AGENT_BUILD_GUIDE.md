@@ -1,74 +1,10 @@
-# KATE — Key Account Team Executor
-
-Kundeagenter for Ateas store kunder, bygget på Azure AI Foundry.
-
-## Arkitektur
-
-```
-Copilot Studio (Orkestrator)
-        │
-        ├── Bertel O Steen agent (Foundry + SharePoint)
-        ├── Norsk Medisinaldepot agent
-        ├── Sykehuspartner agent
-        ├── Kitron agent
-        ├── Deloitte agent
-        ├── NAMMO agent
-        ├── Olav Thon agent
-        ├── Avarn agent
-        ├── Jotun agent
-        ├── Komplett agent
-        ├── Statsforvalteren agent
-        ├── Lerøy Seafood agent
-        ├── Trøndelag Fylkeskommune agent
-        ├── Bærum Kommune agent
-        │
-        ├── Saleshelper SAM (salg)
-        ├── LEA (teknisk/lisensiering)
-        ├── Atea Superoffice Agent (CRM)
-        ├── Flowcase CV Agent
-        └── Atea Value Advisor
-```
-
-## Mappestruktur
-
-```
-KATE/
-├── agenter/                 # Kundeagent-konfigurasjoner (JSON)
-│   ├── governance.json      # Felles regler for alle kundeagenter
-│   ├── kundeagent-mal.json  # Mal for nye kundeagenter
-│   └── bertel-o-steen.json  # Eksempel: BOS-agent
-├── deploy/                  # Deploy-script og konfigurasjon
-│   ├── deploy_agents.py
-│   ├── deployed_agents.json
-│   ├── requirements.txt
-│   └── .env.example
-└── README.md
-```
-
-## Ny kunde-agent (rask variant)
-
-1. Kopier `agenter/kundeagent-mal.json` til `agenter/<kundenavn>.json`
-2. Fyll inn kundenavn, alias, SharePoint-mappe og SuperOffice ID
-3. Kjør `python deploy/deploy_agents.py --only <agent-navn>`
-4. Legg til agenten som topic i Copilot Studio-orkestratoren
-
-## Deploy
-
-```bash
-cd deploy
-cp .env.example .env  # Fyll inn verdier
-pip install -r requirements.txt
-az login
-python deploy_agents.py
-```
-
----
-
 # KATE Kundeagent — Bygge- og Iterasjonsguide
 
 Praktisk steg-for-steg guide for å generere agenter i KATE-miljøet, bruke skills, og iterere basert på evalueringer.
 
 Autoritativ referanse: `KATE_AGENT_STANDARD.md` (§1–9). Denne guiden er en arbeidsflyt-oversikt.
+
+---
 
 ## Del 1 — Generere en ny kundeagent
 
@@ -113,6 +49,8 @@ Autoritativ referanse: `KATE_AGENT_STANDARD.md` (§1–9). Denne guiden er en ar
     Hver kjøring kaller `client.agents.create_version(...)` og lager en NY versjon — ingen overskriving.
 11. Røyk-test med 3–5 manuelle spørsmål via Foundry portal eller Conversations API.
 
+---
+
 ## Del 2 — Skills (3-lags søkearkitektur)
 
 KATE-agentenes "skills" er tre kombinerte byggeklosser. Søkereglene i instruksjonene styrer orkestreringen.
@@ -139,6 +77,8 @@ Brukerspørring
 2. Dokumenter den i `--- SØKESTRATEGI OG VERKTØYBRUK ---`-seksjonen i instruksjonene.
 3. Legg til konkrete regler for når den skal brukes vs. de eksisterende lagene.
 4. Push ny versjon og kjør evaluering for å måle effekten.
+
+---
 
 ## Del 3 — Evalueringsrammeverk (33 spørsmål, 3 tiers)
 
@@ -200,6 +140,8 @@ PDF gir score per kategori og per spørsmål.
 - **Behold gamle spørsmål** som regresjonssuite.
 - STAF er på v18 — bevis på at iterasjonsløkken funker.
 
+---
+
 ## Del 4 — Dokumentsammendrag (Lag 3)
 
 Dette er det viktigste fallback-laget. Uten gode sammendrag faller agenten ned på "fant ingen informasjon".
@@ -229,6 +171,8 @@ Dette er det viktigste fallback-laget. Uten gode sammendrag faller agenten ned p
 - Merk dokumenter eldre enn 6 måneder.
 - Plasser sammendragene rett FØR `--- SØKESTRATEGI OG VERKTØYBRUK ---`-seksjonen.
 
+---
+
 ## Del 5 — Filnavnkonvensjoner
 
 ```
@@ -242,6 +186,8 @@ eval_{alias}_*_scored*.json                        # Etter dual scoring
 {alias}_full_eval_rapport.py                       # PDF-generator
 {ALIAS}_Komplett_Evalueringsrapport.pdf            # Sluttrapport
 ```
+
+---
 
 ## Hurtigreferanse: ny agent på 30 minutter
 
