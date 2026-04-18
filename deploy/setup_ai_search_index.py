@@ -1,5 +1,8 @@
 """
-Setup Azure AI Search index for Komplett Services AS.
+Setup Azure AI Search index for a KATE customer agent.
+
+Reads customer config from `agenter/{alias}.json` (fields: kunde.sharepoint_site,
+kunde.sharepoint_hovedmappe). CLI flags may override.
 
 Forutsetninger:
 1. Azure AI Search service er oppgradert til Basic tier eller høyere
@@ -7,33 +10,64 @@ Forutsetninger:
 3. Miljøvariabler er satt (se nedenfor)
 
 Bruk:
-  python setup_ai_search_index.py --check          # Sjekk status
-  python setup_ai_search_index.py --create-index    # Opprett indeks
-  python setup_ai_search_index.py --create-indexer   # Opprett datasource + indexer
-  python setup_ai_search_index.py --run              # Kjør indeksering
-  python setup_ai_search_index.py --status           # Sjekk indekseringsstatus
-  python setup_ai_search_index.py --upgrade-tier     # Oppgrader fra free til basic
+  python setup_ai_search_index.py --alias komplett --check
+  python setup_ai_search_index.py --alias komplett --create-index
+  python setup_ai_search_index.py --alias komplett --create-indexer
+  python setup_ai_search_index.py --alias komplett --run
+  python setup_ai_search_index.py --alias komplett --status
+  python setup_ai_search_index.py --upgrade-tier
 """
 
-import argparse, json, os, sys, io, requests
+import argparse, json, os, sys, io, urllib.parse, requests
+from pathlib import Path
+
 sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8')
 
 from dotenv import load_dotenv
 load_dotenv()
 
-# Konfigurasjon
-SEARCH_SERVICE = "kateaisearch"
+# Søketjeneste-konstanter (felles for alle kunder)
+SEARCH_SERVICE = "kateaisearch-basic"
 SEARCH_ENDPOINT = f"https://{SEARCH_SERVICE}.search.windows.net"
-INDEX_NAME = "komplett-sharepoint-index"
-DATASOURCE_NAME = "komplett-sharepoint-ds"
-INDEXER_NAME = "komplett-sharepoint-indexer"
 API_VERSION = "2024-11-01-preview"
 RESOURCE_GROUP = "RG-KATE"
-SUBSCRIPTION_ID = "3cd0c357-e545-49de-bcbb-f0fc1a61c5af"
+SUBSCRIPTION_ID = "59aae656-c78b-4bc5-bcfd-e31748e6f6e2"
 
-# SharePoint-konfigurasjon
-SHAREPOINT_SITE = "https://atea.sharepoint.com/sites/AteaRegionSrProspekts"
-SHAREPOINT_LIBRARY = "Shared Documents/Komplett Services AS - AM Jørn Are Olsen"
+REPO_ROOT = Path(__file__).resolve().parent.parent
+AGENTER_DIR = REPO_ROOT / "agenter"
+
+
+class CustomerConfig:
+    """Per-kunde konfigurasjon lest fra agenter/{alias}.json med CLI-overrides."""
+
+    def __init__(self, alias: str, site_url: str | None = None, library: str | None = None):
+        self.alias = alias.lower()
+        self.index_name = f"{self.alias}-sharepoint-index"
+        self.datasource_name = f"{self.alias}-sharepoint-ds"
+        self.indexer_name = f"{self.alias}-sharepoint-indexer"
+        self.semantic_config = f"{self.alias}-semantic-config"
+
+        cfg_path = AGENTER_DIR / f"{self.alias}.json"
+        cfg = {}
+        if cfg_path.exists():
+            cfg = json.loads(cfg_path.read_text(encoding="utf-8"))
+        kunde = cfg.get("kunde", {})
+
+        self.site_url = site_url or kunde.get("sharepoint_site", "")
+        self.library = library or self._derive_library(self.site_url, kunde.get("sharepoint_hovedmappe", ""))
+
+        if not self.site_url:
+            raise ValueError(f"Mangler sharepoint_site for alias '{self.alias}'. Legg til i agenter/{self.alias}.json eller bruk --site-url.")
+
+    @staticmethod
+    def _derive_library(site_url: str, hovedmappe_url: str) -> str:
+        """Trekker ut library-stien ('Shared Documents/Kundenavn') fra hovedmappe-URL."""
+        if not hovedmappe_url or not site_url:
+            return ""
+        if hovedmappe_url.startswith(site_url):
+            rel = hovedmappe_url[len(site_url):].lstrip("/")
+            return urllib.parse.unquote(rel)
+        return urllib.parse.unquote(hovedmappe_url)
 
 
 def get_admin_key():
@@ -48,7 +82,7 @@ def get_admin_key():
 
     resp = requests.post(url, headers={"Authorization": f"Bearer {token.token}"})
     resp.raise_for_status()
-    return resp.json()["primaryAdminKey"]
+    return resp.json()["primaryKey"]
 
 
 def get_headers():
@@ -59,11 +93,10 @@ def get_headers():
     }
 
 
-def check_status():
+def check_status(cfg: CustomerConfig | None = None):
     """Sjekk søketjeneste og eksisterende indekser."""
     headers = get_headers()
 
-    # Sjekk indekser
     resp = requests.get(f"{SEARCH_ENDPOINT}/indexes?api-version={API_VERSION}", headers=headers)
     indexes = resp.json().get("value", [])
     print(f"Søketjeneste: {SEARCH_SERVICE}")
@@ -71,14 +104,12 @@ def check_status():
     for idx in indexes:
         print(f"  - {idx['name']} ({idx.get('fields', []).__len__()} felt)")
 
-    # Sjekk datasources
     resp = requests.get(f"{SEARCH_ENDPOINT}/datasources?api-version={API_VERSION}", headers=headers)
     datasources = resp.json().get("value", [])
     print(f"Antall datakilder: {len(datasources)}")
     for ds in datasources:
         print(f"  - {ds['name']} (type: {ds['type']})")
 
-    # Sjekk indexers
     resp = requests.get(f"{SEARCH_ENDPOINT}/indexers?api-version={API_VERSION}", headers=headers)
     indexers = resp.json().get("value", [])
     print(f"Antall indexere: {len(indexers)}")
@@ -86,12 +117,22 @@ def check_status():
         print(f"  - {ix['name']} (target: {ix.get('targetIndexName', '?')})")
 
 
-def create_index():
-    """Opprett søkeindeks for Komplett-dokumenter."""
+def index_exists(cfg: CustomerConfig) -> bool:
+    """Returner True hvis indeks allerede finnes."""
+    headers = get_headers()
+    resp = requests.get(
+        f"{SEARCH_ENDPOINT}/indexes/{cfg.index_name}?api-version={API_VERSION}",
+        headers=headers,
+    )
+    return resp.status_code == 200
+
+
+def create_index(cfg: CustomerConfig):
+    """Opprett søkeindeks for kundens dokumenter."""
     headers = get_headers()
 
     index_def = {
-        "name": INDEX_NAME,
+        "name": cfg.index_name,
         "fields": [
             {"name": "metadata_spo_site_library_item_id", "type": "Edm.String", "key": True, "filterable": True},
             {"name": "content", "type": "Edm.String", "searchable": True, "retrievable": True},
@@ -104,7 +145,7 @@ def create_index():
         "semantic": {
             "configurations": [
                 {
-                    "name": "komplett-semantic-config",
+                    "name": cfg.semantic_config,
                     "prioritizedFields": {
                         "titleField": {"fieldName": "metadata_spo_item_name"},
                         "contentFields": [{"fieldName": "content"}]
@@ -115,19 +156,19 @@ def create_index():
     }
 
     resp = requests.put(
-        f"{SEARCH_ENDPOINT}/indexes/{INDEX_NAME}?api-version={API_VERSION}",
+        f"{SEARCH_ENDPOINT}/indexes/{cfg.index_name}?api-version={API_VERSION}",
         headers=headers,
         json=index_def
     )
 
     if resp.status_code in (200, 201):
-        print(f"✅ Indeks '{INDEX_NAME}' opprettet/oppdatert!")
+        print(f"✅ Indeks '{cfg.index_name}' opprettet/oppdatert!")
     else:
         print(f"❌ Feil ved oppretting av indeks: {resp.status_code}")
         print(resp.text)
 
 
-def create_datasource_and_indexer():
+def create_datasource_and_indexer(cfg: CustomerConfig):
     """Opprett SharePoint Online datakilde og indexer.
 
     Støtter to autentiseringsmodeller:
@@ -136,9 +177,12 @@ def create_datasource_and_indexer():
     2. Client secret — fallback
        Krever: SHAREPOINT_CLIENT_ID, SHAREPOINT_CLIENT_SECRET, SHAREPOINT_TENANT_ID
     """
+    if not cfg.library:
+        print(f"❌ Mangler SharePoint library for '{cfg.alias}'. Sett kunde.sharepoint_hovedmappe i agenter/{cfg.alias}.json eller bruk --library.")
+        return
+
     headers = get_headers()
 
-    # Sjekk om vi bruker managed identity (secretless) eller client secret
     sp_app_id = os.getenv("SHAREPOINT_APP_CLIENT_ID", "") or os.getenv("SHAREPOINT_CLIENT_ID", "")
     sp_secret = os.getenv("SHAREPOINT_CLIENT_SECRET", "")
     sp_tenant = os.getenv("SHAREPOINT_TENANT_ID", "")
@@ -150,20 +194,17 @@ def create_datasource_and_indexer():
         print("  For client secret: SHAREPOINT_CLIENT_ID, SHAREPOINT_CLIENT_SECRET, SHAREPOINT_TENANT_ID")
         return
 
-    # Bygg connection string basert på autentiseringsmetode
     if managed_identity_id and not sp_secret:
-        # Secretless med managed identity (Sites.Selected)
         connection_string = (
-            f"SharePointOnlineEndpoint={SHAREPOINT_SITE};"
+            f"SharePointOnlineEndpoint={cfg.site_url};"
             f"ApplicationId={sp_app_id};"
             f"FederatedCredentialObjectId={managed_identity_id};"
             f"TenantId={sp_tenant}"
         )
         print(f"Bruker secretless autentisering (managed identity)")
     elif sp_secret:
-        # Client secret
         connection_string = (
-            f"SharePointOnlineEndpoint={SHAREPOINT_SITE};"
+            f"SharePointOnlineEndpoint={cfg.site_url};"
             f"ApplicationId={sp_app_id};"
             f"ApplicationSecret={sp_secret};"
             f"TenantId={sp_tenant}"
@@ -173,37 +214,35 @@ def create_datasource_and_indexer():
         print("Mangler SEARCH_MANAGED_IDENTITY_ID eller SHAREPOINT_CLIENT_SECRET")
         return
 
-    # Opprett datakilde
     datasource_def = {
-        "name": DATASOURCE_NAME,
+        "name": cfg.datasource_name,
         "type": "sharepoint",
         "credentials": {
             "connectionString": connection_string
         },
         "container": {
             "name": "useQuery",
-            "query": f"includeLibrariesList={SHAREPOINT_LIBRARY}"
+            "query": f"includeLibrariesList={cfg.library}"
         }
     }
 
     resp = requests.put(
-        f"{SEARCH_ENDPOINT}/datasources/{DATASOURCE_NAME}?api-version={API_VERSION}",
+        f"{SEARCH_ENDPOINT}/datasources/{cfg.datasource_name}?api-version={API_VERSION}",
         headers=headers,
         json=datasource_def
     )
 
     if resp.status_code in (200, 201):
-        print(f"✅ Datakilde '{DATASOURCE_NAME}' opprettet!")
+        print(f"✅ Datakilde '{cfg.datasource_name}' opprettet!")
     else:
         print(f"❌ Feil ved oppretting av datakilde: {resp.status_code}")
         print(resp.text)
         return
 
-    # Opprett indexer
     indexer_def = {
-        "name": INDEXER_NAME,
-        "dataSourceName": DATASOURCE_NAME,
-        "targetIndexName": INDEX_NAME,
+        "name": cfg.indexer_name,
+        "dataSourceName": cfg.datasource_name,
+        "targetIndexName": cfg.index_name,
         "parameters": {
             "configuration": {
                 "indexedFileNameExtensions": ".pdf,.docx,.doc,.xlsx,.xls,.pptx,.ppt,.msg,.txt,.csv,.html"
@@ -215,42 +254,42 @@ def create_datasource_and_indexer():
     }
 
     resp = requests.put(
-        f"{SEARCH_ENDPOINT}/indexers/{INDEXER_NAME}?api-version={API_VERSION}",
+        f"{SEARCH_ENDPOINT}/indexers/{cfg.indexer_name}?api-version={API_VERSION}",
         headers=headers,
         json=indexer_def
     )
 
     if resp.status_code in (200, 201):
-        print(f"✅ Indexer '{INDEXER_NAME}' opprettet! Kjører hver 4. time.")
+        print(f"✅ Indexer '{cfg.indexer_name}' opprettet! Kjører hver 4. time.")
     else:
         print(f"❌ Feil ved oppretting av indexer: {resp.status_code}")
         print(resp.text)
 
 
-def run_indexer():
+def run_indexer(cfg: CustomerConfig):
     """Kjør indeksering manuelt."""
     headers = get_headers()
     resp = requests.post(
-        f"{SEARCH_ENDPOINT}/indexers/{INDEXER_NAME}/run?api-version={API_VERSION}",
+        f"{SEARCH_ENDPOINT}/indexers/{cfg.indexer_name}/run?api-version={API_VERSION}",
         headers=headers
     )
     if resp.status_code == 202:
-        print(f"✅ Indeksering startet for '{INDEXER_NAME}'!")
+        print(f"✅ Indeksering startet for '{cfg.indexer_name}'!")
     else:
         print(f"❌ Feil: {resp.status_code} - {resp.text}")
 
 
-def indexer_status():
+def indexer_status(cfg: CustomerConfig):
     """Sjekk indekseringsstatus."""
     headers = get_headers()
     resp = requests.get(
-        f"{SEARCH_ENDPOINT}/indexers/{INDEXER_NAME}/status?api-version={API_VERSION}",
+        f"{SEARCH_ENDPOINT}/indexers/{cfg.indexer_name}/status?api-version={API_VERSION}",
         headers=headers
     )
     if resp.status_code == 200:
         status = resp.json()
         last = status.get("lastResult", {})
-        print(f"Indexer: {INDEXER_NAME}")
+        print(f"Indexer: {cfg.indexer_name}")
         print(f"  Status: {status.get('status', '?')}")
         print(f"  Siste kjøring: {last.get('startTime', '?')}")
         print(f"  Resultat: {last.get('status', '?')}")
@@ -304,8 +343,11 @@ def upgrade_tier():
 
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Setup Azure AI Search for Komplett")
-    parser.add_argument("--check", action="store_true", help="Sjekk status")
+    parser = argparse.ArgumentParser(description="Setup Azure AI Search for en KATE kundeagent")
+    parser.add_argument("--alias", help="Kunde-alias (matcher agenter/{alias}.json)")
+    parser.add_argument("--site-url", help="SharePoint site-URL (overstyrer config)")
+    parser.add_argument("--library", help="SharePoint library-sti (overstyrer config)")
+    parser.add_argument("--check", action="store_true", help="Sjekk status for alle indekser")
     parser.add_argument("--create-index", action="store_true", help="Opprett indeks")
     parser.add_argument("--create-indexer", action="store_true", help="Opprett datasource + indexer")
     parser.add_argument("--run", action="store_true", help="Kjør indeksering")
@@ -313,17 +355,25 @@ if __name__ == "__main__":
     parser.add_argument("--upgrade-tier", action="store_true", help="Oppgrader til Basic tier")
     args = parser.parse_args()
 
-    if args.check:
-        check_status()
-    elif args.create_index:
-        create_index()
-    elif args.create_indexer:
-        create_datasource_and_indexer()
-    elif args.run:
-        run_indexer()
-    elif args.status:
-        indexer_status()
-    elif args.upgrade_tier:
+    # --check (uten alias) og --upgrade-tier trenger ikke kundekontekst
+    if args.upgrade_tier:
         upgrade_tier()
+    elif args.check and not args.alias:
+        check_status()
     else:
-        parser.print_help()
+        if not args.alias:
+            parser.error("--alias er påkrevd (unntatt for --check uten alias og --upgrade-tier)")
+        cfg = CustomerConfig(args.alias, site_url=args.site_url, library=args.library)
+
+        if args.check:
+            check_status(cfg)
+        elif args.create_index:
+            create_index(cfg)
+        elif args.create_indexer:
+            create_datasource_and_indexer(cfg)
+        elif args.run:
+            run_indexer(cfg)
+        elif args.status:
+            indexer_status(cfg)
+        else:
+            parser.print_help()
